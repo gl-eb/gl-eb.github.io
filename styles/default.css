@@ -46,6 +46,9 @@ a {
 	min-width: 200px;
 	margin: 0 auto 0 5%;
 }
+#navigation {
+	margin-top: 30px;
+}
 h2 {
 	font: bold 140%/200% "Helvetica Neue", Helvetica, sans-serif;
 	width: available;

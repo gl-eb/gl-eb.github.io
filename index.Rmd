@@ -1,6 +1,6 @@
 ---
 title: "Gleb Ebert"
-image: "gleb.jpeg"
+image: "gleb.jpg"
 links:
   - label: ORCID
     url: "https://orcid.org/0000-0002-7734-3824"
@@ -12,11 +12,9 @@ output:
   postcards::solana
 ---
  
-## Bio
+## About me
 
-My name is Gleb Ebert and I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches.
-
-Throughout my bachelor studies in biology, I compiled notes for many of my lectures. They can be found [here](pages/lecture_notes.html).
+My name is Gleb Ebert and I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis*, an antarctic marine bacterium.
 
 I also enjoy [photography](https://www.flickr.com/photos/glebebert/) and [birding](https://ebird.org/profile/MTc5NDAwMg/CH), even though I don't manage to go out often.
 
@@ -27,3 +25,7 @@ I also enjoy [photography](https://www.flickr.com/photos/glebebert/) and [birdin
 2019 - 2021 | MSc in Biology (Major in Microbiology and Immunology), ETH Zurich, Switzerland
 
 2016 - 2020 | BSc in Biology, ETH Zurich, Switzerland
+
+## Resources
+
+Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They can be found [here](pages/lecture_notes.html).

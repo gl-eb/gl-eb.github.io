@@ -2,12 +2,12 @@
 title: "Gleb Ebert"
 image: "gleb.jpg"
 links:
-  - label: ORCID
-    url: "https://orcid.org/0000-0002-7734-3824"
   - label: Twitter
     url: "https://twitter.com/gl_eb"
   - label: GitHub
     url: "https://github.com/gl-eb"
+#  - label: ORCID
+#    url: "https://orcid.org/0000-0002-7734-3824"
 output:
   postcards::solana
 ---

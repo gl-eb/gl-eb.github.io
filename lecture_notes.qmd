@@ -1,0 +1,42 @@
+---
+title: "Lecture Notes"
+
+website:
+  page-navigation: true
+  sidebar:
+    style: "floating"
+    contents:
+      - lecture_notes.qmd
+---
+
+Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).
+
+Note: As of the autumn semester 2020 the study programme of the Bachelor in Biology at ETH Zurich has been reworked The lecture notes provided here were compiled under the previous study programme (2013). Thus even more care should be taken when using them.
+
+## 5. Semester
+
+### Ecological Genetics (HS18)
+
+### Population and Quantitative Genetics (HS18)
+
+### Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)
+
+## 4. Semester
+
+### Systematische Biologie: Pflanzen (FS18)
+
+### Systembiologie (FS18)
+
+### Physikalische Chemie 2 (FS18)
+
+### Genetik, Genomik, Bioinformatik (FS18)
+
+## 3. Semester
+
+### Introduction to Evolutionary Biology (HS17)
+
+### Mykologie (HS17)
+
+## Basisjahr
+
+### Statistik 1 (FS17)

@@ -6,3 +6,6 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Quarto files
+/.quarto/

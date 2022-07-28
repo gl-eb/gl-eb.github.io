@@ -10,7 +10,9 @@ website:
     left:
       - text: Home
         href: index.qmd
+      # - projects.qmd
       - lecture_notes.qmd
+      # - nature.qmd
     # right:
       # - icon: github
       #   href: https://github.com/gl-eb/

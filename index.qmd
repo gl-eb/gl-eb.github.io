@@ -1,11 +1,26 @@
 ---
-title: "glebsite-quarto"
+title: "Gleb Ebert"
+image: /images/gleb.jpg
+
+about:
+  template: solana
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/gl_eb
+    - icon: github
+      text: GitHub
+      href: https://github.com/gl-eb/
 ---
 
-This is a Quarto website.
+I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis*, an antarctic marine bacterium.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I also enjoy [photography](https://www.flickr.com/photos/glebebert/) and [birding](https://ebird.org/profile/MTc5NDAwMg/CH), even though I don't manage to go out often.
 
-```{r}
-1 + 1
-```
+## Education
+
+2021 - present | PhD in Environmental Sciences, ETH Zurich, Switzerland
+
+2019 - 2021 | MSc in Biology (Major in Microbiology and Immunology), ETH Zurich, Switzerland
+
+2016 - 2020 | BSc in Biology, ETH Zurich, Switzerland

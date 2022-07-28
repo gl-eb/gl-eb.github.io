@@ -15,7 +15,9 @@ about:
 
 I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis*, an antarctic marine bacterium.
 
-I also enjoy [photography](https://www.flickr.com/photos/glebebert/) and [birding](https://ebird.org/profile/MTc5NDAwMg/CH), even though I don't manage to go out often.
+I enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time. <!-- Check out my [projects](projects.qmd) page to see some examples that have made it onto GitHub. -->
+
+I also enjoy photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can <!-- learn more on my [nature](nature.qmd) page or --> take a look at my work on [Flickr](https://www.flickr.com/photos/glebebert/).
 
 ## Education
 

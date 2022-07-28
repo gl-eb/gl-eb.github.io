@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+This is Gleb Ebert's personal website.
+It is built using [Quatro](https://quarto.org/) and hosted via GitHub pages.
+You can find the source at <https://github.com/gl-eb/gl-eb.github.io>

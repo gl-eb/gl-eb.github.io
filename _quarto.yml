@@ -32,9 +32,11 @@ website:
 
 format:
   html:
+    lang: en
     theme: litera # cosmo, simplex, zephyr
     css: styles.css
     toc: false
+    link-external-newwindow: true
 
 # editor: visual
 

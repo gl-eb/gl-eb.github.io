@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!nature.qmd"
+    - "!projects.qmd"
   resources:
     - "*.pdf"
 

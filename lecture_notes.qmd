@@ -4,13 +4,25 @@ title: "Lecture Notes"
 format:
   html:
     toc: true
+    toc-location: left
 ---
 
-Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).
+Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for
+many of the lectures.
+They are in the language the course was taught in and are provided as is
+(i.e. no guarantee of completeness or correctness).
 
-Note: As of the autumn semester 2020 the study programme of the Bachelor in Biology at ETH Zurich has been reworked The lecture notes provided here were compiled under the previous study programme (2013). Thus even more care should be taken when using them.
+:::{.callout-note}
+For the sake of simplicity I have chosen to only upload the newest version of
+each set of lecture notes. To see what changed, go to the respective changelog.
+:::
 
-For the sake of simplicity I have chosen to only upload the newest version of each set of lecture notes. To see what changed, go to the respective changelog.
+:::{.callout-warning}
+As of the autumn semester 2020 the study programme of the Bachelor in Biology
+at ETH Zurich has been reworked The lecture notes provided here were compiled
+under the previous study programme (2013).
+Thus even more care should be taken when using them.
+:::
 
 ## 5th Semester
 

@@ -1,0 +1,68 @@
+---
+title: "Statistik I (FS17)"
+---
+
+[statistics_1_ebert_v7.pdf](/files/lecture_notes/statistics_1_ebert_v7.pdf){.external target="_blank"}
+
+### changelog
+
+### v7 (30.01.2018)
+
+- 8.2: binomcdf sollte poissoncdf sein
+
+### v6.1 (18.10.2017)
+
+- link zu ../index.html eingefügt
+
+### v6 (18.10.2017)
+
+- 2.7: referenz zu 4.3.1 eingefügt
+- 8: kapitel zur berechnung von poissonpdf und poissoncdf hinzugefügt
+
+### v5.1 (10.08.2017)
+
+- 3.2.2 5): p(x>x) = 1-p(x<=x) statt = p(x<=x)
+
+### v5 (10.08.2017)
+
+- fehler im verwerfungsbereich für ungepaarten t-test bei mu_x > mu_y behoben.
+    die untere grenze ist nun richtigerweise negativ.
+
+### v4 (03.08.2017)
+
+- ergänzung zum wurzel-n-gesetz
+- formel für einseitige vertraünsintervalle
+
+### v3.1 (01.08.2017)
+
+- korrektur der erläuterungen zur benutzung der tabelle der kumulativen
+    normalverteilung
+
+### v3 (01.08.2017)
+
+- papierformat von us letter auf a4 geändert
+- einige rechtschreibefehler entfernt
+- normalapproximation des vi und des verwerfungsbereiches getrennt, da diese
+    nichts miteinander zutun haben.
+- 3.2.2 teil über fehler leicht umgeschrieben (neu mit 100% mehr 
+    wahrscheinlichkeiten).
+- 4.5.3 fallunterscheidung zwischen ein- und zweiseitigem vertraünsintervall
+- vergleich ungepaarter und gepaarter t-test
+- vergleich vertraüns- und vorhersageintervall
+- verteilung unter h_0 beim vorzeichentest
+- kovarianz: erweiterte definition und rechenregeln (zweiteres unter "funktionen
+    von mehreren zufallsvariablen")
+- berechnung des p-werts beim t-test
+- berechnug von empirischen qüartilen
+- erläuterungen zur benutzung der tabelle der kumulativen normalverteilung
+
+### v2 (09.07.2017)
+
+- erwartungswert und varianz der binomialverteilung
+- 95%-vi für z- und t-tests
+- korrektur der formel für s_pool
+- erläuterungen zur tabelle der kumulativen normalverteilung
+
+### v1 (06.07.2017)
+
+- initial release

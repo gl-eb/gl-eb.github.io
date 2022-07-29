@@ -1,0 +1,21 @@
+---
+title: "Genetik, Genomik, Bioinformatik (FS18)"
+---
+
+[ggb_ebert_v1-1.pdf](/files/lecture_notes/ggb_ebert_v1-1.pdf){.external target="_blank"}
+
+## changelog
+
+### v1.1 (15.08.2018)
+
+- einige rechtschreibefehler korrigiert
+- kapitel 1.2: limitation des illumina infinium 2 assays
+- kapitel 2.2.2: hapmap und haplotypen
+- kapitel 2.2.5: annotation von refseq
+- kapitel 3.4: vorteil gegenüber klassischer genetik
+- kapitel 3.6: gerundete gesamtmutationsrate in tabelle
+- kapitel 10.2: anmerkung über mehrere loci und erkrankungsrisiko
+
+### v1 (13.08.2018)
+
+- erste veröffentlichte version

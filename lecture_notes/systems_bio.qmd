@@ -1,0 +1,58 @@
+---
+title: "Systembiologie (FS18)"
+---
+
+[systems_bio_mettier-ebert_v1-3.pdf](/files/lecture_notes/systems_bio_mettier-ebert_v1-3.pdf){.external target="_blank"}
+
+## changelog
+
+### v1.3 (10.08.2018)
+
+- viele kleine rechtschreibe- und formatierungsfehler verbessert
+- kapitel 1
+    - weitere annahmen des massenwirkungsgesetzes
+    - annahme der gesättigten enzyme bei michaelis-menten war falsch und wurde
+        entfernt
+    - folgen auf den kurvenverlauf bei veränderung der parameter
+- kapitel 2
+    - *[A] auf pfeil in reaktion für dimerisierung entfernt
+- kapitel 3
+    - grafik aus 3.2.2 entfernt, da sie nicht viel aussagt
+- kapitel 5
+    - anmerkung zu ein- und ausfluss von systemen bei zweitem lernziel
+    - 5.2.5 a): in lösung v_2 zu v_3 korrigiert
+    - 5.2.5 b): in aufgabenstellung v_S zu v_6 und v_4 zu v_1 korrigiert
+    - 5.2.5 b): lösung korrigiert und erklärt
+- kapitel 7
+    - 7.2.1 b): lösung korrigiert
+- kapitel 8
+    - einsichten aus data mining überarbeitet
+    - statistisches rauschen unter typischen problemen ergänzt
+    - multiples testen: pi0 ist jetzt tatsächlich pi_0
+    - fdr: pi_0 ist etwa 1, nicht kleiner 1
+
+### v1.2 (04.08.2018)
+
+- aufgabe 1.2.2: lösung korrigiert
+- kapitel 4: keratin durch kreatin ersetzt
+- aufgabe 4.2.2: annhame des konstanten zellvolumens hinzugefügt
+- kapitel 5: punkt über omics-daten besser erklärt
+- aufgabe 5.2.2
+    - in der fragestellung ist e zu E gewachsen
+    - lösung zu b) korrigiert
+- aufgabe 5.2.3
+    - a): stchiometrische -> stöchiometrische
+    - lösungen zu a) und b) korrigiert
+- aufgabe 5.2.5: lösung zu b) korrigiert
+- kapitel 7.2.1: variablen zur besseren verständlichkeit umbenannt
+
+### v1.1 (29.07.2018)
+
+- verlorene umlautpunkte gefunden und sonstige tippfehler behoben
+- aufgabe 5.2.4 a): speichern der resultate in eigene anweisung umgewandelt
+- kapitel 7: anleitung zur graphischen darstellung von kombinationen mehrerer
+    ultrasensitiver schritte hinzugefügt
+
+### v1 (26.07.2018)
+
+- erste veröffentlichte version

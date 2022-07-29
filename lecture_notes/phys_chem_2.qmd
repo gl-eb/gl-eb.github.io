@@ -1,0 +1,30 @@
+---
+title: "Physikalische Chemie 2 (FS18)"
+---
+
+[phys_chem_2_ebert_v1.pdf](/files/lecture_notes/phys_chem_2_ebert_v1.pdf){.external target="_blank"}
+
+## changelog
+
+### v1.1 (08.08.2018)
+
+2.1.1: vermerkt zu D bezüglich molekül-lösungsmittel-interaktionen
+
+2.2.2
+
+- erklärungen zu c'_w, c''_w, c'_m und c''_m
+- c'_w und c''_w jetzt richtig rum in formel zu gross-phi_innen
+- annahme erläutert
+
+5.4 3): erklärung zur überschätzung der masse
+
+6.8
+
+- formel zur zeitabhängigen konzentration des zwischenprodukts
+- formel zum zeitpunkt der maximalen konzentration des zwischenprodukts
+
+8: Beispielaufgabe
+
+### v1 (07.08.2018)
+
+- erste veröffentlichte version

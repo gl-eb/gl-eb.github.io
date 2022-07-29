@@ -1,0 +1,98 @@
+---
+title: "Mykologie (HS17)"
+---
+
+[mykologie_GlebEbert_v1-2.pdf](/files/lecture_notes/mycology_ebert_v1-1.pdf){.external target="_blank"}
+
+## changelog
+
+### v1.2 (10.02.2018)
+
+- 3.1.6: Satz über Chitin- & Glucansynthese umformuliert um vektorielle Synthese
+    zu verdeutlichen
+- 3.12: Transporter und Rezeptor gleichzeitig = Transzeptor
+- 3.4: Parenthesom & Doliporen erklärt
+- kapitel 6: Umbenannt von "Sexuelle Reproduktionszyklen" zu
+    "Reproduktionszyklen"; Reproduktionszyklen von Chytridiomycota,
+    Glomeromycota und Zygomycota als auch weitere Grafik zu Paarungstypen von
+    Zygomycota hinzugefügt (danke Gautier)
+- 8.2.2: komplett auf nächste Spalte verschoben
+- verbesserte tipp- & rechtschreibfehler:
+    - 3.2: 2) wähnrend -> während
+    - 3.4: Sporen -> Poren
+    - 3.5: Fressfeinde -> Fressfeinden
+    - 7.2.1: Axrnisches -> Axenisches
+
+### v1.1 (08.01.2018)
+
+- einige grössenanpassungen von bildern als auch seiten- und spaltensprünge zur
+    besseren lesbarkeit
+- kurze erklärung zu saprophyt in kapitel 1.2 eingefügt
+- kapitel 2: ' als abtrennung von tauserndern zur besseren lesbarkeit von
+    grossen zahlen eingefügt
+- kapitel 2.4: offene klammer geschlossen
+- einige wörter in kapitel 3.1.6 mit farbe hervorgehoben
+- grafik zur septenteilung eingefügt
+- kapitel 3.6 durch einen satz ergänzt und dimorphismus aus dem titel entfernt
+- kapitel 3.9 enthält nun einen vollwertigen satz
+- cellulase und lignase in kapitel 3.10.2 farblich verhorgehoben
+- kapitel 5.6 mit der definition von plektenchym ergänzt
+- aus zwei grafiken eine gemacht in kapitel 5.7.2
+- kapitel 7.2 & 7.2.6: beispiele mit doppelpunkten lesbarer gemacht
+- kapitel 7.2.5: RNSs auf deutsch übersetzt und zusammen mit sRNAs in die
+    einzahl gebracht
+- einige farbliche hervorhebungen in kapitel 7.3.2, 7.3.3 & 7.3.4
+- letzten satz des kapitels 7.3.5 etwas umformuliert
+- verbesserte tipp- & rechtschreibfehler:
+    - kapitel 1.2: mutualistische symbiont -> mutualistischer ...;
+        immotilitt -> immotilität
+    - kapitel 2.3: arbuskluäre -> arbuskuläre
+    - kapitel 3.1: beta-1-6-glukan -> beta-1-6-glukanen
+    - kapitel 3.1.6: wähnred -> während
+    - kapitel 3.5: mit sich bringt -> mit sich bringen
+    - kapitel 3.12: transporten -> transporter
+    - kapitel 4.1 (titel): hyphenheterogenitt -> hyphenheterogenität
+    - kapitel 5.6 (titel): plectenchymale -> plektenchymale
+    - kapitel 6.4.1: singaniliserende -> signalisierende
+    - kapitel 7.3.1: ¿ -> >
+    - kapitel 7.3.2: verschieden farben wie rosa oder geld -> gelb
+    - kapitel 7.3.4: einemn -> einem
+    - kapitel 8.1: aus salami -> auf; meromi(brine) -> moromi(brine)
+
+### v1.0 (21.12.2017)
+
+- erstveröffentlichung der vollversion
+- einige spalten und seitensprünge für bessere leserlichkeit
+
+### v0.7 (16.12.2017)
+
+- vorlesung #12 hinzugefügt
+
+### v0.6 (05.12.2017)
+
+- vorlesung #11 hinzugefügt
+
+### v0.5 (28.11.2017)
+
+- vorlesung #10 hinzugefügt
+
+### v0.4 (21.11.2017)
+
+- vorlesung #9 hinzugefügt
+- arbuskeln, sporenverbreitung im wasser, conidiomata, sklerotien und stromata
+    hinzugefügt
+
+### v0.3 (13.11.2017)
+
+- vorlesung #8 hinzugefügt
+- grafik zum reproduktionszyklus der bäckerhefe nachgeliefert
+- grafiken in dieser und allen vorherigen versionen komprimiert (datei um rund
+    75% kleiner)
+
+### v0.2 (06.11.2017)
+
+- vorlesung #7 hinzugefügt
+
+### v0.1 (02.11.2017)
+
+- inhalt aller vorlesungen bis zu #6

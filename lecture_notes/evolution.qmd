@@ -1,0 +1,109 @@
+---
+title: "Introduction to Evolutionary Biology (HS17)"
+---
+
+[evolution_ebert_v1-3.pdf](/files/lecture_notes/evolution_ebert_v1-3.pdf){.external target="_blank"}
+
+## Changelog
+
+### v1.3 (07.02.2018)
+
+- 6.5: formula under 1) should be ...+ q^2 * w(aa) instead of w(AA)
+- fixed typos:
+    - chapter 15.2: Induction infers generalizations base on... ->
+        based
+
+### v1.2 (30.01.2018)
+
+- added definitions to vocabulary section (5.4)
+- 7.2.1: small populations are N < ~1000, not >
+- rearranged layout a bit to account for changes
+- fixed typos:
+    - chapter 10.5: succes -> success; if often higher -> is;
+        equadorian -> ecuadorian
+
+### v1.1 (02.01.2018)
+
+- changed chapter 2.3 title to "Darwinian vs. Lamarckian evolution"
+    from "Lamarckian vs. Darwinian evolution" to align it with the
+    table
+- adjusted graphic size in chapter 3.1 to allow for better line
+    wrapping in chapter 3.3
+- some clarifications in the mutation accumulation lines paragraph
+- removed chapters 5.6 & 5.7 due to redundancy with the table in
+    chapter 5.8 (now 5.6)
+- changed "More" to "Other" in chapter 5.6 (former 5.8) title to
+    avoid confusion as to whether the mutations are more impactful or
+    the list contains more mutations
+- clarified that "N > ~1000" is meant in chapter 7.2.1 (previously
+    "N >~ 1000")
+- unified verb forms for easier reading (guard -> guarding; make ->
+    making) in chapter 10.2
+- reworded sentence about Polish men in chapter 10.5 for easier
+    reading
+- added lost right bracket in table of chapter 13.3
+- fixed typos:
+    - chapter 5.6: refuse -> refused
+    - chapter 6.2: Genotyp -> Genotype
+    - chapter 6.3.1: removed single left bracket; Simples -> Simple
+    - chapter 6.7.1: fro -> for; of hitchhiking -> or hitchhiking
+    - chapter 10.5: succes -> success; aswell -> as well
+    - chapter 15.3 (final cause paragraph): of an action -> or an
+        action
+
+### v1.0 (21.12.2017)
+
+- first full release
+- twelfth lecture added
+- moved all of science history as one chapter to the end of the
+    document
+- introduced page and column breaks in some places for easier reading
+
+### v0.10 (18.12.2017)
+
+- tenth & eleventh lecture added
+
+### v0.9 (30.11.2017)
+
+- ninth lecture added
+
+### v0.8 (16.11.2017)
+
+- eighth lecture added
+
+### v0.7 (13.11.2017)
+
+- compressed all graphics reducing the file size of all versions by
+    around 40%
+
+### v0.7 (08.11.2017)
+
+- seventh lecture added
+
+### v0.6 (01.11.2017)
+
+- sixth lecture added
+
+### v0.5 (26.10.2017)
+
+- fifth lecture added
+- some clarifications in the introduction
+
+### v0.4 (19.10.2017)
+
+- fourth lecture added
+
+### v0.3 (07.10.2017)
+
+- third lecture added
+- reworked section about speciation and ring species
+
+### v0.2 (27.09.2017)
+
+- second lecture added
+- minor formatting changes
+
+### v0.1 (25.09.2017)
+
+- initial release
+- first lecture added

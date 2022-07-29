@@ -1,0 +1,60 @@
+---
+title: "Ecological Genetics (HS18)"
+---
+
+[ecol_gen_ebert_v1-1.pdf](/files/lecture_notes/ecol_gen_ebert_v1-1.pdf){.external target="_blank"}
+
+## Changelog
+
+### v1.1 (07.10.2019)
+
+- 3.2.1: SSR and STR -> SSR / STR (synonyms of Microsatellite)
+- 4.4: sharing to benefits -> sharing of benefits
+- 6.2.1: panmictic (randomly mating)
+- 7.2:
+    - withsmall -> with small
+    - elaborated on Beavis effect
+- 7.5:
+    - explained "accession"
+    - suffiecient -> sufficient
+- 8: phenotypically different species -> phenotypically different
+    entities
+- 9.3: elaborated on F_ST
+- 9.4.3:
+    - segergating -> segregating
+    - all thetas are now in lower case
+- 9.4.5: facotrs -> factors
+- 10.2.1: eachdeme -> each deme
+- 11.7.2:
+    - allales -> alleles
+    - introgrress -> introgress
+- 11.7.4: reformulated explanation of cytonuclear disequilibrium
+- 12.4: added comma after "Generally"
+- 12.4.1:
+    - Halainthus petiolaris -> Halianthus petiolaris
+    - explained transgressive segregation
+
+### v1 (06.07.2019)
+
+- added remaining lectures
+
+### v0.5 (13.11.2018)
+
+- seventh lecture
+
+### v0.4 (30.10.2018)
+
+- sixth lecture
+
+### v0.3 (28.10.2018)
+
+- fourth and fifth lectures
+
+### v0.2 (13.10.2018)
+
+- second and third lectures
+
+### v0.1 (24.09.2018)
+
+- initial release
+- first lecture

@@ -1,42 +1,81 @@
 ---
 title: "Lecture Notes"
 
-website:
-  page-navigation: true
-  sidebar:
-    style: "floating"
-    contents:
-      - lecture_notes.qmd
+format:
+  html:
+    toc: true
 ---
 
 Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).
 
 Note: As of the autumn semester 2020 the study programme of the Bachelor in Biology at ETH Zurich has been reworked The lecture notes provided here were compiled under the previous study programme (2013). Thus even more care should be taken when using them.
 
-## 5. Semester
+For the sake of simplicity I have chosen to only upload the newest version of each set of lecture notes. To see what changed, go to the respective changelog.
+
+## 5th Semester
 
 ### Ecological Genetics (HS18)
 
+[download](/files/lecture_notes/ecol_gen_ebert_v1-1.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/ecol_gen.qmd)
+
 ### Population and Quantitative Genetics (HS18)
+
+[download](/files/lecture_notes/pop_gen_ebert_v1-2.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/pop_gen.qmd)
 
 ### Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)
 
-## 4. Semester
+[download](/files/lecture_notes/lmmb_mettier-ebert_v1-1.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/lmmb.qmd)
+
+## 4th Semester
 
 ### Systematische Biologie: Pflanzen (FS18)
 
+[download](/files/lecture_notes/plant_sys_ebert_v1.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/plant_sys.qmd)
+
 ### Systembiologie (FS18)
+
+[download](/files/lecture_notes/systems_bio_mettier-ebert_v1-3.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/systems_bio.qmd)
 
 ### Physikalische Chemie 2 (FS18)
 
+[download](/files/lecture_notes/phys_chem_2_ebert_v1.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/phys_chem_2.qmd)
+
 ### Genetik, Genomik, Bioinformatik (FS18)
 
-## 3. Semester
+[download](/files/lecture_notes/ggb_ebert_v1-1.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/ggb.qmd)
+
+## 3rd Semester
 
 ### Introduction to Evolutionary Biology (HS17)
 
+[download](/files/lecture_notes/evolution_ebert_v1-3.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/evolution.qmd)
+
 ### Mykologie (HS17)
 
-## Basisjahr
+[download](/files/lecture_notes/mycology_ebert_v1-1.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/mycology.qmd)
+
+## 1st year
 
 ### Statistik 1 (FS17)
+
+[download](/files/lecture_notes/statistics_1_ebert_v7.pdf){.external target="_blank"}
+
+[changelog](lecture_notes/statistics_1.qmd)

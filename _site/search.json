@@ -32,7 +32,7 @@
     "href": "lecture_notes.html",
     "title": "Lecture Notes",
     "section": "",
-    "text": "Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).\nNote: As of the autumn semester 2020 the study programme of the Bachelor in Biology at ETH Zurich has been reworked The lecture notes provided here were compiled under the previous study programme (2013). Thus even more care should be taken when using them."
+    "text": "Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).\nNote: As of the autumn semester 2020 the study programme of the Bachelor in Biology at ETH Zurich has been reworked The lecture notes provided here were compiled under the previous study programme (2013). Thus even more care should be taken when using them.\nFor the sake of simplicity I have chosen to only upload the newest version of each set of lecture notes. To see what changed, go to the respective changelog."
   },
   {
     "objectID": "lecture_notes.html#ecological-genetics-hs18",
@@ -109,28 +109,28 @@
     "href": "lecture_notes.html#semester",
     "title": "Lecture Notes",
     "section": "5. Semester",
-    "text": "5. Semester\n\nEcological Genetics (HS18)\n\n\nPopulation and Quantitative Genetics (HS18)\n\n\nBlockkurs Experimentelle Lebensmittelmikrobiologie (HS18)"
+    "text": "5. Semester\n\nEcological Genetics (HS18)\ndownload\nchangelog\n\n\nPopulation and Quantitative Genetics (HS18)\ndownload\nchangelog\n\n\nBlockkurs Experimentelle Lebensmittelmikrobiologie (HS18)\ndownload\nchangelog"
   },
   {
     "objectID": "lecture_notes.html#semester-1",
     "href": "lecture_notes.html#semester-1",
     "title": "Lecture Notes",
     "section": "4. Semester",
-    "text": "4. Semester\n\nSystematische Biologie: Pflanzen (FS18)\n\n\nSystembiologie (FS18)\n\n\nPhysikalische Chemie 2 (FS18)\n\n\nGenetik, Genomik, Bioinformatik (FS18)"
+    "text": "4. Semester\n\nSystematische Biologie: Pflanzen (FS18)\ndownload\nchangelog\n\n\nSystembiologie (FS18)\ndownload\nchangelog\n\n\nPhysikalische Chemie 2 (FS18)\ndownload\nchangelog\n\n\nGenetik, Genomik, Bioinformatik (FS18)\ndownload\nchangelog"
   },
   {
     "objectID": "lecture_notes.html#semester-2",
     "href": "lecture_notes.html#semester-2",
     "title": "Lecture Notes",
     "section": "3. Semester",
-    "text": "3. Semester\n\nIntroduction to Evolutionary Biology (HS17)\n\n\nMykologie (HS17)"
+    "text": "3. Semester\n\nIntroduction to Evolutionary Biology (HS17)\ndownload\nchangelog\n\n\nMykologie (HS17)\ndownload\nchangelog"
   },
   {
     "objectID": "lecture_notes.html#basisjahr",
     "href": "lecture_notes.html#basisjahr",
     "title": "Lecture Notes",
     "section": "Basisjahr",
-    "text": "Basisjahr\n\nStatistik 1 (FS17)"
+    "text": "Basisjahr\n\nStatistik 1 (FS17)\ndownload\nchangelog"
   },
   {
     "objectID": "sites/lecture_notes.html",
@@ -166,5 +166,250 @@
     "title": "Lecture Notes",
     "section": "Basisjahr",
     "text": "Basisjahr\n\nStatistik 1 (FS17)"
+  },
+  {
+    "objectID": "lecture_notes/systems_bio.html#systembiologie-fs18",
+    "href": "lecture_notes/systems_bio.html#systembiologie-fs18",
+    "title": "Gleb Ebert",
+    "section": "systembiologie (fs18)",
+    "text": "systembiologie (fs18)\nSystembiologie_MaediGleb_v1-3.pdf\nSystembiologie_MaediGleb_v1-2.pdf\nSystembiologie_MaediGleb_v1-1.pdf\nSystembiologie_MaediGleb_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/plant_sys.html#systematische-biologie-pflanzen-fs18",
+    "href": "lecture_notes/plant_sys.html#systematische-biologie-pflanzen-fs18",
+    "title": "Gleb Ebert",
+    "section": "systematische biologie: pflanzen (fs18)",
+    "text": "systematische biologie: pflanzen (fs18)\nSysBio_Pflanzen_GlebEbert_v1.pdf\nSysBio_Pflanzen_GlebEbert_v0-6.pdf\nSysBio_Pflanzen_GlebEbert_v0-5.pdf\nSysBio_Pflanzen_GlebEbert_v0-4.pdf\nSysBio_Pflanzen_GlebEbert_v0-3.pdf\nSysBio_Pflanzen_GlebEbert_v0-2.pdf\nSysBio_Pflanzen_GlebEbert_v0-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/pop_gen.html#population-and-quantitative-genetics-hs18",
+    "href": "lecture_notes/pop_gen.html#population-and-quantitative-genetics-hs18",
+    "title": "Gleb Ebert",
+    "section": "population and quantitative genetics (hs18)",
+    "text": "population and quantitative genetics (hs18)\npopGen_GlebEbert_v1-2.pdf\npopGen_GlebEbert_v1-1.pdf\npopGen_GlebEbert_v1.pdf\npopGen_GlebEbert_v0-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/evolution.html#introduction-to-evolutionary-biology-hs17",
+    "href": "lecture_notes/evolution.html#introduction-to-evolutionary-biology-hs17",
+    "title": "Gleb Ebert",
+    "section": "introduction to evolutionary biology (hs17)",
+    "text": "introduction to evolutionary biology (hs17)\nevolutionSummary_GlebEbert_v1-3.pdf\nevolutionSummary_GlebEbert_v1-2.pdf\nevolutionSummary_GlebEbert_v1-1.pdf\nevolutionSummary_GlebEbert_v1-0.pdf\nevolutionSummary_GlebEbert_v0-10.pdf\nevolutionSummary_GlebEbert_v0-9.pdf\nevolutionSummary_GlebEbert_v0-8.pdf\nevolutionSummary_GlebEbert_v0-7.pdf\nevolutionSummary_GlebEbert_v0-6.pdf\nevolutionSummary_GlebEbert_v0-5.pdf\nevolutionSummary_GlebEbert_v0-4.pdf\nevolutionSummary_GlebEbert_v0-3.pdf\nevolutionSummary_GlebEbert_v0-2.pdf\nevolutionSummary_GlebEbert_v0-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/lmmb.html#blockkurs-experimentelle-lebensmittelmikrobiologie-hs18",
+    "href": "lecture_notes/lmmb.html#blockkurs-experimentelle-lebensmittelmikrobiologie-hs18",
+    "title": "Gleb Ebert",
+    "section": "blockkurs experimentelle lebensmittelmikrobiologie (hs18)",
+    "text": "blockkurs experimentelle lebensmittelmikrobiologie (hs18)\nExpLMMikrobio_MettierEbert_v1-1.pdf\nExpLMMikrobio_MettierEbert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/ecol_gen.html#ecological-genetics-hs18",
+    "href": "lecture_notes/ecol_gen.html#ecological-genetics-hs18",
+    "title": "Gleb Ebert",
+    "section": "ecological genetics (hs18)",
+    "text": "ecological genetics (hs18)\necolGen_GlebEbert_v1-1.pdf\necolGen_GlebEbert_v1.pdf\necolGen_GlebEbert_v0-5.pdf\necolGen_GlebEbert_v0-4.pdf\necolGen_GlebEbert_v0-3.pdf\necolGen_GlebEbert_v0-2.pdf\necolGen_GlebEbert_v0-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/mycology.html#mykologie-hs17",
+    "href": "lecture_notes/mycology.html#mykologie-hs17",
+    "title": "Gleb Ebert",
+    "section": "mykologie (hs17)",
+    "text": "mykologie (hs17)\nmykologie_GlebEbert_v1-2.pdf\nmykologie_GlebEbert_v1-1.pdf\nmykologie_GlebEbert_v1-0.pdf\nmykologie_GlebEbert_v0-7.pdf\nmykologie_GlebEbert_v0-6.pdf\nmykologie_GlebEbert_v0-5.pdf\nmykologie_GlebEbert_v0-4.pdf\nmykologie_GlebEbert_v0-3.pdf\nmykologie_GlebEbert_v0-2.pdf\nmykologie_GlebEbert_v0-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/ggb.html#genetik-genomik-bioinformatik-fs18",
+    "href": "lecture_notes/ggb.html#genetik-genomik-bioinformatik-fs18",
+    "title": "Gleb Ebert",
+    "section": "genetik, genomik, bioinformatik (fs18)",
+    "text": "genetik, genomik, bioinformatik (fs18)\nGGB_GlebEbert_v1-1.pdf\nGGB_GlebEbert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/phys_chem_2.html#physikalische-chemie-2-fs18",
+    "href": "lecture_notes/phys_chem_2.html#physikalische-chemie-2-fs18",
+    "title": "Gleb Ebert",
+    "section": "physikalische chemie 2 (fs18)",
+    "text": "physikalische chemie 2 (fs18)\nPC2_GlebEbert_v1-1.pdf\nPC2_GlebEbert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/statistics_1.html#statistik-i-zusammenfassung-fs17",
+    "href": "lecture_notes/statistics_1.html#statistik-i-zusammenfassung-fs17",
+    "title": "Gleb Ebert",
+    "section": "statistik I zusammenfassung (fs17)",
+    "text": "statistik I zusammenfassung (fs17)\nstatistikZusammenfassung_GlebEbert_v7.pdf\nstatistikZusammenfassung_GlebEbert_v6-1.pdf\nstatistikZusammenfassung_GlebEbert_v6.pdf\nstatistikZusammenfassung_GlebEbert_v5-1.pdf\nstatistikZusammenfassung_GlebEbert_v5.pdf\nstatistikZusammenfassung_GlebEbert_v4.pdf\nstatistikZusammenfassung_GlebEbert_v3-1.pdf\nstatistikZusammenfassung_GlebEbert_v3.pdf\nstatistikZusammenfassung_GlebEbert_v2.pdf\nstatistikZusammenfassung_GlebEbert_v1.pdf"
+  },
+  {
+    "objectID": "projects.html#read-data-from-tecan-plate-readers",
+    "href": "projects.html#read-data-from-tecan-plate-readers",
+    "title": "Projects",
+    "section": "Read data from Tecan plate readers",
+    "text": "Read data from Tecan plate readers"
+  },
+  {
+    "objectID": "nature.html#birding",
+    "href": "nature.html#birding",
+    "title": "Nature",
+    "section": "Birding",
+    "text": "Birding"
+  },
+  {
+    "objectID": "lecture_notes.html#th-semester",
+    "href": "lecture_notes.html#th-semester",
+    "title": "Lecture Notes",
+    "section": "5th Semester",
+    "text": "5th Semester\n\nEcological Genetics (HS18)\ndownload\nchangelog\n\n\nPopulation and Quantitative Genetics (HS18)\ndownload\nchangelog\n\n\nBlockkurs Experimentelle Lebensmittelmikrobiologie (HS18)\ndownload\nchangelog"
+  },
+  {
+    "objectID": "lecture_notes.html#th-semester-1",
+    "href": "lecture_notes.html#th-semester-1",
+    "title": "Lecture Notes",
+    "section": "4th Semester",
+    "text": "4th Semester\n\nSystematische Biologie: Pflanzen (FS18)\ndownload\nchangelog\n\n\nSystembiologie (FS18)\ndownload\nchangelog\n\n\nPhysikalische Chemie 2 (FS18)\ndownload\nchangelog\n\n\nGenetik, Genomik, Bioinformatik (FS18)\ndownload\nchangelog"
+  },
+  {
+    "objectID": "lecture_notes.html#rd-semester",
+    "href": "lecture_notes.html#rd-semester",
+    "title": "Lecture Notes",
+    "section": "3rd Semester",
+    "text": "3rd Semester\n\nIntroduction to Evolutionary Biology (HS17)\ndownload\nchangelog\n\n\nMykologie (HS17)\ndownload\nchangelog"
+  },
+  {
+    "objectID": "lecture_notes.html#st-year",
+    "href": "lecture_notes.html#st-year",
+    "title": "Lecture Notes",
+    "section": "1st year",
+    "text": "1st year\n\nStatistik 1 (FS17)\ndownload\nchangelog"
+  },
+  {
+    "objectID": "lecture_notes/ecol_gen.html",
+    "href": "lecture_notes/ecol_gen.html",
+    "title": "Ecological Genetics (HS18)",
+    "section": "",
+    "text": "ecol_gen_ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/ecol_gen.html#changelog",
+    "href": "lecture_notes/ecol_gen.html#changelog",
+    "title": "Ecological Genetics (HS18)",
+    "section": "Changelog",
+    "text": "Changelog\n\nv1.1 (07.10.2019)\n\n3.2.1: SSR and STR -> SSR / STR (synonyms of Microsatellite)\n4.4: sharing to benefits -> sharing of benefits\n6.2.1: panmictic (randomly mating)\n7.2:\n\nwithsmall -> with small\nelaborated on Beavis effect\n\n7.5:\n\nexplained “accession”\nsuffiecient -> sufficient\n\n8: phenotypically different species -> phenotypically different entities\n9.3: elaborated on F_ST\n9.4.3:\n\nsegergating -> segregating\nall thetas are now in lower case\n\n9.4.5: facotrs -> factors\n10.2.1: eachdeme -> each deme\n11.7.2:\n\nallales -> alleles\nintrogrress -> introgress\n\n11.7.4: reformulated explanation of cytonuclear disequilibrium\n12.4: added comma after “Generally”\n12.4.1:\n\nHalainthus petiolaris -> Halianthus petiolaris\nexplained transgressive segregation\n\n\n\n\nv1 (06.07.2019)\n\nadded remaining lectures\n\n\n\nv0.5 (13.11.2018)\n\nseventh lecture\n\n\n\nv0.4 (30.10.2018)\n\nsixth lecture\n\n\n\nv0.3 (28.10.2018)\n\nfourth and fifth lectures\n\n\n\nv0.2 (13.10.2018)\n\nsecond and third lectures\n\n\n\nv0.1 (24.09.2018)\n\ninitial release\nfirst lecture"
+  },
+  {
+    "objectID": "lecture_notes/evolution.html",
+    "href": "lecture_notes/evolution.html",
+    "title": "Introduction to Evolutionary Biology (HS17)",
+    "section": "",
+    "text": "evolution_ebert_v1-3.pdf"
+  },
+  {
+    "objectID": "lecture_notes/evolution.html#changelog",
+    "href": "lecture_notes/evolution.html#changelog",
+    "title": "Introduction to Evolutionary Biology (HS17)",
+    "section": "Changelog",
+    "text": "Changelog\n\nv1.3 (07.02.2018)\n\n6.5: formula under 1) should be …+ q^2 * w(aa) instead of w(AA)\nfixed typos:\n\nchapter 15.2: Induction infers generalizations base on… -> based\n\n\n\n\nv1.2 (30.01.2018)\n\nadded definitions to vocabulary section (5.4)\n7.2.1: small populations are N < ~1000, not >\nrearranged layout a bit to account for changes\nfixed typos:\n\nchapter 10.5: succes -> success; if often higher -> is; equadorian -> ecuadorian\n\n\n\n\nv1.1 (02.01.2018)\n\nchanged chapter 2.3 title to “Darwinian vs. Lamarckian evolution” from “Lamarckian vs. Darwinian evolution” to align it with the table\nadjusted graphic size in chapter 3.1 to allow for better line wrapping in chapter 3.3\nsome clarifications in the mutation accumulation lines paragraph\nremoved chapters 5.6 & 5.7 due to redundancy with the table in chapter 5.8 (now 5.6)\nchanged “More” to “Other” in chapter 5.6 (former 5.8) title to avoid confusion as to whether the mutations are more impactful or the list contains more mutations\nclarified that “N > ~1000” is meant in chapter 7.2.1 (previously “N >~ 1000”)\nunified verb forms for easier reading (guard -> guarding; make -> making) in chapter 10.2\nreworded sentence about Polish men in chapter 10.5 for easier reading\nadded lost right bracket in table of chapter 13.3\nfixed typos:\n\nchapter 5.6: refuse -> refused\nchapter 6.2: Genotyp -> Genotype\nchapter 6.3.1: removed single left bracket; Simples -> Simple\nchapter 6.7.1: fro -> for; of hitchhiking -> or hitchhiking\nchapter 10.5: succes -> success; aswell -> as well\nchapter 15.3 (final cause paragraph): of an action -> or an action\n\n\n\n\nv1.0 (21.12.2017)\n\nfirst full release\ntwelfth lecture added\nmoved all of science history as one chapter to the end of the document\nintroduced page and column breaks in some places for easier reading\n\n\n\nv0.10 (18.12.2017)\n\ntenth & eleventh lecture added\n\n\n\nv0.9 (30.11.2017)\n\nninth lecture added\n\n\n\nv0.8 (16.11.2017)\n\neighth lecture added\n\n\n\nv0.7 (13.11.2017)\n\ncompressed all graphics reducing the file size of all versions by around 40%\n\n\n\nv0.7 (08.11.2017)\n\nseventh lecture added\n\n\n\nv0.6 (01.11.2017)\n\nsixth lecture added\n\n\n\nv0.5 (26.10.2017)\n\nfifth lecture added\nsome clarifications in the introduction\n\n\n\nv0.4 (19.10.2017)\n\nfourth lecture added\n\n\n\nv0.3 (07.10.2017)\n\nthird lecture added\nreworked section about speciation and ring species\n\n\n\nv0.2 (27.09.2017)\n\nsecond lecture added\nminor formatting changes\n\n\n\nv0.1 (25.09.2017)\n\ninitial release\nfirst lecture added"
+  },
+  {
+    "objectID": "lecture_notes/lmmb.html",
+    "href": "lecture_notes/lmmb.html",
+    "title": "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)",
+    "section": "",
+    "text": "lmmb_mettier-ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/lmmb.html#changelog",
+    "href": "lecture_notes/lmmb.html#changelog",
+    "title": "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.1 (28.11.2018)\n\neinige grammatikalische und typografische fehler behoben\n\n\n\nv1 (26.11.2018)\n\nerstveröffentlichung"
+  },
+  {
+    "objectID": "lecture_notes/mycology.html",
+    "href": "lecture_notes/mycology.html",
+    "title": "Mykologie (HS17)",
+    "section": "",
+    "text": "mykologie_GlebEbert_v1-2.pdf"
+  },
+  {
+    "objectID": "lecture_notes/mycology.html#changelog",
+    "href": "lecture_notes/mycology.html#changelog",
+    "title": "Mykologie (HS17)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.2 (10.02.2018)\n\n3.1.6: Satz über Chitin- & Glucansynthese umformuliert um vektorielle Synthese zu verdeutlichen\n3.12: Transporter und Rezeptor gleichzeitig = Transzeptor\n3.4: Parenthesom & Doliporen erklärt\nkapitel 6: Umbenannt von “Sexuelle Reproduktionszyklen” zu “Reproduktionszyklen”; Reproduktionszyklen von Chytridiomycota, Glomeromycota und Zygomycota als auch weitere Grafik zu Paarungstypen von Zygomycota hinzugefügt (danke Gautier)\n8.2.2: komplett auf nächste Spalte verschoben\nverbesserte tipp- & rechtschreibfehler:\n\n3.2: 2) wähnrend -> während\n3.4: Sporen -> Poren\n3.5: Fressfeinde -> Fressfeinden\n7.2.1: Axrnisches -> Axenisches\n\n\n\n\nv1.1 (08.01.2018)\n\neinige grössenanpassungen von bildern als auch seiten- und spaltensprünge zur besseren lesbarkeit\nkurze erklärung zu saprophyt in kapitel 1.2 eingefügt\nkapitel 2: ’ als abtrennung von tauserndern zur besseren lesbarkeit von grossen zahlen eingefügt\nkapitel 2.4: offene klammer geschlossen\neinige wörter in kapitel 3.1.6 mit farbe hervorgehoben\ngrafik zur septenteilung eingefügt\nkapitel 3.6 durch einen satz ergänzt und dimorphismus aus dem titel entfernt\nkapitel 3.9 enthält nun einen vollwertigen satz\ncellulase und lignase in kapitel 3.10.2 farblich verhorgehoben\nkapitel 5.6 mit der definition von plektenchym ergänzt\naus zwei grafiken eine gemacht in kapitel 5.7.2\nkapitel 7.2 & 7.2.6: beispiele mit doppelpunkten lesbarer gemacht\nkapitel 7.2.5: RNSs auf deutsch übersetzt und zusammen mit sRNAs in die einzahl gebracht\neinige farbliche hervorhebungen in kapitel 7.3.2, 7.3.3 & 7.3.4\nletzten satz des kapitels 7.3.5 etwas umformuliert\nverbesserte tipp- & rechtschreibfehler:\n\nkapitel 1.2: mutualistische symbiont -> mutualistischer …; immotilitt -> immotilität\nkapitel 2.3: arbuskluäre -> arbuskuläre\nkapitel 3.1: beta-1-6-glukan -> beta-1-6-glukanen\nkapitel 3.1.6: wähnred -> während\nkapitel 3.5: mit sich bringt -> mit sich bringen\nkapitel 3.12: transporten -> transporter\nkapitel 4.1 (titel): hyphenheterogenitt -> hyphenheterogenität\nkapitel 5.6 (titel): plectenchymale -> plektenchymale\nkapitel 6.4.1: singaniliserende -> signalisierende\nkapitel 7.3.1: ¿ -> >\nkapitel 7.3.2: verschieden farben wie rosa oder geld -> gelb\nkapitel 7.3.4: einemn -> einem\nkapitel 8.1: aus salami -> auf; meromi(brine) -> moromi(brine)\n\n\n\n\nv1.0 (21.12.2017)\n\nerstveröffentlichung der vollversion\neinige spalten und seitensprünge für bessere leserlichkeit\n\n\n\nv0.7 (16.12.2017)\n\nvorlesung #12 hinzugefügt\n\n\n\nv0.6 (05.12.2017)\n\nvorlesung #11 hinzugefügt\n\n\n\nv0.5 (28.11.2017)\n\nvorlesung #10 hinzugefügt\n\n\n\nv0.4 (21.11.2017)\n\nvorlesung #9 hinzugefügt\narbuskeln, sporenverbreitung im wasser, conidiomata, sklerotien und stromata hinzugefügt\n\n\n\nv0.3 (13.11.2017)\n\nvorlesung #8 hinzugefügt\ngrafik zum reproduktionszyklus der bäckerhefe nachgeliefert\ngrafiken in dieser und allen vorherigen versionen komprimiert (datei um rund 75% kleiner)\n\n\n\nv0.2 (06.11.2017)\n\nvorlesung #7 hinzugefügt\n\n\n\nv0.1 (02.11.2017)\n\ninhalt aller vorlesungen bis zu #6"
+  },
+  {
+    "objectID": "lecture_notes/phys_chem_2.html",
+    "href": "lecture_notes/phys_chem_2.html",
+    "title": "Physikalische Chemie 2 (FS18)",
+    "section": "",
+    "text": "phys_chem_2_ebert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/phys_chem_2.html#changelog",
+    "href": "lecture_notes/phys_chem_2.html#changelog",
+    "title": "Physikalische Chemie 2 (FS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.1 (08.08.2018)\n2.1.1: vermerkt zu D bezüglich molekül-lösungsmittel-interaktionen\n2.2.2\n\nerklärungen zu c’_w, c’’_w, c’_m und c’’_m\nc’_w und c’’_w jetzt richtig rum in formel zu gross-phi_innen\nannahme erläutert\n\n5.4 3): erklärung zur überschätzung der masse\n6.8\n\nformel zur zeitabhängigen konzentration des zwischenprodukts\nformel zum zeitpunkt der maximalen konzentration des zwischenprodukts\n\n8: Beispielaufgabe\n\n\nv1 (07.08.2018)\n\nerste veröffentlichte version"
+  },
+  {
+    "objectID": "lecture_notes/plant_sys.html",
+    "href": "lecture_notes/plant_sys.html",
+    "title": "Systematische Biologie: Pflanzen (FS18)",
+    "section": "",
+    "text": "plant_sys_ebert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/plant_sys.html#changelog",
+    "href": "lecture_notes/plant_sys.html#changelog",
+    "title": "Systematische Biologie: Pflanzen (FS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.1 (22.08.2018)\n\nviele kleinere verbesserungen, die den inhalt nicht ändern\nkapitel 1.1.1: sporopollonin -> sporopollenin\nkapitel 2.4: antheceropsida -> anthoceropsida\nkapitel 6.4: zwei samenanlagen zu einem punkt vereint\nkapitel 6.8.4: lilium und narcissus nicht prüfungsrelevant\nkapitel 6.8.8: haunsimse -> hainsimse\nkapitel 6.8.9: ohne kolben -> ohne knoten\nkapitel 6.10.3: anemone (deutscher name) -> windröschen\nkapitel 6.10.5: alechmilla -> alchemilla\nkapitel 6.10.10: teucrium nicht prüfungsrelevant\nkapitel 6.10.15: asperula entfernt, da waldmeister nicht mehr dazu gehört\nkapitel 6.10.16: scabiose -> scabiosa\nkapitel 6.10.18: carylus -> corylus\n\n\n\nv1 (13.07.2018)\n\nneunte bis zwölfte Vorlesungen hinzugefügt\nformat angepasst\n\n\n\nv0.6 (17.04.2018)\n\nsiebte und achte Vorlesungen hinzugefügt\n\n\n\nv0.5 (27.03.2018)\n\nsechste Vorlesung hinzugefügt\n\n\n\nv0.4 (20.03.2018)\n\nfünfte Vorlesung hinzugefügt\n\n\n\nv0.3 (13.03.2018)\n\nvierte Vorlesung hinzugefügt\n\n\n\nv0.2 (06.03.2018)\n\ndritte Vorlesung hinzugefügt\nspalten- und seitenumbrüche eingefügt\n\n\n\nv0.1 (01.03.2018)\n\nerste zwei Vorlesungen hinzugefügt"
+  },
+  {
+    "objectID": "lecture_notes/systems_bio.html",
+    "href": "lecture_notes/systems_bio.html",
+    "title": "Systembiologie (FS18)",
+    "section": "",
+    "text": "systems_bio_mettier-ebert_v1-3.pdf"
+  },
+  {
+    "objectID": "lecture_notes/systems_bio.html#changelog",
+    "href": "lecture_notes/systems_bio.html#changelog",
+    "title": "Systembiologie (FS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.3 (10.08.2018)\n\nviele kleine rechtschreibe- und formatierungsfehler verbessert\nkapitel 1\n\nweitere annahmen des massenwirkungsgesetzes\nannahme der gesättigten enzyme bei michaelis-menten war falsch und wurde entfernt\nfolgen auf den kurvenverlauf bei veränderung der parameter\n\nkapitel 2\n\n*[A] auf pfeil in reaktion für dimerisierung entfernt\n\nkapitel 3\n\ngrafik aus 3.2.2 entfernt, da sie nicht viel aussagt\n\nkapitel 5\n\nanmerkung zu ein- und ausfluss von systemen bei zweitem lernziel\n5.2.5 a): in lösung v_2 zu v_3 korrigiert\n5.2.5 b): in aufgabenstellung v_S zu v_6 und v_4 zu v_1 korrigiert\n5.2.5 b): lösung korrigiert und erklärt\n\nkapitel 7\n\n7.2.1 b): lösung korrigiert\n\nkapitel 8\n\neinsichten aus data mining überarbeitet\nstatistisches rauschen unter typischen problemen ergänzt\nmultiples testen: pi0 ist jetzt tatsächlich pi_0\nfdr: pi_0 ist etwa 1, nicht kleiner 1\n\n\n\n\nv1.2 (04.08.2018)\n\naufgabe 1.2.2: lösung korrigiert\nkapitel 4: keratin durch kreatin ersetzt\naufgabe 4.2.2: annhame des konstanten zellvolumens hinzugefügt\nkapitel 5: punkt über omics-daten besser erklärt\naufgabe 5.2.2\n\nin der fragestellung ist e zu E gewachsen\nlösung zu b) korrigiert\n\naufgabe 5.2.3\n\na): stchiometrische -> stöchiometrische\nlösungen zu a) und b) korrigiert\n\naufgabe 5.2.5: lösung zu b) korrigiert\nkapitel 7.2.1: variablen zur besseren verständlichkeit umbenannt\n\n\n\nv1.1 (29.07.2018)\n\nverlorene umlautpunkte gefunden und sonstige tippfehler behoben\naufgabe 5.2.4 a): speichern der resultate in eigene anweisung umgewandelt\nkapitel 7: anleitung zur graphischen darstellung von kombinationen mehrerer ultrasensitiver schritte hinzugefügt\n\n\n\nv1 (26.07.2018)\n\nerste veröffentlichte version"
+  },
+  {
+    "objectID": "lecture_notes/pop_gen.html",
+    "href": "lecture_notes/pop_gen.html",
+    "title": "Population and Quantitative Genetics (HS18)",
+    "section": "",
+    "text": "lmmb_mettier-ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/pop_gen.html#changelog",
+    "href": "lecture_notes/pop_gen.html#changelog",
+    "title": "Population and Quantitative Genetics (HS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.2 (07.10.2019)\n\n1.5: elaborated on the De Finetti diagram\n3.1: bottleneck is no longer capitalized\n6.2.3: fixed formula of population mutation parameter\n8: fixed second formula for V_P\n9.2: added NSH\n10.1.4: reprodcution -> reproduction\n11.3: fixed formula for Aa in table\n11.6: H is proportional to the quare […] -> square\n\n\n\nv1.1 (06.07.2019)\n\nfixed hyperlinks\n\n\n\nv1 (02.07.2019)\n\nadded all remaining lectures\n\n\n\nv0.1 (24.09.2018)\n\ninitial release\nfirst lecture"
+  },
+  {
+    "objectID": "lecture_notes/ggb.html",
+    "href": "lecture_notes/ggb.html",
+    "title": "Genetik, Genomik, Bioinformatik (FS18)",
+    "section": "",
+    "text": "ggb_ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/ggb.html#changelog",
+    "href": "lecture_notes/ggb.html#changelog",
+    "title": "Genetik, Genomik, Bioinformatik (FS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.1 (15.08.2018)\n\neinige rechtschreibefehler korrigiert\nkapitel 1.2: limitation des illumina infinium 2 assays\nkapitel 2.2.2: hapmap und haplotypen\nkapitel 2.2.5: annotation von refseq\nkapitel 3.4: vorteil gegenüber klassischer genetik\nkapitel 3.6: gerundete gesamtmutationsrate in tabelle\nkapitel 10.2: anmerkung über mehrere loci und erkrankungsrisiko\n\n\n\nv1 (13.08.2018)\n\nerste veröffentlichte version"
+  },
+  {
+    "objectID": "lecture_notes/statistics_1.html",
+    "href": "lecture_notes/statistics_1.html",
+    "title": "Statistik I (FS17)",
+    "section": "",
+    "text": "changelog\n\n\nv7 (30.01.2018)\n\n8.2: binomcdf sollte poissoncdf sein\n\n\n\nv6.1 (18.10.2017)\n\nlink zu ../index.html eingefügt\n\n\n\nv6 (18.10.2017)\n\n2.7: referenz zu 4.3.1 eingefügt\n8: kapitel zur berechnung von poissonpdf und poissoncdf hinzugefügt\n\n\n\nv5.1 (10.08.2017)\n\n3.2.2 5): p(x>x) = 1-p(x<=x) statt = p(x<=x)\n\n\n\nv5 (10.08.2017)\n\nfehler im verwerfungsbereich für ungepaarten t-test bei mu_x > mu_y behoben. die untere grenze ist nun richtigerweise negativ.\n\n\n\nv4 (03.08.2017)\n\nergänzung zum wurzel-n-gesetz\nformel für einseitige vertraünsintervalle\n\n\n\nv3.1 (01.08.2017)\n\nkorrektur der erläuterungen zur benutzung der tabelle der kumulativen normalverteilung\n\n\n\nv3 (01.08.2017)\n\npapierformat von us letter auf a4 geändert\neinige rechtschreibefehler entfernt\nnormalapproximation des vi und des verwerfungsbereiches getrennt, da diese nichts miteinander zutun haben.\n3.2.2 teil über fehler leicht umgeschrieben (neu mit 100% mehr wahrscheinlichkeiten).\n4.5.3 fallunterscheidung zwischen ein- und zweiseitigem vertraünsintervall\nvergleich ungepaarter und gepaarter t-test\nvergleich vertraüns- und vorhersageintervall\nverteilung unter h_0 beim vorzeichentest\nkovarianz: erweiterte definition und rechenregeln (zweiteres unter “funktionen von mehreren zufallsvariablen”)\nberechnung des p-werts beim t-test\nberechnug von empirischen qüartilen\nerläuterungen zur benutzung der tabelle der kumulativen normalverteilung\n\n\n\nv2 (09.07.2017)\n\nerwartungswert und varianz der binomialverteilung\n95%-vi für z- und t-tests\nkorrektur der formel für s_pool\nerläuterungen zur tabelle der kumulativen normalverteilung\n\n\n\nv1 (06.07.2017)\n\ninitial release"
   }
 ]

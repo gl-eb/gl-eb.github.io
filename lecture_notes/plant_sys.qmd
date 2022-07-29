@@ -1,0 +1,53 @@
+---
+title: "Systematische Biologie: Pflanzen (FS18)"
+---
+
+[plant_sys_ebert_v1.pdf](/files/lecture_notes/plant_sys_ebert_v1.pdf){.external target="_blank"}
+
+## changelog
+
+### v1.1 (22.08.2018)
+
+- viele kleinere verbesserungen, die den inhalt nicht ändern
+- kapitel 1.1.1: sporopollonin -> sporopollenin
+- kapitel 2.4: antheceropsida -> anthoceropsida
+- kapitel 6.4: zwei samenanlagen zu einem punkt vereint
+- kapitel 6.8.4: lilium und narcissus nicht prüfungsrelevant
+- kapitel 6.8.8: haunsimse -> hainsimse
+- kapitel 6.8.9: ohne kolben -> ohne knoten
+- kapitel 6.10.3: anemone (deutscher name) -> windröschen
+- kapitel 6.10.5: alechmilla -> alchemilla
+- kapitel 6.10.10: teucrium nicht prüfungsrelevant
+- kapitel 6.10.15: asperula entfernt, da waldmeister nicht mehr dazu gehört
+- kapitel 6.10.16: scabiose -> scabiosa
+- kapitel 6.10.18: carylus -> corylus
+
+### v1 (13.07.2018)
+
+- neunte bis zwölfte Vorlesungen hinzugefügt
+- format angepasst
+
+### v0.6 (17.04.2018)
+
+- siebte und achte Vorlesungen hinzugefügt
+
+### v0.5 (27.03.2018)
+
+- sechste Vorlesung hinzugefügt
+
+### v0.4 (20.03.2018)
+
+- fünfte Vorlesung hinzugefügt
+
+### v0.3 (13.03.2018)
+
+- vierte Vorlesung hinzugefügt
+
+### v0.2 (06.03.2018)
+
+- dritte Vorlesung hinzugefügt
+- spalten- und seitenumbrüche eingefügt
+
+### v0.1 (01.03.2018)
+
+- erste zwei Vorlesungen hinzugefügt

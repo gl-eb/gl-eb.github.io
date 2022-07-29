@@ -1,0 +1,15 @@
+---
+title: "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)"
+---
+
+[lmmb_mettier-ebert_v1-1.pdf](/files/lecture_notes/lmmb_mettier-ebert_v1-1.pdf){.external target="_blank"}
+
+## changelog
+
+### v1.1 (28.11.2018)
+
+- einige grammatikalische und typografische fehler behoben
+
+### v1 (26.11.2018)
+
+- erstveröffentlichung

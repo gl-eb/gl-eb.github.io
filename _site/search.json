@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Gleb Ebert",
     "section": "",
-    "text": "I am a doctoral student in the evolutionary microbiology group at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of Pseudoalteromonas haloplanktis, an antarctic marine bacterium.\nI enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time.\nI also enjoy photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can  take a look at my work on Flickr."
+    "text": "I am a doctoral student in the evolutionary microbiology group at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of Pseudoalteromonas haloplanktis, an antarctic marine bacterium.\nI enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time.\nI also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can  take a look at my work on Flickr."
   },
   {
     "objectID": "about.html",
@@ -32,7 +32,7 @@
     "href": "lecture_notes.html",
     "title": "Lecture Notes",
     "section": "",
-    "text": "Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).\nNote: As of the autumn semester 2020 the study programme of the Bachelor in Biology at ETH Zurich has been reworked The lecture notes provided here were compiled under the previous study programme (2013). Thus even more care should be taken when using them.\nFor the sake of simplicity I have chosen to only upload the newest version of each set of lecture notes. To see what changed, go to the respective changelog."
+    "text": "Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures. They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness)."
   },
   {
     "objectID": "lecture_notes.html#ecological-genetics-hs18",

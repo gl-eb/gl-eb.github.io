@@ -62,6 +62,7 @@ ul.task-list{list-style: none;}
 <meta property="og:site-name" content="Gleb Ebert">
 <meta name="twitter:title" content="Gleb Ebert - Ecological Genetics (HS18)">
 <meta name="twitter:description" content="ecol_gen_ebert_v1-1.pdf">
+<meta name="twitter:creator" content="@gl_eb">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -295,7 +296,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp(/https:\/\/www\.glebsite\.ch\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -313,7 +314,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2022, Gleb Ebert</div>   
+    <div class="nav-footer-left">Built using <a href="https://quarto.org/">Quarto</a>. Copyright 2022, Gleb Ebert</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

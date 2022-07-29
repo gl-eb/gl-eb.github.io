@@ -5,30 +5,24 @@ project:
 
 website:
   title: Gleb Ebert
+  site-url: "https://www.glebsite.ch/"
   description: This is Gleb Ebert's personal website.
     You can learn about me and what I do here.
-  favicon: images/favicon-black.png
+  # favicon: images/favicon.png
   navbar:
-    left:
-      - text: Home
-        href: index.qmd
+    right:
       # - projects.qmd
       - lecture_notes.qmd
       # - nature.qmd
-    # right:
-      # - icon: github
-      #   href: https://github.com/gl-eb/
-      # - icon: twitter
-      #   href: https://twitter.com/gl_eb
       # - about.qmd
   page-footer:
-    left: "Copyright 2022, Gleb Ebert"
+    left:
+      "Built using [Quarto](https://quarto.org/). Copyright 2022, Gleb Ebert"
     right:
       - icon: github
         href: https://github.com/gl-eb/gl-eb.github.io
-  twitter-card: true
-    # title: "Gleb Ebert's Website"
-    # creator: "@gl_eb"
+  twitter-card:
+    creator: "@gl_eb"
   open-graph: true
     # title: "Gleb Ebert's Website"
 
@@ -39,6 +33,8 @@ format:
     css: styles.css
     toc: false
     link-external-newwindow: true
+    link-external-icon: false
+    email-obfuscation: references
 
 # editor: visual
 

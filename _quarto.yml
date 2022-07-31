@@ -2,7 +2,6 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!nature.qmd"
     - "!projects.qmd"
   resources:
     - "*.pdf"
@@ -16,8 +15,8 @@ website:
   navbar:
     right:
       # - projects.qmd
+      - nature.qmd
       - lecture_notes.qmd
-      # - nature.qmd
       # - about.qmd
   page-footer:
     left:

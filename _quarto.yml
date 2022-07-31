@@ -3,6 +3,7 @@ project:
   render:
     - "*.qmd"
     - "!projects.qmd"
+    - "!birding.qmd"
   resources:
     - "*.pdf"
 
@@ -15,7 +16,8 @@ website:
   navbar:
     right:
       # - projects.qmd
-      - nature.qmd
+      - photography.qmd
+      # - birding.qmd
       - lecture_notes.qmd
       # - about.qmd
   page-footer:

@@ -18,7 +18,7 @@ website:
       # - projects.qmd
       - photography.qmd
       # - birding.qmd
-      - lecture_notes.qmd
+      - lecture_notes/index.qmd
       # - about.qmd
   page-footer:
     left:

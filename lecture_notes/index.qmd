@@ -30,19 +30,19 @@ Thus even more care should be taken when using them.
 
 [download](/files/lecture_notes/ecol_gen_ebert_v1-1.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/ecol_gen.qmd)
+[changelog](/lecture_notes/ecol_gen.qmd)
 
 ### Population and Quantitative Genetics (HS18)
 
 [download](/files/lecture_notes/pop_gen_ebert_v1-2.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/pop_gen.qmd)
+[changelog](/lecture_notes/pop_gen.qmd)
 
 ### Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)
 
 [download](/files/lecture_notes/lmmb_mettier-ebert_v1-1.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/lmmb.qmd)
+[changelog](/lecture_notes/lmmb.qmd)
 
 ## 4th Semester
 
@@ -50,25 +50,25 @@ Thus even more care should be taken when using them.
 
 [download](/files/lecture_notes/plant_sys_ebert_v1.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/plant_sys.qmd)
+[changelog](/lecture_notes/plant_sys.qmd)
 
 ### Systembiologie (FS18)
 
 [download](/files/lecture_notes/systems_bio_mettier-ebert_v1-3.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/systems_bio.qmd)
+[changelog](/lecture_notes/systems_bio.qmd)
 
 ### Physikalische Chemie 2 (FS18)
 
 [download](/files/lecture_notes/phys_chem_2_ebert_v1.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/phys_chem_2.qmd)
+[changelog](/lecture_notes/phys_chem_2.qmd)
 
 ### Genetik, Genomik, Bioinformatik (FS18)
 
 [download](/files/lecture_notes/ggb_ebert_v1-1.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/ggb.qmd)
+[changelog](/lecture_notes/ggb.qmd)
 
 ## 3rd Semester
 
@@ -76,13 +76,13 @@ Thus even more care should be taken when using them.
 
 [download](/files/lecture_notes/evolution_ebert_v1-3.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/evolution.qmd)
+[changelog](/lecture_notes/evolution.qmd)
 
 ### Mykologie (HS17)
 
 [download](/files/lecture_notes/mycology_ebert_v1-1.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/mycology.qmd)
+[changelog](/lecture_notes/mycology.qmd)
 
 ## 1st year
 
@@ -90,4 +90,4 @@ Thus even more care should be taken when using them.
 
 [download](/files/lecture_notes/statistics_1_ebert_v7.pdf){.external target="_blank"}
 
-[changelog](lecture_notes/statistics_1.qmd)
+[changelog](/lecture_notes/statistics_1.qmd)

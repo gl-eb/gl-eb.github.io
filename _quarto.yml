@@ -42,5 +42,7 @@ format:
     link-external-icon: false
     email-obfuscation: references
 
-# editor: visual
+execute:
+  freeze: auto
 
+# editor: visual

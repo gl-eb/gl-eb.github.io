@@ -17,7 +17,7 @@ website:
   navbar:
     right:
       # - projects.qmd
-      - photography.qmd
+      - photography/index.qmd
       # - birding.qmd
       - lecture_notes/index.qmd
       # - about.qmd

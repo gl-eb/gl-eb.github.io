@@ -1,3 +1,43 @@
 ---
 title: Photography
+crossref: 
+  fig-title: Image
+  fig-prefix: Image
 ---
+
+![Eurasian Tree Sparrow (*Passer montanus*), Klingnauer Stausee, Switzerland](/photography/images/eurasian_tree_sparrow.jpg){fig-alt="An Eurasian Tree Sparrow sitting on a branch facing to the right and slightly away from the photographer. It's head is turned so that its right eye is facing the camera directly. The background of the photo is a blurr of green and brown, suggesting shrubs." #fig-sparrow}
+
+At age 14 a family friend gave me his old compact camera, a Pentax Optio 555.
+About a year later, during which I was taking photos in full-automatic mode
+only, a colleague of my father's taught me the basics of how cameras work, how
+to compose images and how to edit them.
+This new found knowledge enabled me to appropriately use the Optio 555's aperture
+and shutter-priority modes.
+I also found my new favourite subjects: Birds (see @fig-tern for one of the
+first pictures I took of a bird).
+
+![Common Tern (*Sterna hirundo*), Tvärminne Zoological Station, Finland](/photography/images/tern.jpg){fig-alt="A Common Tern sits on a rock, facing right. In the background, the sea can be seen." #fig-tern}
+
+Next christmas, I got a Nikon D3100 kit with 18-55mm and 55-105mm lenses.
+Over the next few years I started dabbling in landscape and sports photography.
+The former was mainly motivated by a lack of big lens, making bird photography
+difficult (@fig-reeds, @fig-hasliberg).
+The latter came from my own years as rower during high school (or Gymnasium,
+as we call it in Switzerland; @fig-basel-head).
+
+![Reeds, Balashikha, Russia](/photography/images/reeds.jpg){fig-alt="A group of reeds sticks out of the ice of a frozen river. The photo is black and white, with the reeds being dark and the snow-covered ice in the background being uniformely white." #fig-reeds}
+
+![Sunset at Hasliberg, Switzerland](/photography/images/hasliberg.jpg){fig-alt="The scene is set in the Swiss Alps at sunset in the winter. The right third of the image is taken up by a wooden hut. To the left of the hut, a snow-covered hillside can be seen. In the background, a group of dark coniferous trees can be seen. The horizon is made up of mountain ridge with an orange sunset behind it." #fig-hasliberg}
+
+![Deutschland-Achter (Germany's Men's Eight) at BaselHead 2016, Switzerland](/photography/images/basel_head.jpg){fig-alt="The scene takes place at the annual BaselHead rowing race on the Rhine river in Basel, Switzerland. A sea-green rowing boat, more specifically an eight, is travelling away from the camera and slightly to the left. The oars are colored in black, red and yellow from the top down, representing the german flag. The rowers are part of the german national rowing team. In the background one of Basel's reaction ferries can be seen." #fig-basel-head}
+
+Nowadays, my focus (pun intended) has mostly switched back to bird photography.
+While I certainly have much to learn, I am encouraged by the progress at the
+same time (@fig-european-robin, @fig-common-eider).
+Currently I use a Nikon D7200 body and the Tamron SP 150-600mm F/5-6.3 Di VC
+USD G2 for wildlife photography.
+
+![European Robin, Klingnauer Stausee, Switzerland](/photography/images/european_robin.jpg){fig-alt="An European Robin sits on a piece of a wooden structure, which runs towards the camera. The robin is facing to the left and slightly towards the camera with it's left eye seemlingly looking directly at the photographer. The Robin's orange breast shines brightly in the sunlight. The background is a blurr of greens and browns." #fig-european-robin}
+
+![Common Eider, Rapperswil-Jona, Switzerland](/photography/images/common_eider.jpg){fig-alt="A male Common Eider is seen sitting on the calm surface of Lake Zurich close to Rapperswil-Jona, Switzerland. The photo is taken at a slight downward angle and the duck looks into the camera." #fig-common-eider}
+

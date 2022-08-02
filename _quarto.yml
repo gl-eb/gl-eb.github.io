@@ -9,6 +9,7 @@ project:
 website:
   title: Gleb Ebert
   site-url: "https://www.glebsite.ch/"
+  repo-url: "https://github.com/gl-eb/gl-eb.github.io"
   description: This is Gleb Ebert's personal website.
     You can learn about me and what I do here.
   # favicon: images/favicon.png

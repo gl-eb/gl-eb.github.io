@@ -23,7 +23,7 @@ I am a doctoral student in the [evolutionary microbiology group](https://evomicr
 
 I enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time. <!-- Check out my [projects](projects.qmd) page to see some examples that have made it onto GitHub. -->
 
-I also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can <!-- learn more on my [nature](nature.qmd) page or --> take a look at my work on [Flickr](https://www.flickr.com/photos/glebebert/).
+I also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can learn more on my [photography](/photography/index.qmd) <!-- and [birding](/birding/index.qmd) --> page<!--s--> or take a look at my work on [Flickr](https://www.flickr.com/photos/glebebert/).
 
 ## Education
 

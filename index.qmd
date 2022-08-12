@@ -8,6 +8,9 @@ about:
     - icon: twitter
       text: Twitter
       href: "https://twitter.com/gl_eb"
+    - icon: search
+      text: "ORCID"
+      href: "https://orcid.org/0000-0002-7734-3824"
     - icon: github
       text: GitHub
       href: "https://github.com/gl-eb/"

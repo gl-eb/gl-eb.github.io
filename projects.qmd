@@ -1,7 +1,0 @@
----
-title: Projects
----
-
-## Generate sticker sheet for printing on Avery L7871
-
-## Read data from Tecan plate readers

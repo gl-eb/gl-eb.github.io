@@ -15,6 +15,7 @@ website:
   navbar:
     right:
       - lecture_notes/index.qmd
+
   page-footer:
     left:
       "Built using [Quarto](https://quarto.org/). Copyright 2022, Gleb Ebert"

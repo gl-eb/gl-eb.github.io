@@ -2,23 +2,20 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!nature.qmd"
-    - "!projects.qmd"
   resources:
     - "*.pdf"
 
 website:
   title: Gleb Ebert
   site-url: "https://www.glebsite.ch/"
+  repo-url: "https://github.com/gl-eb/gl-eb.github.io"
   description: This is Gleb Ebert's personal website.
     You can learn about me and what I do here.
   # favicon: images/favicon.png
   navbar:
     right:
-      # - projects.qmd
-      # - nature.qmd
       - lecture_notes/index.qmd
-      # - about.qmd
+
   page-footer:
     left:
       "Built using [Quarto](https://quarto.org/). Copyright 2022, Gleb Ebert"

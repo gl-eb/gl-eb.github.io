@@ -14,7 +14,10 @@ about:
     - icon: github
       text: GitHub
       href: "https://github.com/gl-eb/"
-    - icon: envelope
+    - icon: camera-fill
+      text: Flickr
+      href: "https://www.flickr.com/photos/glebebert/"
+    - icon: envelope-fill
       text: Email
       href: "mailto:gleb.ebert@env.ethz.ch"
 ---

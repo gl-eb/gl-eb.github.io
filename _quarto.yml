@@ -2,7 +2,6 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!projects.qmd"
   resources:
     - "*.pdf"
 
@@ -15,11 +14,7 @@ website:
   # favicon: images/favicon.png
   navbar:
     right:
-      # - projects.qmd
-      - photography.qmd
-      # - birding.qmd
       - lecture_notes/index.qmd
-      # - about.qmd
   page-footer:
     left:
       "Built using [Quarto](https://quarto.org/). Copyright 2022, Gleb Ebert"

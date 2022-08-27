@@ -5,21 +5,21 @@ image: /images/gleb_square.jpg
 about:
   template: solana # broadside, trestles
   links:
-    - icon: twitter
-      text: Twitter
-      href: "https://twitter.com/gl_eb"
     - icon: search
       text: "ORCID"
       href: "https://orcid.org/0000-0002-7734-3824"
+    - icon: twitter
+      text: Twitter
+      href: "https://twitter.com/gl_eb"
     - icon: github
       text: GitHub
       href: "https://github.com/gl-eb/"
-    - icon: camera-fill
-      text: Flickr
-      href: "https://www.flickr.com/photos/glebebert/"
     - icon: envelope-fill
       text: Email
       href: "mailto:gleb.ebert@env.ethz.ch"
+    - icon: camera-fill
+      text: Flickr
+      href: "https://www.flickr.com/photos/glebebert/"
 ---
 
 I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis*, an antarctic marine bacterium.

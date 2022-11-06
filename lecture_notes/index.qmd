@@ -19,7 +19,7 @@ each set of lecture notes. To see what changed, go to the respective changelog.
 
 :::{.callout-warning}
 As of the autumn semester 2020 the study programme of the Bachelor in Biology
-at ETH Zurich has been reworked The lecture notes provided here were compiled
+at ETH Zurich has been reworked. The lecture notes provided here were compiled
 under the previous study programme (2013).
 Thus even more care should be taken when using them.
 :::

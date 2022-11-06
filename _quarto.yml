@@ -19,7 +19,7 @@ website:
   page-footer:
     left:
       Built using [Quarto](https://quarto.org/). Copyright 2022,
-      <a rel="me" href="https://qoto.org/@gleb">Gleb Ebert</a>
+      <a rel="me" href="https://mstdn.science/@gleb">Gleb Ebert</a>
     right:
       - icon: github
         href: https://github.com/gl-eb/gl-eb.github.io

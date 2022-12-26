@@ -15,24 +15,22 @@ website:
   navbar:
     right:
       - lecture_notes/index.qmd
-
   page-footer:
     left:
-      Built using [Quarto](https://quarto.org/). Copyright 2022,
-      <a rel="me" href="https://mstdn.science/@gleb">Gleb Ebert</a>
+      'Built using [Quarto](https://quarto.org/) v<?quarto.version?> and hosted
+      on [{{< iconify simple-icons github >}}](https://github.com/gl-eb/gl-eb.github.io)'
     right:
-      - icon: github
-        href: https://github.com/gl-eb/gl-eb.github.io
+      '© 2022 Gleb Ebert'
   twitter-card:
     creator: "@gl_eb"
   open-graph: true
-    # title: "Gleb Ebert's Website"
 
 format:
   html:
     lang: en
-    theme: litera # cosmo, simplex, zephyr
-    css: styles.css
+    theme:
+      - litera
+      # - style.scss
     toc: false
     link-external-newwindow: true
     link-external-icon: false
@@ -42,3 +40,6 @@ execute:
   freeze: auto
 
 # editor: visual
+
+filters:
+  - quarto-version.lua

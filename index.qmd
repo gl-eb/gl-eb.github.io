@@ -13,7 +13,8 @@ about:
       href: "https://twitter.com/gl_eb"
     - icon: mastodon
       text: Mastodon
-      href: "https://qoto.org/@gleb"
+      href: "https://mstdn.science/@gleb"
+      rel: "me"
     - icon: github
       text: GitHub
       href: "https://github.com/gl-eb/"

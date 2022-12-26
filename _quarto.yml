@@ -30,8 +30,9 @@ website:
 format:
   html:
     lang: en
-    theme: litera # cosmo, simplex, zephyr
-    css: styles.css
+    theme:
+      - litera
+      # - style.scss
     toc: false
     link-external-newwindow: true
     link-external-icon: false

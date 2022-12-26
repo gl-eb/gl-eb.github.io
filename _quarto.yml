@@ -15,7 +15,6 @@ website:
   navbar:
     right:
       - lecture_notes/index.qmd
-
   page-footer:
     left:
       'Built using [Quarto](https://quarto.org/) v<?quarto.version?> and hosted
@@ -25,7 +24,6 @@ website:
   twitter-card:
     creator: "@gl_eb"
   open-graph: true
-    # title: "Gleb Ebert's Website"
 
 format:
   html:

@@ -8,9 +8,6 @@ about:
     - icon: search
       text: "ORCID"
       href: "https://orcid.org/0000-0002-7734-3824"
-    - icon: twitter
-      text: Twitter
-      href: "https://twitter.com/gl_eb"
     - icon: mastodon
       text: Mastodon
       href: "https://mstdn.science/@gleb"

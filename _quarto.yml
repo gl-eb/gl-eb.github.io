@@ -20,9 +20,7 @@ website:
       'Built using [Quarto](https://quarto.org/) v<?quarto.version?> and hosted
       on [{{< iconify simple-icons github >}}](https://github.com/gl-eb/gl-eb.github.io)'
     right:
-      '© 2022 Gleb Ebert'
-  twitter-card:
-    creator: "@gl_eb"
+      '© 2023 Gleb Ebert'
   open-graph: true
 
 format:

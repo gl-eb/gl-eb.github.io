@@ -21,8 +21,6 @@ website:
       on [{{< iconify simple-icons github >}}](https://github.com/gl-eb/gl-eb.github.io)'
     right:
       '© 2023 Gleb Ebert'
-  twitter-card:
-    creator: "@gl_eb"
   open-graph: true
 
 format:

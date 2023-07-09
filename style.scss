@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+
+// Typography
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+
+$font-family-serif: Raleway;
+
+html {
+    font-family: $font-family-serif;
+}

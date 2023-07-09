@@ -5,21 +5,16 @@ image: /images/gleb_square.jpg
 about:
   template: solana # broadside, trestles
   links:
-    - icon: search
-      text: "ORCID"
+    - text: "{{< iconify fa6-regular envelope >}} Email"
+      href: "mailto:gleb.ebert@env.ethz.ch"
+    - text: "{{< iconify fa6-brands orcid >}} OrcID"
       href: "https://orcid.org/0000-0002-7734-3824"
-    - icon: mastodon
-      text: Mastodon
+    - text: "{{< iconify fa6-brands github >}} GitHub"
+      href: "https://github.com/gl-eb/"
+    - text: "{{< iconify fa6-brands mastodon >}} Mastodon"
       href: "https://mstdn.science/@gleb"
       rel: "me"
-    - icon: github
-      text: GitHub
-      href: "https://github.com/gl-eb/"
-    - icon: envelope-fill
-      text: Email
-      href: "mailto:gleb.ebert@env.ethz.ch"
-    - icon: camera-fill
-      text: Flickr
+    - text: "{{< iconify fa6-brands flickr >}} Flickr"
       href: "https://www.flickr.com/photos/glebebert/"
 ---
 

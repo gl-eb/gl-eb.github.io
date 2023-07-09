@@ -14,26 +14,19 @@ on:
     branches: main
 
 jobs:
-  quarto:
+  build-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v3
-      - name: Install Quarto
+
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: pre-release
-      - name: Setup Pages
-        uses: actions/configure-pages@v1
-      - name: Render Website
-        run: quarto render
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          path: '_site'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@main
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -28,7 +28,7 @@ format:
     lang: en
     theme:
       - litera
-      # - style.scss
+      - style.scss
     toc: false
     link-external-newwindow: true
     link-external-icon: false

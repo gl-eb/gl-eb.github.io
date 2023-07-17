@@ -48,6 +48,19 @@ $eth-blue-dark: #08407E;
     font-weight: 600;
 }
 
+div.quarto-about-solana .about-entity .entity-contents {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    .about-links {
+        column-gap: 0.5em;
+    }
+
+    .about-link:hover {
+        color: $eth-blue-dark;
+    }
+}
+
 .about-contents {
     text-align: justify;
 }

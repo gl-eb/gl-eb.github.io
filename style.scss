@@ -1,5 +1,25 @@
 /*-- scss:defaults --*/
 
+// mixins
+
+@mixin links() {
+    a {
+        color: $eth-blue;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $eth-blue-dark;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: $eth-blue;
+    }
+}
+
+
 // typography
 
 @import url(
@@ -9,6 +29,8 @@
 );
 
 $font-family-serif: Raleway;
+$eth-blue: #215CAF;
+$eth-blue-dark: #08407E;
 
 // global styling
 :root body {

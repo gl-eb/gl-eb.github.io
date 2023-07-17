@@ -35,6 +35,11 @@ $eth-blue-dark: #08407E;
 // global styling
 :root body {
     font-family: $font-family-serif;
+    @include links;
+
+    h1 {
+        font-weight: 700;
+    }
 }
 
 .about-contents {

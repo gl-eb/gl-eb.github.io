@@ -63,4 +63,6 @@ div.quarto-about-solana .about-entity .entity-contents {
 
 .about-contents {
     text-align: justify;
+    font-weight: 400;
+    @include links;
 }

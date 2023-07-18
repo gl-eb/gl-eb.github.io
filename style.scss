@@ -1,13 +1,118 @@
 /*-- scss:defaults --*/
 
-// Typography
+// fonts
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway");
+@import url(
+    "https://fonts.googleapis.com/css2?" +
+    "family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400" +
+    "&display=swap"
+);
 
-$font-family-serif: Raleway;
+// custom variables
 
-html {
-    font-family: $font-family-serif;
+$font-main: Raleway;
+
+$eth-blue: #215CAF;
+$eth-blue-dark: #08407E;
+$eth-petrol: #007894;
+$eth-petrol-dark: #00596D;
+$eth-green: #627313;
+$eth-green-dark: #365213;
+$eth-bronze: #8E6713;
+$eth-bronze-dark: #956013;
+$eth-red: #B7352D;
+$eth-red-dark: #96272D;
+$eth-purple: #A7117A;
+$eth-purple-dark: #8C0A59;
+$eth-grey: #6F6F6F;
+$eth-grey-dark: #575757;
+
+$color-main: $eth-blue-dark;
+
+// theme variables
+
+$primary: $color-main;
+
+$callout-color-note: $eth-blue;
+$callout-color-tip: $eth-green;
+$callout-color-caution: $eth-bronze;
+$callout-color-warning: $eth-red;
+$callout-color-important: $eth-purple;
+
+$font-family-sans-serif: $font-main;
+$font-family-serif: $font-main;
+$link-color: $color-main;
+
+
+/* -- scss:mixins --*/
+
+@mixin links() {
+    a {
+        color: $eth-blue;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $eth-blue-dark;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: $eth-blue;
+    }
+}
+
+
+/*-- scss:rules --*/
+
+// global styling
+
+:root body {
+    @include links;
+
+    h1 {
+        font-weight: 700;
+    }
+}
+
+// navbar
+
+.navbar .navbar-brand:hover {
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav {
+    .nav-link:hover,
+    .nav-link.active {
+        color: $eth-blue-dark;
+    }
+
+    .nav-link.active {
+        text-decoration: underline;
+    }
+}
+
+// footer
+
+.footer .nav-footer a {
+    color: theme-contrast($footer-bg, $footer-bg, "AA");
+    text-decoration: underline;
+}
+
+// about page
+
+div.quarto-about-solana .about-entity .entity-contents {
+    h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .about-links {
+        font-size: 1.2rem;
+        font-weight: 600;
+        column-gap: 0.5em;
+    }
 }
 
 .about-contents {

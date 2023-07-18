@@ -2,7 +2,7 @@ name: Quarto Publish
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 on:
   workflow_dispatch:

@@ -5,6 +5,7 @@ format:
   html:
     toc: true
     toc-location: left
+    toc-expand: true
 ---
 
 Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for

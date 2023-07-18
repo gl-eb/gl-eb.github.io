@@ -11,11 +11,33 @@
 // custom variables
 
 $font-main: Raleway;
+
 $eth-blue: #215CAF;
 $eth-blue-dark: #08407E;
+$eth-petrol: #007894;
+$eth-petrol-dark: #00596D;
+$eth-green: #627313;
+$eth-green-dark: #365213;
+$eth-bronze: #8E6713;
+$eth-bronze-dark: #956013;
+$eth-red: #B7352D;
+$eth-red-dark: #96272D;
+$eth-purple: #A7117A;
+$eth-purple-dark: #8C0A59;
+$eth-grey: #6F6F6F;
+$eth-grey-dark: #575757;
+
 $color-main: $eth-blue-dark;
 
 // theme variables
+
+$primary: $color-main;
+
+$callout-color-note: $eth-blue;
+$callout-color-tip: $eth-green;
+$callout-color-caution: $eth-bronze;
+$callout-color-warning: $eth-red;
+$callout-color-important: $eth-purple;
 
 $font-family-sans-serif: $font-main;
 $font-family-serif: $font-main;

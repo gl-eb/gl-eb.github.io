@@ -102,15 +102,17 @@ $link-color: $color-main;
 
 // about page
 
-#title-block-header h1 {
-    font-size: 3rem;
-    font-weight: 600;
-}
+div.quarto-about-solana .about-entity .entity-contents {
+    h1 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
 
-div.quarto-about-solana .about-entity .entity-contents .about-links {
-    font-size: 1.2rem;
-    font-weight: 600;
-    column-gap: 0.5em;
+    .about-links {
+        font-size: 1.2rem;
+        font-weight: 600;
+        column-gap: 0.5em;
+    }
 }
 
 .about-contents {

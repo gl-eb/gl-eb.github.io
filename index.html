@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.232">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -46,6 +46,11 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -62,9 +67,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Gleb Ebert">
-<meta property="og:description" content="">
+<meta property="og:description" content="This is Gleb Ebert’s personal website. You can learn about me and what I do here.">
 <meta property="og:image" content="https://www.glebsite.ch//images/gleb_square.jpg">
-<meta property="og:site-name" content="Gleb Ebert">
+<meta property="og:site_name" content="Gleb Ebert">
+<meta property="og:image:alt" content="A close-up photo of Gleb Ebert, a white man in his mid-twenties.
+He has short brown hair, a short beard, and is smiling.
+The background shows an arcade in a modern building.
+">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -73,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Gleb Ebert</span>
     </a>
@@ -89,9 +98,9 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Lecture Notes</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -128,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
   </a>
 </div>
       <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a doctoral student in the <a href="https://evomicrobio.ethz.ch/">evolutionary microbiology group</a> at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I aim to investigate using experimental evolution and genomics approaches. In particular, my PhD research concerns with the upper limits of thermal adaptation of <em>Pseudoalteromonas haloplanktis</em>, an antarctic marine bacterium.</p>
+<p>I am a doctoral student in the <a href="https://evomicrobio.ethz.ch/">evolutionary microbiology group</a> at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics. In particular, my PhD research concerns with the upper limits of thermal adaptation of <em>Pseudoalteromonas haloplanktis</em>, a cold-adapted strain from the antarctic of a globally distributed marine bacterium.</p>
 <p>I enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time. <!-- Check out my [projects](projects.qmd) page to see some examples that have made it onto GitHub. --></p>
 <p>I also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can <!-- learn more on my [nature](nature.qmd) page or --> take a look at my work on <a href="https://www.flickr.com/photos/glebebert/">Flickr</a>.</p>
 <section id="education" class="level2">
@@ -141,7 +150,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </main></div>
     </div>
-    <img src="/images/gleb_square.jpg" class="about-image
+    <img src="/images/gleb_square.jpg" alt="A close-up photo of Gleb Ebert, a white man in his mid-twenties.
+He has short brown hair, a short beard, and is smiling.
+The background shows an arcade in a modern building.
+" class="about-image
   rounded " style="width: 15em;">
   </div>
 </div>
@@ -218,10 +230,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -231,8 +242,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -245,6 +265,66 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -288,6 +368,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -389,13 +470,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Built using <a href="https://quarto.org/">Quarto</a> v1.3.433 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
+    <div class="nav-footer-left">
+<p>Built using <a href="https://quarto.org/">Quarto</a> v1.4.232 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">© 2023 Gleb Ebert</div>
+    <div class="nav-footer-right">
+<p>© 2023 Gleb Ebert</p>
+</div>
   </div>
 </footer>
+
 
 
 

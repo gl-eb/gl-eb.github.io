@@ -20,7 +20,7 @@
 }
 
 
-// typography
+// fonts
 
 @import url(
     "https://fonts.googleapis.com/css2?" +
@@ -28,13 +28,24 @@
     "&display=swap"
 );
 
-$font-family-serif: Raleway;
+// custom variables
+
+$font-main: Raleway;
 $eth-blue: #215CAF;
 $eth-blue-dark: #08407E;
+$color-main: $eth-blue-dark;
+
+// theme variables
+
+$font-family-sans-serif: $font-main;
+$font-family-serif: $font-main;
+$link-color: $color-main;
+
+/*-- scss:rules --*/
 
 // global styling
+
 :root body {
-    font-family: $font-family-serif;
     @include links;
 
     h1 {
@@ -44,49 +55,36 @@ $eth-blue-dark: #08407E;
 
 // navbar
 
-.navbar {
-    .navbar-brand:hover,
-    .navbar-nav .nav-link {
-        text-decoration: none;
-    }
+.navbar .navbar-brand:hover {
+    text-decoration: none;
 }
 
-.navbar-dark {
-    .navbar-brand:hover {
-        color: $eth-blue-dark
+.navbar-dark .navbar-nav {
+    .nav-link:hover,
+    .nav-link:hover .menu-text,
+    .nav-link.active,
+    .nav-link.active .menu-text {
+        color: $eth-blue-dark;
     }
 
-    .navbar-nav {
-        .nav-link:hover,
-        .nav-link:hover .menu-text,
-        .nav-link.active,
-        .nav-link.active .menu-text {
-            color: $eth-blue-dark;
-        }
+    .nav-link.active {
+        text-decoration: underline;
     }
 }
 
 // about page
+
 #title-block-header h1 {
     font-size: 3rem;
     font-weight: 600;
 }
 
-div.quarto-about-solana .about-entity .entity-contents {
+div.quarto-about-solana .about-entity .entity-contents .about-links {
     font-size: 1.2rem;
     font-weight: 600;
-
-    .about-links {
-        column-gap: 0.5em;
-    }
-
-    .about-link:hover {
-        color: $eth-blue-dark;
-    }
+    column-gap: 0.5em;
 }
 
 .about-contents {
     text-align: justify;
-    font-weight: 400;
-    @include links;
 }

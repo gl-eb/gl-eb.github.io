@@ -1,115 +1,108 @@
 [
   {
-    "objectID": "lecture_notes/systems_bio.html",
-    "href": "lecture_notes/systems_bio.html",
-    "title": "Systembiologie (FS18)",
+    "objectID": "protocols-phtac/plate_cleaning.html",
+    "href": "protocols-phtac/plate_cleaning.html",
+    "title": "Deep Well Plate Cleaning",
     "section": "",
-    "text": "systems_bio_mettier-ebert_v1-3.pdf"
+    "text": "This is Roman Gort’s protocol to clean and sterilise reusable deep well plates\n\nAutoclave plates with bacterial cultures using program #7 (liquid waste)\nIf no heat-resistant antibiotics were inside, empty and rinse the plates in the sink using tap water\nPlace the plates inside the cleaning bath for 24h. If no bath is ready to use, fill one of the big plastic tubs with 12 L of tap water, add 120 mL detergent and mix well\nFurther clean the plates using dish washer program #5. For this, place the plates upside down in the metal basket (leaving one or two out in the middle because the water jets don’t reach there) and weigh them with a metal grid. Place the plate lids inside of the metal cage on the top dish washer drawer\nOnce clean, place the plates and lids standing on their side in the drying machine at 70°C for 3 hours\nPut two pieces of autoclaving tape on the plate lids perpendicularly across the plate lid and down the sides to keep the lid on the plate. Stick the very end of the autoclaving tape back on itself the make it easier to take it off later\nCut off pieces of the autoclaving bag in the necessary length for the amount of plates you would like per bag. Make sure to leave enough extra on both ends to seal the bag\nPlace the welding machine on the bench and a bottom side-up metal tray next to it. Make at least three welds on one side of the bag, moving the bag by a few millimeters between each weld. Make sure to press down on the welder to create a proper seal and hold the welder a bit longer for the first of the welds to make sure it warms up properly\nPlace plates inside of the bag and make at least three welds on the other side of the bag to seal it. Finally, stick a piece of autoclave tape to the back of the bag and label it\nPut the metal frame inside of the autoclave, place a bottle rack inside and prop the bags with the plates up in a standing position between the spikes. Use autoclave program #10, which sterilises for 20 instead of 30 minutes but has a longer drying phase afterwards\nPlates are ready to use!"
   },
   {
-    "objectID": "lecture_notes/systems_bio.html#changelog",
-    "href": "lecture_notes/systems_bio.html#changelog",
-    "title": "Systembiologie (FS18)",
+    "objectID": "protocols-phtac/media.html",
+    "href": "protocols-phtac/media.html",
+    "title": "Media preparation",
+    "section": "",
+    "text": "Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode\nWe usually run a short 15/20 minute liquid cycle (number 006), but longer liquid cycles are permissible"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#general-notes-on-autoclaving",
+    "href": "protocols-phtac/media.html#general-notes-on-autoclaving",
+    "title": "Media preparation",
+    "section": "",
+    "text": "Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode\nWe usually run a short 15/20 minute liquid cycle (number 006), but longer liquid cycles are permissible"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter",
+    "href": "protocols-phtac/media.html#minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter",
+    "title": "Media preparation",
+    "section": "Minimal Marine Sea Water (MSW) + D-Gluconic Acid 0.1% (1 liter)",
+    "text": "Minimal Marine Sea Water (MSW) + D-Gluconic Acid 0.1% (1 liter)\n\nAutoclave one empty 1 L bottle and 1 L of MilliQ in a separate bottle\nAfter autoclaving, add MilliQ and magnetic stir bar to beaker. Then, add the following chemicals (use high-precision scale in antibiotic station for the last two ingredients):\n\n1.0g D-Gluconic acid sodium salt\n1.0g KH2PO4\n1.0g H4N2O3\n10.0g NaCl\n0.2g MgSO47H2O\n10mg FeSO47H2O\n10mg CaCl22H2O\n\nAdjust pH to 7\n\nTurn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes\nWhile stirring, lower the electrode into the liquid medium and press the measure button\nAdd NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH\nWhen done, rinse and dry the electrode before putting in back into the storage solution and turninig off the pH meter\n\nSterile filtration\n\nInside a sterile hood, screw the sterile filter onto the autoclaved empty bottle\nBack in J18, turn on the vacuum pump and stick the hose onto the sterile filter nozzle\nAdd the liquid medium (and any remaining autoclaved water) to the sterile filter\nFirst take the hose off the nozzle, then turn off the vacuum pump\nFinally, screw off the sterile filter in a hood and close the bottle with its cap\n\nClean up and storage\n\nWipe bench and scales\nTurn off stirring plate, scales and pH meter (if not off already)\nPut away dry beakers, spatulas and weighing boats before washing your own ones\nLabel liquid medium bottle with “MSW + D-Gluc.”, your name and the date\nStore in the fridge at 4°C"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#minimal-marine-sea-water-agar-1-mswa-d-gluconic-acid-0.1-1-liter",
+    "href": "protocols-phtac/media.html#minimal-marine-sea-water-agar-1-mswa-d-gluconic-acid-0.1-1-liter",
+    "title": "Media preparation",
+    "section": "Minimal Marine Sea Water Agar 1% (MSWA) + D-Gluconic Acid 0.1% (1 liter)",
+    "text": "Minimal Marine Sea Water Agar 1% (MSWA) + D-Gluconic Acid 0.1% (1 liter)\n\nDissolve 15g of BactoAgar in 800 mL of MilliQ, then add to 1 L bottle\nAutoclave agar and 200 mL of MilliQ in a separate (e.g. 250 mL) bottle\nAfter autoclaving, add 200 mL MilliQ and magnetic stir bar to beaker. Then, add the following chemicals (use high-precision scale in antibiotic station for the last two ingredients)\n\n1.0g D-Gluconic acid sodium salt\n1.0g KH2PO4\n1.0g H4N2O3\n10.0g NaCl\n0.2g MgSO47H2O\n10mg FeSO47H2O\n10mg CaCl22H2O\n\nAdjust pH to 7\n\nTurn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes\nWhile stirring, lower the electrode into the liquid medium and press the measure button\nAdd NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH\nWhen done, rinse and dry the electrode before putting in back into the storage solution and turninig off the pH meter\n\nSterile filtration\n\nInside a sterile, screw the sterile filter onto the autoclaved bottle containing 800 mL agar\nBack in J18, turn on the vacuum pump and stick the hose onto the sterile filter nozzle\nAdd the liquid medium (and any remaining autoclaved water) to the sterile filter\nFirst take the hose of the nozzle, then turn off the vacuum pump\nFinally, screw off the sterile filter in a hood and close the bottle with its cap. Mix well by swirling and inverting\n\nClean up and storage\n\nWipe bench and scales\nTurn off stirring plate, scales and pH meter (if not off already)\nPut away dry beakers, spatulas and weighing boats before washing your own ones\nLabel medium bottle with “MSWA + D-Gluc.”, your name and the date. Preferably pour agar plates immediately (otherwise heat-sensitive components might decay). Otherwise store in media incubator at 50°C"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#marine-broth-mb-1-liter",
+    "href": "protocols-phtac/media.html#marine-broth-mb-1-liter",
+    "title": "Media preparation",
+    "section": "Marine broth (MB) (1 liter)",
+    "text": "Marine broth (MB) (1 liter)\n\nFirst, check the Marine broth 2216 (Sigma Aldrich) bottle for instructions. If they exist, follow those instead of this protocol.\nAdd 37.4 g of Marine broth 2216 powder to roughly 900 mL of MilliQ. Once dissolved, fill volume up to 1000 mL, then add to 1L bottle\nAutoclave and store in the fridge at 4°C"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#marine-agar-ma-1-liter",
+    "href": "protocols-phtac/media.html#marine-agar-ma-1-liter",
+    "title": "Media preparation",
+    "section": "Marine agar (MA) (1 liter)",
+    "text": "Marine agar (MA) (1 liter)\n\nFirst, check the Marine broth 2216 (Sigma Aldrich) bottle for instructions. If they exist, follow those instead of this protocol\nAdd 15 g of BactoAgar to roughly 900mL of MilliQ\nAdd 37.4 g of Marine broth 2216 powder the beaker. Once dissolved (excluding the agar), add to 1 L bottle\nAfter autoclaving, store bottle in 50°C incubator to prevent solidifying"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#casitone-tris-ctt-liquid-1-liter",
+    "href": "protocols-phtac/media.html#casitone-tris-ctt-liquid-1-liter",
+    "title": "Media preparation",
+    "section": "Casitone-Tris (CTT) liquid (1 liter)",
+    "text": "Casitone-Tris (CTT) liquid (1 liter)\n\nDissolve the following components in 900 mL MilliQ:\n\n10 mL 1.0 M Trish-HCl (pH 8.0)\n10 mL 0.8 M MgSO4\n10g Bacto Casitone\n\nFill up volume to 1 L with MilliQ and adjust pH to 7.6\nAutoclave using cycle 003 (liquid media, 50 min at 121°C)\nAfter cooling &lt;50°C add 1 mL 1 M KH2PO4-K2HPO4"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#phosphate-buffered-saline-pbs-1-liter-of-10x-solution",
+    "href": "protocols-phtac/media.html#phosphate-buffered-saline-pbs-1-liter-of-10x-solution",
+    "title": "Media preparation",
+    "section": "Phosphate-Buffered Saline (PBS; 1 liter of 10x solution)",
+    "text": "Phosphate-Buffered Saline (PBS; 1 liter of 10x solution)\nInstructions according to Sigma\n\nDissolve the following components in 900 mL MilliQ:\n\n17.8 g of Na2HPO42H2O\n2.4 g of KH2PO4\n80 g of NaCl\n2 g of KCl\n\nAdjust final volume to 1 L with MilliQ\nMeasure pH using the pH meter. The pH of the 10X stock will be approximately 6.8, but when diluted to 1x PBS the pH should change to 7.4\nAutoclave or filter-sterilize into a sterile bottle\nStore in the fridge at 4°C"
+  },
+  {
+    "objectID": "protocols-phtac/index.html",
+    "href": "protocols-phtac/index.html",
+    "title": "Protocols for Working With Pseudoalteromonas haloplanktis TAC125",
+    "section": "",
+    "text": "This site contains a collection of protocols for working with the psychrophilic bacterium Pseudoalteromonas haloplanktis TAC125. The protocol were written during my PhD at ETH Zurich in the evolutionary microbiology group and will thus contain instructions specific to that lab. Protocols are provided as is without any guarantees.\nPDF versions of all protocols are available under the table of contents on the left on each protocol’s subpage.\n\n\n\n\n\n\n\n\n\n\n\nFreezer Stocks\n\n\nVersion 1.4\n\n\n\n\n\n\n\n\n\n\nMedia preparation\n\n\nVersion 1.4\n\n\n\n\n\n\n\n\n\n\nMolecular Assays\n\n\nVersion 1.5\n\n\n\n\n\n\n\n\n\n\nDeep Well Plate Cleaning\n\n\nVersion 0.2\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lecture_notes/statistics_1.html",
+    "href": "lecture_notes/statistics_1.html",
+    "title": "Statistik I (FS17)",
+    "section": "",
+    "text": "statistics_1_ebert_v7.pdf\n\nchangelog\n\n\nv7 (30.01.2018)\n\n8.2: binomcdf sollte poissoncdf sein\n\n\n\nv6.1 (18.10.2017)\n\nlink zu ../index.html eingefügt\n\n\n\nv6 (18.10.2017)\n\n2.7: referenz zu 4.3.1 eingefügt\n8: kapitel zur berechnung von poissonpdf und poissoncdf hinzugefügt\n\n\n\nv5.1 (10.08.2017)\n\n3.2.2 5): p(x&gt;x) = 1-p(x&lt;=x) statt = p(x&lt;=x)\n\n\n\nv5 (10.08.2017)\n\nfehler im verwerfungsbereich für ungepaarten t-test bei mu_x &gt; mu_y behoben. die untere grenze ist nun richtigerweise negativ.\n\n\n\nv4 (03.08.2017)\n\nergänzung zum wurzel-n-gesetz\nformel für einseitige vertraünsintervalle\n\n\n\nv3.1 (01.08.2017)\n\nkorrektur der erläuterungen zur benutzung der tabelle der kumulativen normalverteilung\n\n\n\nv3 (01.08.2017)\n\npapierformat von us letter auf a4 geändert\neinige rechtschreibefehler entfernt\nnormalapproximation des vi und des verwerfungsbereiches getrennt, da diese nichts miteinander zutun haben.\n3.2.2 teil über fehler leicht umgeschrieben (neu mit 100% mehr wahrscheinlichkeiten).\n4.5.3 fallunterscheidung zwischen ein- und zweiseitigem vertraünsintervall\nvergleich ungepaarter und gepaarter t-test\nvergleich vertraüns- und vorhersageintervall\nverteilung unter h_0 beim vorzeichentest\nkovarianz: erweiterte definition und rechenregeln (zweiteres unter “funktionen von mehreren zufallsvariablen”)\nberechnung des p-werts beim t-test\nberechnug von empirischen qüartilen\nerläuterungen zur benutzung der tabelle der kumulativen normalverteilung\n\n\n\nv2 (09.07.2017)\n\nerwartungswert und varianz der binomialverteilung\n95%-vi für z- und t-tests\nkorrektur der formel für s_pool\nerläuterungen zur tabelle der kumulativen normalverteilung\n\n\n\nv1 (06.07.2017)\n\ninitial release"
+  },
+  {
+    "objectID": "lecture_notes/plant_sys.html",
+    "href": "lecture_notes/plant_sys.html",
+    "title": "Systematische Biologie: Pflanzen (FS18)",
+    "section": "",
+    "text": "plant_sys_ebert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/plant_sys.html#changelog",
+    "href": "lecture_notes/plant_sys.html#changelog",
+    "title": "Systematische Biologie: Pflanzen (FS18)",
     "section": "changelog",
-    "text": "changelog\n\nv1.3 (10.08.2018)\n\nviele kleine rechtschreibe- und formatierungsfehler verbessert\nkapitel 1\n\nweitere annahmen des massenwirkungsgesetzes\nannahme der gesättigten enzyme bei michaelis-menten war falsch und wurde entfernt\nfolgen auf den kurvenverlauf bei veränderung der parameter\n\nkapitel 2\n\n*[A] auf pfeil in reaktion für dimerisierung entfernt\n\nkapitel 3\n\ngrafik aus 3.2.2 entfernt, da sie nicht viel aussagt\n\nkapitel 5\n\nanmerkung zu ein- und ausfluss von systemen bei zweitem lernziel\n5.2.5 a): in lösung v_2 zu v_3 korrigiert\n5.2.5 b): in aufgabenstellung v_S zu v_6 und v_4 zu v_1 korrigiert\n5.2.5 b): lösung korrigiert und erklärt\n\nkapitel 7\n\n7.2.1 b): lösung korrigiert\n\nkapitel 8\n\neinsichten aus data mining überarbeitet\nstatistisches rauschen unter typischen problemen ergänzt\nmultiples testen: pi0 ist jetzt tatsächlich pi_0\nfdr: pi_0 ist etwa 1, nicht kleiner 1\n\n\n\n\nv1.2 (04.08.2018)\n\naufgabe 1.2.2: lösung korrigiert\nkapitel 4: keratin durch kreatin ersetzt\naufgabe 4.2.2: annhame des konstanten zellvolumens hinzugefügt\nkapitel 5: punkt über omics-daten besser erklärt\naufgabe 5.2.2\n\nin der fragestellung ist e zu E gewachsen\nlösung zu b) korrigiert\n\naufgabe 5.2.3\n\na): stchiometrische -&gt; stöchiometrische\nlösungen zu a) und b) korrigiert\n\naufgabe 5.2.5: lösung zu b) korrigiert\nkapitel 7.2.1: variablen zur besseren verständlichkeit umbenannt\n\n\n\nv1.1 (29.07.2018)\n\nverlorene umlautpunkte gefunden und sonstige tippfehler behoben\naufgabe 5.2.4 a): speichern der resultate in eigene anweisung umgewandelt\nkapitel 7: anleitung zur graphischen darstellung von kombinationen mehrerer ultrasensitiver schritte hinzugefügt\n\n\n\nv1 (26.07.2018)\n\nerste veröffentlichte version"
+    "text": "changelog\n\nv1.1 (22.08.2018)\n\nviele kleinere verbesserungen, die den inhalt nicht ändern\nkapitel 1.1.1: sporopollonin -&gt; sporopollenin\nkapitel 2.4: antheceropsida -&gt; anthoceropsida\nkapitel 6.4: zwei samenanlagen zu einem punkt vereint\nkapitel 6.8.4: lilium und narcissus nicht prüfungsrelevant\nkapitel 6.8.8: haunsimse -&gt; hainsimse\nkapitel 6.8.9: ohne kolben -&gt; ohne knoten\nkapitel 6.10.3: anemone (deutscher name) -&gt; windröschen\nkapitel 6.10.5: alechmilla -&gt; alchemilla\nkapitel 6.10.10: teucrium nicht prüfungsrelevant\nkapitel 6.10.15: asperula entfernt, da waldmeister nicht mehr dazu gehört\nkapitel 6.10.16: scabiose -&gt; scabiosa\nkapitel 6.10.18: carylus -&gt; corylus\n\n\n\nv1 (13.07.2018)\n\nneunte bis zwölfte Vorlesungen hinzugefügt\nformat angepasst\n\n\n\nv0.6 (17.04.2018)\n\nsiebte und achte Vorlesungen hinzugefügt\n\n\n\nv0.5 (27.03.2018)\n\nsechste Vorlesung hinzugefügt\n\n\n\nv0.4 (20.03.2018)\n\nfünfte Vorlesung hinzugefügt\n\n\n\nv0.3 (13.03.2018)\n\nvierte Vorlesung hinzugefügt\n\n\n\nv0.2 (06.03.2018)\n\ndritte Vorlesung hinzugefügt\nspalten- und seitenumbrüche eingefügt\n\n\n\nv0.1 (01.03.2018)\n\nerste zwei Vorlesungen hinzugefügt"
   },
   {
-    "objectID": "lecture_notes/pop_gen.html",
-    "href": "lecture_notes/pop_gen.html",
-    "title": "Population and Quantitative Genetics (HS18)",
+    "objectID": "lecture_notes/mycology.html",
+    "href": "lecture_notes/mycology.html",
+    "title": "Mykologie (HS17)",
     "section": "",
-    "text": "lmmb_mettier-ebert_v1-1.pdf"
+    "text": "mykologie_GlebEbert_v1-2.pdf"
   },
   {
-    "objectID": "lecture_notes/pop_gen.html#changelog",
-    "href": "lecture_notes/pop_gen.html#changelog",
-    "title": "Population and Quantitative Genetics (HS18)",
+    "objectID": "lecture_notes/mycology.html#changelog",
+    "href": "lecture_notes/mycology.html#changelog",
+    "title": "Mykologie (HS17)",
     "section": "changelog",
-    "text": "changelog\n\nv1.2 (07.10.2019)\n\n1.5: elaborated on the De Finetti diagram\n3.1: bottleneck is no longer capitalized\n6.2.3: fixed formula of population mutation parameter\n8: fixed second formula for V_P\n9.2: added NSH\n10.1.4: reprodcution -&gt; reproduction\n11.3: fixed formula for Aa in table\n11.6: H is proportional to the quare […] -&gt; square\n\n\n\nv1.1 (06.07.2019)\n\nfixed hyperlinks\n\n\n\nv1 (02.07.2019)\n\nadded all remaining lectures\n\n\n\nv0.1 (24.09.2018)\n\ninitial release\nfirst lecture"
-  },
-  {
-    "objectID": "lecture_notes/phys_chem_2.html",
-    "href": "lecture_notes/phys_chem_2.html",
-    "title": "Physikalische Chemie 2 (FS18)",
-    "section": "",
-    "text": "phys_chem_2_ebert_v1.pdf"
-  },
-  {
-    "objectID": "lecture_notes/phys_chem_2.html#changelog",
-    "href": "lecture_notes/phys_chem_2.html#changelog",
-    "title": "Physikalische Chemie 2 (FS18)",
-    "section": "changelog",
-    "text": "changelog\n\nv1.1 (08.08.2018)\n2.1.1: vermerkt zu D bezüglich molekül-lösungsmittel-interaktionen\n2.2.2\n\nerklärungen zu c’_w, c’’_w, c’_m und c’’_m\nc’_w und c’’_w jetzt richtig rum in formel zu gross-phi_innen\nannahme erläutert\n\n5.4 3): erklärung zur überschätzung der masse\n6.8\n\nformel zur zeitabhängigen konzentration des zwischenprodukts\nformel zum zeitpunkt der maximalen konzentration des zwischenprodukts\n\n8: Beispielaufgabe\n\n\nv1 (07.08.2018)\n\nerste veröffentlichte version"
-  },
-  {
-    "objectID": "lecture_notes/lmmb.html",
-    "href": "lecture_notes/lmmb.html",
-    "title": "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)",
-    "section": "",
-    "text": "lmmb_mettier-ebert_v1-1.pdf"
-  },
-  {
-    "objectID": "lecture_notes/lmmb.html#changelog",
-    "href": "lecture_notes/lmmb.html#changelog",
-    "title": "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)",
-    "section": "changelog",
-    "text": "changelog\n\nv1.1 (28.11.2018)\n\neinige grammatikalische und typografische fehler behoben\n\n\n\nv1 (26.11.2018)\n\nerstveröffentlichung"
-  },
-  {
-    "objectID": "lecture_notes/ggb.html",
-    "href": "lecture_notes/ggb.html",
-    "title": "Genetik, Genomik, Bioinformatik (FS18)",
-    "section": "",
-    "text": "ggb_ebert_v1-1.pdf"
-  },
-  {
-    "objectID": "lecture_notes/ggb.html#changelog",
-    "href": "lecture_notes/ggb.html#changelog",
-    "title": "Genetik, Genomik, Bioinformatik (FS18)",
-    "section": "changelog",
-    "text": "changelog\n\nv1.1 (15.08.2018)\n\neinige rechtschreibefehler korrigiert\nkapitel 1.2: limitation des illumina infinium 2 assays\nkapitel 2.2.2: hapmap und haplotypen\nkapitel 2.2.5: annotation von refseq\nkapitel 3.4: vorteil gegenüber klassischer genetik\nkapitel 3.6: gerundete gesamtmutationsrate in tabelle\nkapitel 10.2: anmerkung über mehrere loci und erkrankungsrisiko\n\n\n\nv1 (13.08.2018)\n\nerste veröffentlichte version"
-  },
-  {
-    "objectID": "lecture_notes/ecol_gen.html",
-    "href": "lecture_notes/ecol_gen.html",
-    "title": "Ecological Genetics (HS18)",
-    "section": "",
-    "text": "ecol_gen_ebert_v1-1.pdf"
-  },
-  {
-    "objectID": "lecture_notes/ecol_gen.html#changelog",
-    "href": "lecture_notes/ecol_gen.html#changelog",
-    "title": "Ecological Genetics (HS18)",
-    "section": "Changelog",
-    "text": "Changelog\n\nv1.1 (07.10.2019)\n\n3.2.1: SSR and STR -&gt; SSR / STR (synonyms of Microsatellite)\n4.4: sharing to benefits -&gt; sharing of benefits\n6.2.1: panmictic (randomly mating)\n7.2:\n\nwithsmall -&gt; with small\nelaborated on Beavis effect\n\n7.5:\n\nexplained “accession”\nsuffiecient -&gt; sufficient\n\n8: phenotypically different species -&gt; phenotypically different entities\n9.3: elaborated on F_ST\n9.4.3:\n\nsegergating -&gt; segregating\nall thetas are now in lower case\n\n9.4.5: facotrs -&gt; factors\n10.2.1: eachdeme -&gt; each deme\n11.7.2:\n\nallales -&gt; alleles\nintrogrress -&gt; introgress\n\n11.7.4: reformulated explanation of cytonuclear disequilibrium\n12.4: added comma after “Generally”\n12.4.1:\n\nHalainthus petiolaris -&gt; Halianthus petiolaris\nexplained transgressive segregation\n\n\n\n\nv1 (06.07.2019)\n\nadded remaining lectures\n\n\n\nv0.5 (13.11.2018)\n\nseventh lecture\n\n\n\nv0.4 (30.10.2018)\n\nsixth lecture\n\n\n\nv0.3 (28.10.2018)\n\nfourth and fifth lectures\n\n\n\nv0.2 (13.10.2018)\n\nsecond and third lectures\n\n\n\nv0.1 (24.09.2018)\n\ninitial release\nfirst lecture"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Gleb Ebert",
-    "section": "",
-    "text": "I am a doctoral student in the evolutionary microbiology group at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics. In particular, my PhD research concerns with the upper limits of thermal adaptation of Pseudoalteromonas haloplanktis TAC125, a cold-adapted strain of a globally distributed marine bacterium sampled from the Antarctic.\nI enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time.\nI also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can  take a look at my work on Flickr."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Gleb Ebert",
-    "section": "Education",
-    "text": "Education\n2021 - present | PhD in Environmental Sciences, ETH Zurich, Switzerland\n2019 - 2021 | MSc in Biology (Major in Microbiology and Immunology), ETH Zurich, Switzerland\n2016 - 2020 | BSc in Biology, ETH Zurich, Switzerland"
-  },
-  {
-    "objectID": "lecture_notes/evolution.html",
-    "href": "lecture_notes/evolution.html",
-    "title": "Introduction to Evolutionary Biology (HS17)",
-    "section": "",
-    "text": "evolution_ebert_v1-3.pdf"
-  },
-  {
-    "objectID": "lecture_notes/evolution.html#changelog",
-    "href": "lecture_notes/evolution.html#changelog",
-    "title": "Introduction to Evolutionary Biology (HS17)",
-    "section": "Changelog",
-    "text": "Changelog\n\nv1.3 (07.02.2018)\n\n6.5: formula under 1) should be …+ q^2 * w(aa) instead of w(AA)\nfixed typos:\n\nchapter 15.2: Induction infers generalizations base on… -&gt; based\n\n\n\n\nv1.2 (30.01.2018)\n\nadded definitions to vocabulary section (5.4)\n7.2.1: small populations are N &lt; ~1000, not &gt;\nrearranged layout a bit to account for changes\nfixed typos:\n\nchapter 10.5: succes -&gt; success; if often higher -&gt; is; equadorian -&gt; ecuadorian\n\n\n\n\nv1.1 (02.01.2018)\n\nchanged chapter 2.3 title to “Darwinian vs. Lamarckian evolution” from “Lamarckian vs. Darwinian evolution” to align it with the table\nadjusted graphic size in chapter 3.1 to allow for better line wrapping in chapter 3.3\nsome clarifications in the mutation accumulation lines paragraph\nremoved chapters 5.6 & 5.7 due to redundancy with the table in chapter 5.8 (now 5.6)\nchanged “More” to “Other” in chapter 5.6 (former 5.8) title to avoid confusion as to whether the mutations are more impactful or the list contains more mutations\nclarified that “N &gt; ~1000” is meant in chapter 7.2.1 (previously “N &gt;~ 1000”)\nunified verb forms for easier reading (guard -&gt; guarding; make -&gt; making) in chapter 10.2\nreworded sentence about Polish men in chapter 10.5 for easier reading\nadded lost right bracket in table of chapter 13.3\nfixed typos:\n\nchapter 5.6: refuse -&gt; refused\nchapter 6.2: Genotyp -&gt; Genotype\nchapter 6.3.1: removed single left bracket; Simples -&gt; Simple\nchapter 6.7.1: fro -&gt; for; of hitchhiking -&gt; or hitchhiking\nchapter 10.5: succes -&gt; success; aswell -&gt; as well\nchapter 15.3 (final cause paragraph): of an action -&gt; or an action\n\n\n\n\nv1.0 (21.12.2017)\n\nfirst full release\ntwelfth lecture added\nmoved all of science history as one chapter to the end of the document\nintroduced page and column breaks in some places for easier reading\n\n\n\nv0.10 (18.12.2017)\n\ntenth & eleventh lecture added\n\n\n\nv0.9 (30.11.2017)\n\nninth lecture added\n\n\n\nv0.8 (16.11.2017)\n\neighth lecture added\n\n\n\nv0.7 (13.11.2017)\n\ncompressed all graphics reducing the file size of all versions by around 40%\n\n\n\nv0.7 (08.11.2017)\n\nseventh lecture added\n\n\n\nv0.6 (01.11.2017)\n\nsixth lecture added\n\n\n\nv0.5 (26.10.2017)\n\nfifth lecture added\nsome clarifications in the introduction\n\n\n\nv0.4 (19.10.2017)\n\nfourth lecture added\n\n\n\nv0.3 (07.10.2017)\n\nthird lecture added\nreworked section about speciation and ring species\n\n\n\nv0.2 (27.09.2017)\n\nsecond lecture added\nminor formatting changes\n\n\n\nv0.1 (25.09.2017)\n\ninitial release\nfirst lecture added"
+    "text": "changelog\n\nv1.2 (10.02.2018)\n\n3.1.6: Satz über Chitin- & Glucansynthese umformuliert um vektorielle Synthese zu verdeutlichen\n3.12: Transporter und Rezeptor gleichzeitig = Transzeptor\n3.4: Parenthesom & Doliporen erklärt\nkapitel 6: Umbenannt von “Sexuelle Reproduktionszyklen” zu “Reproduktionszyklen”; Reproduktionszyklen von Chytridiomycota, Glomeromycota und Zygomycota als auch weitere Grafik zu Paarungstypen von Zygomycota hinzugefügt (danke Gautier)\n8.2.2: komplett auf nächste Spalte verschoben\nverbesserte tipp- & rechtschreibfehler:\n\n3.2: 2) wähnrend -&gt; während\n3.4: Sporen -&gt; Poren\n3.5: Fressfeinde -&gt; Fressfeinden\n7.2.1: Axrnisches -&gt; Axenisches\n\n\n\n\nv1.1 (08.01.2018)\n\neinige grössenanpassungen von bildern als auch seiten- und spaltensprünge zur besseren lesbarkeit\nkurze erklärung zu saprophyt in kapitel 1.2 eingefügt\nkapitel 2: ’ als abtrennung von tauserndern zur besseren lesbarkeit von grossen zahlen eingefügt\nkapitel 2.4: offene klammer geschlossen\neinige wörter in kapitel 3.1.6 mit farbe hervorgehoben\ngrafik zur septenteilung eingefügt\nkapitel 3.6 durch einen satz ergänzt und dimorphismus aus dem titel entfernt\nkapitel 3.9 enthält nun einen vollwertigen satz\ncellulase und lignase in kapitel 3.10.2 farblich verhorgehoben\nkapitel 5.6 mit der definition von plektenchym ergänzt\naus zwei grafiken eine gemacht in kapitel 5.7.2\nkapitel 7.2 & 7.2.6: beispiele mit doppelpunkten lesbarer gemacht\nkapitel 7.2.5: RNSs auf deutsch übersetzt und zusammen mit sRNAs in die einzahl gebracht\neinige farbliche hervorhebungen in kapitel 7.3.2, 7.3.3 & 7.3.4\nletzten satz des kapitels 7.3.5 etwas umformuliert\nverbesserte tipp- & rechtschreibfehler:\n\nkapitel 1.2: mutualistische symbiont -&gt; mutualistischer …; immotilitt -&gt; immotilität\nkapitel 2.3: arbuskluäre -&gt; arbuskuläre\nkapitel 3.1: beta-1-6-glukan -&gt; beta-1-6-glukanen\nkapitel 3.1.6: wähnred -&gt; während\nkapitel 3.5: mit sich bringt -&gt; mit sich bringen\nkapitel 3.12: transporten -&gt; transporter\nkapitel 4.1 (titel): hyphenheterogenitt -&gt; hyphenheterogenität\nkapitel 5.6 (titel): plectenchymale -&gt; plektenchymale\nkapitel 6.4.1: singaniliserende -&gt; signalisierende\nkapitel 7.3.1: ¿ -&gt; &gt;\nkapitel 7.3.2: verschieden farben wie rosa oder geld -&gt; gelb\nkapitel 7.3.4: einemn -&gt; einem\nkapitel 8.1: aus salami -&gt; auf; meromi(brine) -&gt; moromi(brine)\n\n\n\n\nv1.0 (21.12.2017)\n\nerstveröffentlichung der vollversion\neinige spalten und seitensprünge für bessere leserlichkeit\n\n\n\nv0.7 (16.12.2017)\n\nvorlesung #12 hinzugefügt\n\n\n\nv0.6 (05.12.2017)\n\nvorlesung #11 hinzugefügt\n\n\n\nv0.5 (28.11.2017)\n\nvorlesung #10 hinzugefügt\n\n\n\nv0.4 (21.11.2017)\n\nvorlesung #9 hinzugefügt\narbuskeln, sporenverbreitung im wasser, conidiomata, sklerotien und stromata hinzugefügt\n\n\n\nv0.3 (13.11.2017)\n\nvorlesung #8 hinzugefügt\ngrafik zum reproduktionszyklus der bäckerhefe nachgeliefert\ngrafiken in dieser und allen vorherigen versionen komprimiert (datei um rund 75% kleiner)\n\n\n\nv0.2 (06.11.2017)\n\nvorlesung #7 hinzugefügt\n\n\n\nv0.1 (02.11.2017)\n\ninhalt aller vorlesungen bis zu #6"
   },
   {
     "objectID": "lecture_notes/index.html",
@@ -147,38 +140,157 @@
     "text": "1st year\n\nStatistik 1 (FS17)\ndownload\nchangelog"
   },
   {
-    "objectID": "lecture_notes/mycology.html",
-    "href": "lecture_notes/mycology.html",
-    "title": "Mykologie (HS17)",
+    "objectID": "lecture_notes/evolution.html",
+    "href": "lecture_notes/evolution.html",
+    "title": "Introduction to Evolutionary Biology (HS17)",
     "section": "",
-    "text": "mykologie_GlebEbert_v1-2.pdf"
+    "text": "evolution_ebert_v1-3.pdf"
   },
   {
-    "objectID": "lecture_notes/mycology.html#changelog",
-    "href": "lecture_notes/mycology.html#changelog",
-    "title": "Mykologie (HS17)",
+    "objectID": "lecture_notes/evolution.html#changelog",
+    "href": "lecture_notes/evolution.html#changelog",
+    "title": "Introduction to Evolutionary Biology (HS17)",
+    "section": "Changelog",
+    "text": "Changelog\n\nv1.3 (07.02.2018)\n\n6.5: formula under 1) should be …+ q^2 * w(aa) instead of w(AA)\nfixed typos:\n\nchapter 15.2: Induction infers generalizations base on… -&gt; based\n\n\n\n\nv1.2 (30.01.2018)\n\nadded definitions to vocabulary section (5.4)\n7.2.1: small populations are N &lt; ~1000, not &gt;\nrearranged layout a bit to account for changes\nfixed typos:\n\nchapter 10.5: succes -&gt; success; if often higher -&gt; is; equadorian -&gt; ecuadorian\n\n\n\n\nv1.1 (02.01.2018)\n\nchanged chapter 2.3 title to “Darwinian vs. Lamarckian evolution” from “Lamarckian vs. Darwinian evolution” to align it with the table\nadjusted graphic size in chapter 3.1 to allow for better line wrapping in chapter 3.3\nsome clarifications in the mutation accumulation lines paragraph\nremoved chapters 5.6 & 5.7 due to redundancy with the table in chapter 5.8 (now 5.6)\nchanged “More” to “Other” in chapter 5.6 (former 5.8) title to avoid confusion as to whether the mutations are more impactful or the list contains more mutations\nclarified that “N &gt; ~1000” is meant in chapter 7.2.1 (previously “N &gt;~ 1000”)\nunified verb forms for easier reading (guard -&gt; guarding; make -&gt; making) in chapter 10.2\nreworded sentence about Polish men in chapter 10.5 for easier reading\nadded lost right bracket in table of chapter 13.3\nfixed typos:\n\nchapter 5.6: refuse -&gt; refused\nchapter 6.2: Genotyp -&gt; Genotype\nchapter 6.3.1: removed single left bracket; Simples -&gt; Simple\nchapter 6.7.1: fro -&gt; for; of hitchhiking -&gt; or hitchhiking\nchapter 10.5: succes -&gt; success; aswell -&gt; as well\nchapter 15.3 (final cause paragraph): of an action -&gt; or an action\n\n\n\n\nv1.0 (21.12.2017)\n\nfirst full release\ntwelfth lecture added\nmoved all of science history as one chapter to the end of the document\nintroduced page and column breaks in some places for easier reading\n\n\n\nv0.10 (18.12.2017)\n\ntenth & eleventh lecture added\n\n\n\nv0.9 (30.11.2017)\n\nninth lecture added\n\n\n\nv0.8 (16.11.2017)\n\neighth lecture added\n\n\n\nv0.7 (13.11.2017)\n\ncompressed all graphics reducing the file size of all versions by around 40%\n\n\n\nv0.7 (08.11.2017)\n\nseventh lecture added\n\n\n\nv0.6 (01.11.2017)\n\nsixth lecture added\n\n\n\nv0.5 (26.10.2017)\n\nfifth lecture added\nsome clarifications in the introduction\n\n\n\nv0.4 (19.10.2017)\n\nfourth lecture added\n\n\n\nv0.3 (07.10.2017)\n\nthird lecture added\nreworked section about speciation and ring species\n\n\n\nv0.2 (27.09.2017)\n\nsecond lecture added\nminor formatting changes\n\n\n\nv0.1 (25.09.2017)\n\ninitial release\nfirst lecture added"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gleb Ebert",
+    "section": "",
+    "text": "I am a doctoral student in the evolutionary microbiology group at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics. In particular, my PhD research concerns with the upper limits of thermal adaptation of Pseudoalteromonas haloplanktis TAC125, a cold-adapted strain of a globally distributed marine bacterium sampled from the Antarctic.\nI enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time.\nI also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can  take a look at my work on Flickr."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Gleb Ebert",
+    "section": "Education",
+    "text": "Education\n2021 - present | PhD in Environmental Sciences, ETH Zurich, Switzerland\n2019 - 2021 | MSc in Biology (Major in Microbiology and Immunology), ETH Zurich, Switzerland\n2016 - 2020 | BSc in Biology, ETH Zurich, Switzerland"
+  },
+  {
+    "objectID": "lecture_notes/ecol_gen.html",
+    "href": "lecture_notes/ecol_gen.html",
+    "title": "Ecological Genetics (HS18)",
+    "section": "",
+    "text": "ecol_gen_ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/ecol_gen.html#changelog",
+    "href": "lecture_notes/ecol_gen.html#changelog",
+    "title": "Ecological Genetics (HS18)",
+    "section": "Changelog",
+    "text": "Changelog\n\nv1.1 (07.10.2019)\n\n3.2.1: SSR and STR -&gt; SSR / STR (synonyms of Microsatellite)\n4.4: sharing to benefits -&gt; sharing of benefits\n6.2.1: panmictic (randomly mating)\n7.2:\n\nwithsmall -&gt; with small\nelaborated on Beavis effect\n\n7.5:\n\nexplained “accession”\nsuffiecient -&gt; sufficient\n\n8: phenotypically different species -&gt; phenotypically different entities\n9.3: elaborated on F_ST\n9.4.3:\n\nsegergating -&gt; segregating\nall thetas are now in lower case\n\n9.4.5: facotrs -&gt; factors\n10.2.1: eachdeme -&gt; each deme\n11.7.2:\n\nallales -&gt; alleles\nintrogrress -&gt; introgress\n\n11.7.4: reformulated explanation of cytonuclear disequilibrium\n12.4: added comma after “Generally”\n12.4.1:\n\nHalainthus petiolaris -&gt; Halianthus petiolaris\nexplained transgressive segregation\n\n\n\n\nv1 (06.07.2019)\n\nadded remaining lectures\n\n\n\nv0.5 (13.11.2018)\n\nseventh lecture\n\n\n\nv0.4 (30.10.2018)\n\nsixth lecture\n\n\n\nv0.3 (28.10.2018)\n\nfourth and fifth lectures\n\n\n\nv0.2 (13.10.2018)\n\nsecond and third lectures\n\n\n\nv0.1 (24.09.2018)\n\ninitial release\nfirst lecture"
+  },
+  {
+    "objectID": "lecture_notes/ggb.html",
+    "href": "lecture_notes/ggb.html",
+    "title": "Genetik, Genomik, Bioinformatik (FS18)",
+    "section": "",
+    "text": "ggb_ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/ggb.html#changelog",
+    "href": "lecture_notes/ggb.html#changelog",
+    "title": "Genetik, Genomik, Bioinformatik (FS18)",
     "section": "changelog",
-    "text": "changelog\n\nv1.2 (10.02.2018)\n\n3.1.6: Satz über Chitin- & Glucansynthese umformuliert um vektorielle Synthese zu verdeutlichen\n3.12: Transporter und Rezeptor gleichzeitig = Transzeptor\n3.4: Parenthesom & Doliporen erklärt\nkapitel 6: Umbenannt von “Sexuelle Reproduktionszyklen” zu “Reproduktionszyklen”; Reproduktionszyklen von Chytridiomycota, Glomeromycota und Zygomycota als auch weitere Grafik zu Paarungstypen von Zygomycota hinzugefügt (danke Gautier)\n8.2.2: komplett auf nächste Spalte verschoben\nverbesserte tipp- & rechtschreibfehler:\n\n3.2: 2) wähnrend -&gt; während\n3.4: Sporen -&gt; Poren\n3.5: Fressfeinde -&gt; Fressfeinden\n7.2.1: Axrnisches -&gt; Axenisches\n\n\n\n\nv1.1 (08.01.2018)\n\neinige grössenanpassungen von bildern als auch seiten- und spaltensprünge zur besseren lesbarkeit\nkurze erklärung zu saprophyt in kapitel 1.2 eingefügt\nkapitel 2: ’ als abtrennung von tauserndern zur besseren lesbarkeit von grossen zahlen eingefügt\nkapitel 2.4: offene klammer geschlossen\neinige wörter in kapitel 3.1.6 mit farbe hervorgehoben\ngrafik zur septenteilung eingefügt\nkapitel 3.6 durch einen satz ergänzt und dimorphismus aus dem titel entfernt\nkapitel 3.9 enthält nun einen vollwertigen satz\ncellulase und lignase in kapitel 3.10.2 farblich verhorgehoben\nkapitel 5.6 mit der definition von plektenchym ergänzt\naus zwei grafiken eine gemacht in kapitel 5.7.2\nkapitel 7.2 & 7.2.6: beispiele mit doppelpunkten lesbarer gemacht\nkapitel 7.2.5: RNSs auf deutsch übersetzt und zusammen mit sRNAs in die einzahl gebracht\neinige farbliche hervorhebungen in kapitel 7.3.2, 7.3.3 & 7.3.4\nletzten satz des kapitels 7.3.5 etwas umformuliert\nverbesserte tipp- & rechtschreibfehler:\n\nkapitel 1.2: mutualistische symbiont -&gt; mutualistischer …; immotilitt -&gt; immotilität\nkapitel 2.3: arbuskluäre -&gt; arbuskuläre\nkapitel 3.1: beta-1-6-glukan -&gt; beta-1-6-glukanen\nkapitel 3.1.6: wähnred -&gt; während\nkapitel 3.5: mit sich bringt -&gt; mit sich bringen\nkapitel 3.12: transporten -&gt; transporter\nkapitel 4.1 (titel): hyphenheterogenitt -&gt; hyphenheterogenität\nkapitel 5.6 (titel): plectenchymale -&gt; plektenchymale\nkapitel 6.4.1: singaniliserende -&gt; signalisierende\nkapitel 7.3.1: ¿ -&gt; &gt;\nkapitel 7.3.2: verschieden farben wie rosa oder geld -&gt; gelb\nkapitel 7.3.4: einemn -&gt; einem\nkapitel 8.1: aus salami -&gt; auf; meromi(brine) -&gt; moromi(brine)\n\n\n\n\nv1.0 (21.12.2017)\n\nerstveröffentlichung der vollversion\neinige spalten und seitensprünge für bessere leserlichkeit\n\n\n\nv0.7 (16.12.2017)\n\nvorlesung #12 hinzugefügt\n\n\n\nv0.6 (05.12.2017)\n\nvorlesung #11 hinzugefügt\n\n\n\nv0.5 (28.11.2017)\n\nvorlesung #10 hinzugefügt\n\n\n\nv0.4 (21.11.2017)\n\nvorlesung #9 hinzugefügt\narbuskeln, sporenverbreitung im wasser, conidiomata, sklerotien und stromata hinzugefügt\n\n\n\nv0.3 (13.11.2017)\n\nvorlesung #8 hinzugefügt\ngrafik zum reproduktionszyklus der bäckerhefe nachgeliefert\ngrafiken in dieser und allen vorherigen versionen komprimiert (datei um rund 75% kleiner)\n\n\n\nv0.2 (06.11.2017)\n\nvorlesung #7 hinzugefügt\n\n\n\nv0.1 (02.11.2017)\n\ninhalt aller vorlesungen bis zu #6"
+    "text": "changelog\n\nv1.1 (15.08.2018)\n\neinige rechtschreibefehler korrigiert\nkapitel 1.2: limitation des illumina infinium 2 assays\nkapitel 2.2.2: hapmap und haplotypen\nkapitel 2.2.5: annotation von refseq\nkapitel 3.4: vorteil gegenüber klassischer genetik\nkapitel 3.6: gerundete gesamtmutationsrate in tabelle\nkapitel 10.2: anmerkung über mehrere loci und erkrankungsrisiko\n\n\n\nv1 (13.08.2018)\n\nerste veröffentlichte version"
   },
   {
-    "objectID": "lecture_notes/plant_sys.html",
-    "href": "lecture_notes/plant_sys.html",
-    "title": "Systematische Biologie: Pflanzen (FS18)",
+    "objectID": "lecture_notes/lmmb.html",
+    "href": "lecture_notes/lmmb.html",
+    "title": "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)",
     "section": "",
-    "text": "plant_sys_ebert_v1.pdf"
+    "text": "lmmb_mettier-ebert_v1-1.pdf"
   },
   {
-    "objectID": "lecture_notes/plant_sys.html#changelog",
-    "href": "lecture_notes/plant_sys.html#changelog",
-    "title": "Systematische Biologie: Pflanzen (FS18)",
+    "objectID": "lecture_notes/lmmb.html#changelog",
+    "href": "lecture_notes/lmmb.html#changelog",
+    "title": "Blockkurs Experimentelle Lebensmittelmikrobiologie (HS18)",
     "section": "changelog",
-    "text": "changelog\n\nv1.1 (22.08.2018)\n\nviele kleinere verbesserungen, die den inhalt nicht ändern\nkapitel 1.1.1: sporopollonin -&gt; sporopollenin\nkapitel 2.4: antheceropsida -&gt; anthoceropsida\nkapitel 6.4: zwei samenanlagen zu einem punkt vereint\nkapitel 6.8.4: lilium und narcissus nicht prüfungsrelevant\nkapitel 6.8.8: haunsimse -&gt; hainsimse\nkapitel 6.8.9: ohne kolben -&gt; ohne knoten\nkapitel 6.10.3: anemone (deutscher name) -&gt; windröschen\nkapitel 6.10.5: alechmilla -&gt; alchemilla\nkapitel 6.10.10: teucrium nicht prüfungsrelevant\nkapitel 6.10.15: asperula entfernt, da waldmeister nicht mehr dazu gehört\nkapitel 6.10.16: scabiose -&gt; scabiosa\nkapitel 6.10.18: carylus -&gt; corylus\n\n\n\nv1 (13.07.2018)\n\nneunte bis zwölfte Vorlesungen hinzugefügt\nformat angepasst\n\n\n\nv0.6 (17.04.2018)\n\nsiebte und achte Vorlesungen hinzugefügt\n\n\n\nv0.5 (27.03.2018)\n\nsechste Vorlesung hinzugefügt\n\n\n\nv0.4 (20.03.2018)\n\nfünfte Vorlesung hinzugefügt\n\n\n\nv0.3 (13.03.2018)\n\nvierte Vorlesung hinzugefügt\n\n\n\nv0.2 (06.03.2018)\n\ndritte Vorlesung hinzugefügt\nspalten- und seitenumbrüche eingefügt\n\n\n\nv0.1 (01.03.2018)\n\nerste zwei Vorlesungen hinzugefügt"
+    "text": "changelog\n\nv1.1 (28.11.2018)\n\neinige grammatikalische und typografische fehler behoben\n\n\n\nv1 (26.11.2018)\n\nerstveröffentlichung"
   },
   {
-    "objectID": "lecture_notes/statistics_1.html",
-    "href": "lecture_notes/statistics_1.html",
-    "title": "Statistik I (FS17)",
+    "objectID": "lecture_notes/phys_chem_2.html",
+    "href": "lecture_notes/phys_chem_2.html",
+    "title": "Physikalische Chemie 2 (FS18)",
     "section": "",
-    "text": "statistics_1_ebert_v7.pdf\n\nchangelog\n\n\nv7 (30.01.2018)\n\n8.2: binomcdf sollte poissoncdf sein\n\n\n\nv6.1 (18.10.2017)\n\nlink zu ../index.html eingefügt\n\n\n\nv6 (18.10.2017)\n\n2.7: referenz zu 4.3.1 eingefügt\n8: kapitel zur berechnung von poissonpdf und poissoncdf hinzugefügt\n\n\n\nv5.1 (10.08.2017)\n\n3.2.2 5): p(x&gt;x) = 1-p(x&lt;=x) statt = p(x&lt;=x)\n\n\n\nv5 (10.08.2017)\n\nfehler im verwerfungsbereich für ungepaarten t-test bei mu_x &gt; mu_y behoben. die untere grenze ist nun richtigerweise negativ.\n\n\n\nv4 (03.08.2017)\n\nergänzung zum wurzel-n-gesetz\nformel für einseitige vertraünsintervalle\n\n\n\nv3.1 (01.08.2017)\n\nkorrektur der erläuterungen zur benutzung der tabelle der kumulativen normalverteilung\n\n\n\nv3 (01.08.2017)\n\npapierformat von us letter auf a4 geändert\neinige rechtschreibefehler entfernt\nnormalapproximation des vi und des verwerfungsbereiches getrennt, da diese nichts miteinander zutun haben.\n3.2.2 teil über fehler leicht umgeschrieben (neu mit 100% mehr wahrscheinlichkeiten).\n4.5.3 fallunterscheidung zwischen ein- und zweiseitigem vertraünsintervall\nvergleich ungepaarter und gepaarter t-test\nvergleich vertraüns- und vorhersageintervall\nverteilung unter h_0 beim vorzeichentest\nkovarianz: erweiterte definition und rechenregeln (zweiteres unter “funktionen von mehreren zufallsvariablen”)\nberechnung des p-werts beim t-test\nberechnug von empirischen qüartilen\nerläuterungen zur benutzung der tabelle der kumulativen normalverteilung\n\n\n\nv2 (09.07.2017)\n\nerwartungswert und varianz der binomialverteilung\n95%-vi für z- und t-tests\nkorrektur der formel für s_pool\nerläuterungen zur tabelle der kumulativen normalverteilung\n\n\n\nv1 (06.07.2017)\n\ninitial release"
+    "text": "phys_chem_2_ebert_v1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/phys_chem_2.html#changelog",
+    "href": "lecture_notes/phys_chem_2.html#changelog",
+    "title": "Physikalische Chemie 2 (FS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.1 (08.08.2018)\n2.1.1: vermerkt zu D bezüglich molekül-lösungsmittel-interaktionen\n2.2.2\n\nerklärungen zu c’_w, c’’_w, c’_m und c’’_m\nc’_w und c’’_w jetzt richtig rum in formel zu gross-phi_innen\nannahme erläutert\n\n5.4 3): erklärung zur überschätzung der masse\n6.8\n\nformel zur zeitabhängigen konzentration des zwischenprodukts\nformel zum zeitpunkt der maximalen konzentration des zwischenprodukts\n\n8: Beispielaufgabe\n\n\nv1 (07.08.2018)\n\nerste veröffentlichte version"
+  },
+  {
+    "objectID": "lecture_notes/pop_gen.html",
+    "href": "lecture_notes/pop_gen.html",
+    "title": "Population and Quantitative Genetics (HS18)",
+    "section": "",
+    "text": "lmmb_mettier-ebert_v1-1.pdf"
+  },
+  {
+    "objectID": "lecture_notes/pop_gen.html#changelog",
+    "href": "lecture_notes/pop_gen.html#changelog",
+    "title": "Population and Quantitative Genetics (HS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.2 (07.10.2019)\n\n1.5: elaborated on the De Finetti diagram\n3.1: bottleneck is no longer capitalized\n6.2.3: fixed formula of population mutation parameter\n8: fixed second formula for V_P\n9.2: added NSH\n10.1.4: reprodcution -&gt; reproduction\n11.3: fixed formula for Aa in table\n11.6: H is proportional to the quare […] -&gt; square\n\n\n\nv1.1 (06.07.2019)\n\nfixed hyperlinks\n\n\n\nv1 (02.07.2019)\n\nadded all remaining lectures\n\n\n\nv0.1 (24.09.2018)\n\ninitial release\nfirst lecture"
+  },
+  {
+    "objectID": "lecture_notes/systems_bio.html",
+    "href": "lecture_notes/systems_bio.html",
+    "title": "Systembiologie (FS18)",
+    "section": "",
+    "text": "systems_bio_mettier-ebert_v1-3.pdf"
+  },
+  {
+    "objectID": "lecture_notes/systems_bio.html#changelog",
+    "href": "lecture_notes/systems_bio.html#changelog",
+    "title": "Systembiologie (FS18)",
+    "section": "changelog",
+    "text": "changelog\n\nv1.3 (10.08.2018)\n\nviele kleine rechtschreibe- und formatierungsfehler verbessert\nkapitel 1\n\nweitere annahmen des massenwirkungsgesetzes\nannahme der gesättigten enzyme bei michaelis-menten war falsch und wurde entfernt\nfolgen auf den kurvenverlauf bei veränderung der parameter\n\nkapitel 2\n\n*[A] auf pfeil in reaktion für dimerisierung entfernt\n\nkapitel 3\n\ngrafik aus 3.2.2 entfernt, da sie nicht viel aussagt\n\nkapitel 5\n\nanmerkung zu ein- und ausfluss von systemen bei zweitem lernziel\n5.2.5 a): in lösung v_2 zu v_3 korrigiert\n5.2.5 b): in aufgabenstellung v_S zu v_6 und v_4 zu v_1 korrigiert\n5.2.5 b): lösung korrigiert und erklärt\n\nkapitel 7\n\n7.2.1 b): lösung korrigiert\n\nkapitel 8\n\neinsichten aus data mining überarbeitet\nstatistisches rauschen unter typischen problemen ergänzt\nmultiples testen: pi0 ist jetzt tatsächlich pi_0\nfdr: pi_0 ist etwa 1, nicht kleiner 1\n\n\n\n\nv1.2 (04.08.2018)\n\naufgabe 1.2.2: lösung korrigiert\nkapitel 4: keratin durch kreatin ersetzt\naufgabe 4.2.2: annhame des konstanten zellvolumens hinzugefügt\nkapitel 5: punkt über omics-daten besser erklärt\naufgabe 5.2.2\n\nin der fragestellung ist e zu E gewachsen\nlösung zu b) korrigiert\n\naufgabe 5.2.3\n\na): stchiometrische -&gt; stöchiometrische\nlösungen zu a) und b) korrigiert\n\naufgabe 5.2.5: lösung zu b) korrigiert\nkapitel 7.2.1: variablen zur besseren verständlichkeit umbenannt\n\n\n\nv1.1 (29.07.2018)\n\nverlorene umlautpunkte gefunden und sonstige tippfehler behoben\naufgabe 5.2.4 a): speichern der resultate in eigene anweisung umgewandelt\nkapitel 7: anleitung zur graphischen darstellung von kombinationen mehrerer ultrasensitiver schritte hinzugefügt\n\n\n\nv1 (26.07.2018)\n\nerste veröffentlichte version"
+  },
+  {
+    "objectID": "protocols-phtac/freezer_stocks.html",
+    "href": "protocols-phtac/freezer_stocks.html",
+    "title": "Freezer Stocks",
+    "section": "",
+    "text": "Grow single clone / population in MSW+D-Gluc. for ~2 days\nPrepare two replicate stocks (one working and one backup stock) using one of the following recipes (all result in final glycerol concentrations of about 20%; the choice comes down to personal preferences):\n\nAdd 500 uL glycerol 60% and 1000 uL liquid culture to cryotubes\nAdd 300 uL glycerol 80% using a multipipette with the 10 mL tip (one full tip is enough for 33 cryotubes) and 1000 uL liquid culture to cryotubes\n\nMix stocks well by vortexing and inverting just before freezing at -80°C\nAdd new boxes to spreadsheet on freezer door and keep track which stocks are where"
+  },
+  {
+    "objectID": "protocols-phtac/freezer_stocks.html#glycerol-stocks",
+    "href": "protocols-phtac/freezer_stocks.html#glycerol-stocks",
+    "title": "Freezer Stocks",
+    "section": "",
+    "text": "Grow single clone / population in MSW+D-Gluc. for ~2 days\nPrepare two replicate stocks (one working and one backup stock) using one of the following recipes (all result in final glycerol concentrations of about 20%; the choice comes down to personal preferences):\n\nAdd 500 uL glycerol 60% and 1000 uL liquid culture to cryotubes\nAdd 300 uL glycerol 80% using a multipipette with the 10 mL tip (one full tip is enough for 33 cryotubes) and 1000 uL liquid culture to cryotubes\n\nMix stocks well by vortexing and inverting just before freezing at -80°C\nAdd new boxes to spreadsheet on freezer door and keep track which stocks are where"
+  },
+  {
+    "objectID": "protocols-phtac/freezer_stocks.html#growing-up-strains-from-glycerol-stocks",
+    "href": "protocols-phtac/freezer_stocks.html#growing-up-strains-from-glycerol-stocks",
+    "title": "Freezer Stocks",
+    "section": "Growing up strains from glycerol stocks",
+    "text": "Growing up strains from glycerol stocks\nSometimes strains have a hard time growing after being frozen for too long. When trying to grow up such a “difficult” strain from freezer stocks, consider the following protocol, especially for high temperature adapted strains.\n\nPrepare MB agar and pour 20 mL plates\nStreak out freezer stocks onto MB plates and incubate at 15°C or 28°C (the latter for high temperature adapted strains) for 1-2 days.\nPick three colonies per strain and inoculate 2 mL MSW+D-Gluc. with it. Incubate at a temperature closer to the highest one the strain is adapted to (e.g. 27°C or 28°C when working with a strain adapted to 30°C) for ~2 days.\nUse strains as usual, for example to make copies of the stocks"
+  },
+  {
+    "objectID": "protocols-phtac/molecular_assays.html",
+    "href": "protocols-phtac/molecular_assays.html",
+    "title": "Molecular Assays",
+    "section": "",
+    "text": "Protocol adapted from Penn iGEM 2013, Spencer Glantz, Kathleen Sproufffske, Macarena Toll-Riera, Promega\n\nHarvest bacterial cells to run PCR on\n\nPCR from liquid culture:\n\nTransfer 20 uL of bacterial culture into a centrifuge tube containing 80 uL of sterile MilliQ\nCentrifuge at maximum speed for 3 minutes\nDiscard supernatant and resuspend pellets in 50 uL sterile MilliQ\n\nPCR from colonies: Barely touch the colony with a pipette tip, place in 50 uL of sterile MilliQ and pipette up and down a few times\n\nIncubate at 95°C for 10 minutes in heating block\nCentrifuge at maximum speed for 5 minutes\nStore at 4°C\nPerform PCR using the GoTaq G2 Green Master Mix (it’s very easy and already includes everything needed for PCR and the gel)\n\nThaw master mix at room temperature\nFor 25 uL reaction volume combine\n\n12.5 uL GoTaq G2 Green Master Mix\n1.25 uL forward primer (10 uM)\n1.25 uL reverse primer (10 uM)\n1.25 uL DNA\n8.75 uL nuclease-free water\n\nCentrifuge reactions for 5 s\nStart PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)\n\nInitial Denaturation for 2 min at 95°C\nDenaturation for 30 s at 95°C\nAnnealing for 30 s at Tm - 5°C (when in doubt, use 50 - 55°C; lower temperatures make annealing more conservative in general)\nElongation for 1 min/kb at 72°C\nFinal Elongation for 5 min at 72°C\nHold at 4°C\n\n\nRun gel as a control that amplification worked\n\nPrepare 1% agarose gel (in K17)\n\nAdd 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute\nAdd 10 uL of SYBR Safe to the gel chamber\nPour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid\n\nLoad 10 uL of a 1 kb ladder and PCR reaction directly into the gel (or 5 uL if using small wells)\nRun gel at 120V for 30 minutes and image it\nIf PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample"
+  },
+  {
+    "objectID": "protocols-phtac/molecular_assays.html#pcr",
+    "href": "protocols-phtac/molecular_assays.html#pcr",
+    "title": "Molecular Assays",
+    "section": "",
+    "text": "Protocol adapted from Penn iGEM 2013, Spencer Glantz, Kathleen Sproufffske, Macarena Toll-Riera, Promega\n\nHarvest bacterial cells to run PCR on\n\nPCR from liquid culture:\n\nTransfer 20 uL of bacterial culture into a centrifuge tube containing 80 uL of sterile MilliQ\nCentrifuge at maximum speed for 3 minutes\nDiscard supernatant and resuspend pellets in 50 uL sterile MilliQ\n\nPCR from colonies: Barely touch the colony with a pipette tip, place in 50 uL of sterile MilliQ and pipette up and down a few times\n\nIncubate at 95°C for 10 minutes in heating block\nCentrifuge at maximum speed for 5 minutes\nStore at 4°C\nPerform PCR using the GoTaq G2 Green Master Mix (it’s very easy and already includes everything needed for PCR and the gel)\n\nThaw master mix at room temperature\nFor 25 uL reaction volume combine\n\n12.5 uL GoTaq G2 Green Master Mix\n1.25 uL forward primer (10 uM)\n1.25 uL reverse primer (10 uM)\n1.25 uL DNA\n8.75 uL nuclease-free water\n\nCentrifuge reactions for 5 s\nStart PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)\n\nInitial Denaturation for 2 min at 95°C\nDenaturation for 30 s at 95°C\nAnnealing for 30 s at Tm - 5°C (when in doubt, use 50 - 55°C; lower temperatures make annealing more conservative in general)\nElongation for 1 min/kb at 72°C\nFinal Elongation for 5 min at 72°C\nHold at 4°C\n\n\nRun gel as a control that amplification worked\n\nPrepare 1% agarose gel (in K17)\n\nAdd 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute\nAdd 10 uL of SYBR Safe to the gel chamber\nPour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid\n\nLoad 10 uL of a 1 kb ladder and PCR reaction directly into the gel (or 5 uL if using small wells)\nRun gel at 120V for 30 minutes and image it\nIf PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample"
+  },
+  {
+    "objectID": "protocols-phtac/molecular_assays.html#s-rrna-sequencing",
+    "href": "protocols-phtac/molecular_assays.html#s-rrna-sequencing",
+    "title": "Molecular Assays",
+    "section": "16S rRNA Sequencing",
+    "text": "16S rRNA Sequencing\n\nPerform PCR according to PCR\n\nUse one of the following primer pairs. Melting temperatures according to the Promega calculator\n\n\n\n\n\n\n\n\n\n\nName\nSequence\nTm\nSpecificity\nSource\n\n\n\n\n16s_fw\nGATCATGGCTCAGATTGAACGC\n66°C\nPhTAC125 & E. coli\nMacarena Toll-Riera\n\n\n16s_rv\nAGGCACCAAACCATCTCTGG\n66°C\nPhTAC125 & E. coli\nMacarena Toll-Riera\n\n\n16s_fw_2\nCCACACTGGGACTGAGACAC\n66°C\nPhTAC125\nGleb Ebert\n\n\n16s_rv_2\nGCACTCTGTATGCGCCATTG\n66°C\nPhTAC125\nGleb Ebert\n\n\nF27\nAGAGTTTGATCCTGGCTCAG\n63°C\nuniversal, two bands for PhTAC125\nLane et al. 1991\n\n\nR1525\nAAGGAGGTGATCCAGCCGCA\n70°C\nuniversal, two bands for PhTAC125\nStackebrandt et al. 1993\n\n\n\nElongation time: ~1.5 kb -&gt; 2 min\n\nPCR cleanup according to one of the following options:\n\nUse the Promega Wizard SV Gel and PCR Cleanup System or the Qiagen QIAquick PCR Purification Kit according to the respective manufacturer protocols. Elute with 30 uL of nuclease free water. This ensures at least two sequencing runs if necessary\nAccording to protocol adapted from Sinisa Bratulic, Kathleen Sprouffske Macarena Toll-Riera\n\nMix PCR cleanup reaction\n\n17 uL PCR product\n0.3 uL Exonuclease I\n0.3 uL Antarctic Phosphatase\n2.4 uL sterile MilliQ (to fill up volume)\nPrepare a master mix for multiple reactions (n + 1) and add 3 uL to each tube\n\nIncubate samples in thermocycler or waterbath\n\n15 minutes at 37°C\n15 minutes at 80-85°C\nHold at 4°C\n\n\n\nMeasure DNA concentration and purity using the GDC’s NanoDrop. 260/280 (protein purity) and 260/230 (salt purity) should both be between 1.8 and 2.0. The latter often tends to be as small as 1.2, even after using a PCR cleanup kit\nCalculate the necessary dilution factor to reach a final DNA concentration of 1.5 ng/uL per 100 bp of PCR product after adding primers. Taking this into account, the target DNA concentration before addition of primers should be: \\[ \\text{target concentration} = \\frac{\\text{product length}}{100}*1.5*\\frac{15}{12} \\] E.g. for a 1.5 kb product the target concentration should 28.125 ng/uL\nPrepare samples for sequencing by adding to each shipping tube\n\n12 uL purified PCR reaction at the appropriate DNA concentration\n3 uL 20 uM primer (just one, either forward or reverse)\n\nAdd Microsynth label to tube and register samples online. Print out order summary and package it in a clear plastic bag together with the samples.\nBring samples to Microsynth pickup point at the main entrance of the LFV building"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gleb Ebert - Introduction to Evolutionary Biology (HS17)</title>
+<title>Gleb Ebert - Protocols for Working With Pseudoalteromonas haloplanktis TAC125</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,14 +68,63 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Gleb Ebert - Introduction to Evolutionary Biology (HS17)">
+    const options = {
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background-image: url(images/phtac_rdbl.png);
+background-size: cover;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta property="og:title" content="Gleb Ebert - Protocols for Working With Pseudoalteromonas haloplanktis TAC125">
 <meta property="og:description" content="This is Gleb Ebert’s personal website. You can learn about me and what I do here.">
 <meta property="og:site_name" content="Gleb Ebert">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../protocols-phtac/index.html"> 
+    <a class="nav-link active" href="../protocols-phtac/index.html" aria-current="page"> 
 <span class="menu-text">Protocols</span></a>
   </li>  
   <li class="nav-item">
@@ -106,164 +157,106 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Protocols for Working With <em>Pseudoalteromonas haloplanktis</em> TAC125</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Introduction to Evolutionary Biology (HS17)</h1>
+
+
+
+
+<p>This site contains a collection of protocols for working with the psychrophilic bacterium <em>Pseudoalteromonas haloplanktis</em> TAC125. The protocol were written during my PhD at ETH Zurich in the evolutionary microbiology group and will thus contain instructions specific to that lab. Protocols are provided as is without any guarantees.</p>
+<p>PDF versions of all protocols are available under the table of contents on the left on each protocol’s subpage.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1698624000000" data-listing-file-modified-sort="1698679507804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
+<a href="../protocols-phtac/freezer_stocks.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Freezer Stocks
+</h5>
+<div class="card-subtitle listing-subtitle">
+Version 1.4
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><a href="../files/lecture_notes/evolution_ebert_v1-3.pdf" class="external" target="_blank">evolution_ebert_v1-3.pdf</a></p>
-<section id="changelog" class="level2">
-<h2 class="anchored" data-anchor-id="changelog">Changelog</h2>
-<section id="v1.3-07.02.2018" class="level3">
-<h3 class="anchored" data-anchor-id="v1.3-07.02.2018">v1.3 (07.02.2018)</h3>
-<ul>
-<li>6.5: formula under 1) should be …+ q^2 * w(aa) instead of w(AA)</li>
-<li>fixed typos:
-<ul>
-<li>chapter 15.2: Induction infers generalizations base on… -&gt; based</li>
-</ul></li>
-</ul>
-</section>
-<section id="v1.2-30.01.2018" class="level3">
-<h3 class="anchored" data-anchor-id="v1.2-30.01.2018">v1.2 (30.01.2018)</h3>
-<ul>
-<li>added definitions to vocabulary section (5.4)</li>
-<li>7.2.1: small populations are N &lt; ~1000, not &gt;</li>
-<li>rearranged layout a bit to account for changes</li>
-<li>fixed typos:
-<ul>
-<li>chapter 10.5: succes -&gt; success; if often higher -&gt; is; equadorian -&gt; ecuadorian</li>
-</ul></li>
-</ul>
-</section>
-<section id="v1.1-02.01.2018" class="level3">
-<h3 class="anchored" data-anchor-id="v1.1-02.01.2018">v1.1 (02.01.2018)</h3>
-<ul>
-<li>changed chapter 2.3 title to “Darwinian vs.&nbsp;Lamarckian evolution” from “Lamarckian vs.&nbsp;Darwinian evolution” to align it with the table</li>
-<li>adjusted graphic size in chapter 3.1 to allow for better line wrapping in chapter 3.3</li>
-<li>some clarifications in the mutation accumulation lines paragraph</li>
-<li>removed chapters 5.6 &amp; 5.7 due to redundancy with the table in chapter 5.8 (now 5.6)</li>
-<li>changed “More” to “Other” in chapter 5.6 (former 5.8) title to avoid confusion as to whether the mutations are more impactful or the list contains more mutations</li>
-<li>clarified that “N &gt; ~1000” is meant in chapter 7.2.1 (previously “N &gt;~ 1000”)</li>
-<li>unified verb forms for easier reading (guard -&gt; guarding; make -&gt; making) in chapter 10.2</li>
-<li>reworded sentence about Polish men in chapter 10.5 for easier reading</li>
-<li>added lost right bracket in table of chapter 13.3</li>
-<li>fixed typos:
-<ul>
-<li>chapter 5.6: refuse -&gt; refused</li>
-<li>chapter 6.2: Genotyp -&gt; Genotype</li>
-<li>chapter 6.3.1: removed single left bracket; Simples -&gt; Simple</li>
-<li>chapter 6.7.1: fro -&gt; for; of hitchhiking -&gt; or hitchhiking</li>
-<li>chapter 10.5: succes -&gt; success; aswell -&gt; as well</li>
-<li>chapter 15.3 (final cause paragraph): of an action -&gt; or an action</li>
-</ul></li>
-</ul>
-</section>
-<section id="v1.0-21.12.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v1.0-21.12.2017">v1.0 (21.12.2017)</h3>
-<ul>
-<li>first full release</li>
-<li>twelfth lecture added</li>
-<li>moved all of science history as one chapter to the end of the document</li>
-<li>introduced page and column breaks in some places for easier reading</li>
-</ul>
-</section>
-<section id="v0.10-18.12.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.10-18.12.2017">v0.10 (18.12.2017)</h3>
-<ul>
-<li>tenth &amp; eleventh lecture added</li>
-</ul>
-</section>
-<section id="v0.9-30.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.9-30.11.2017">v0.9 (30.11.2017)</h3>
-<ul>
-<li>ninth lecture added</li>
-</ul>
-</section>
-<section id="v0.8-16.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.8-16.11.2017">v0.8 (16.11.2017)</h3>
-<ul>
-<li>eighth lecture added</li>
-</ul>
-</section>
-<section id="v0.7-13.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.7-13.11.2017">v0.7 (13.11.2017)</h3>
-<ul>
-<li>compressed all graphics reducing the file size of all versions by around 40%</li>
-</ul>
-</section>
-<section id="v0.7-08.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.7-08.11.2017">v0.7 (08.11.2017)</h3>
-<ul>
-<li>seventh lecture added</li>
-</ul>
-</section>
-<section id="v0.6-01.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.6-01.11.2017">v0.6 (01.11.2017)</h3>
-<ul>
-<li>sixth lecture added</li>
-</ul>
-</section>
-<section id="v0.5-26.10.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.5-26.10.2017">v0.5 (26.10.2017)</h3>
-<ul>
-<li>fifth lecture added</li>
-<li>some clarifications in the introduction</li>
-</ul>
-</section>
-<section id="v0.4-19.10.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.4-19.10.2017">v0.4 (19.10.2017)</h3>
-<ul>
-<li>fourth lecture added</li>
-</ul>
-</section>
-<section id="v0.3-07.10.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.3-07.10.2017">v0.3 (07.10.2017)</h3>
-<ul>
-<li>third lecture added</li>
-<li>reworked section about speciation and ring species</li>
-</ul>
-</section>
-<section id="v0.2-27.09.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.2-27.09.2017">v0.2 (27.09.2017)</h3>
-<ul>
-<li>second lecture added</li>
-<li>minor formatting changes</li>
-</ul>
-</section>
-<section id="v0.1-25.09.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.1-25.09.2017">v0.1 (25.09.2017)</h3>
-<ul>
-<li>initial release</li>
-<li>first lecture added</li>
-</ul>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1698624000000" data-listing-file-modified-sort="1698679507808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1074">
+<a href="../protocols-phtac/media.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Media preparation
+</h5>
+<div class="card-subtitle listing-subtitle">
+Version 1.4
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1698624000000" data-listing-file-modified-sort="1698679507808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1242">
+<a href="../protocols-phtac/molecular_assays.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Molecular Assays
+</h5>
+<div class="card-subtitle listing-subtitle">
+Version 1.5
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1698624000000" data-listing-file-modified-sort="1698679507808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
+<a href="../protocols-phtac/plate_cleaning.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Deep Well Plate Cleaning
+</h5>
+<div class="card-subtitle listing-subtitle">
+Version 0.2
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

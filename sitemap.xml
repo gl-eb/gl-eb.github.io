@@ -1,51 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.glebsite.ch/lecture_notes/systems_bio.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
+    <loc>https://www.glebsite.ch/protocols-phtac/plate_cleaning.html</loc>
+    <lastmod>2023-10-30T15:25:07.808Z</lastmod>
   </url>
   <url>
-    <loc>https://www.glebsite.ch/lecture_notes/pop_gen.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
+    <loc>https://www.glebsite.ch/protocols-phtac/media.html</loc>
+    <lastmod>2023-10-30T15:25:07.808Z</lastmod>
   </url>
   <url>
-    <loc>https://www.glebsite.ch/lecture_notes/phys_chem_2.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/lmmb.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/ggb.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/ecol_gen.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/index.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/evolution.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/index.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/mycology.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.glebsite.ch/lecture_notes/plant_sys.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
+    <loc>https://www.glebsite.ch/protocols-phtac/index.html</loc>
+    <lastmod>2023-10-30T15:25:07.808Z</lastmod>
   </url>
   <url>
     <loc>https://www.glebsite.ch/lecture_notes/statistics_1.html</loc>
-    <lastmod>2023-10-27T05:33:06.684Z</lastmod>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/plant_sys.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/mycology.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/index.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/evolution.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/index.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/ecol_gen.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/ggb.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/lmmb.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/phys_chem_2.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/pop_gen.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/lecture_notes/systems_bio.html</loc>
+    <lastmod>2023-10-30T15:25:06.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/protocols-phtac/freezer_stocks.html</loc>
+    <lastmod>2023-10-30T15:25:07.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.glebsite.ch/protocols-phtac/molecular_assays.html</loc>
+    <lastmod>2023-10-30T15:25:07.808Z</lastmod>
   </url>
 </urlset>

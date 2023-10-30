@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-10-30">
 
-<title>Gleb Ebert - Introduction to Evolutionary Biology (HS17)</title>
+<title>Gleb Ebert - Molecular Assays</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,13 +68,15 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Gleb Ebert - Introduction to Evolutionary Biology (HS17)">
-<meta property="og:description" content="This is Gleb Ebert’s personal website. You can learn about me and what I do here.">
+<meta property="og:title" content="Gleb Ebert - Molecular Assays">
+<meta property="og:description" content="Version 1.5">
 <meta property="og:site_name" content="Gleb Ebert">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,14 +111,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pcr" id="toc-pcr" class="nav-link active" data-scroll-target="#pcr">PCR</a></li>
+  <li><a href="#s-rrna-sequencing" id="toc-s-rrna-sequencing" class="nav-link" data-scroll-target="#s-rrna-sequencing">16S rRNA Sequencing</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="molecular_assays.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to Evolutionary Biology (HS17)</h1>
+<h1 class="title">Molecular Assays</h1>
+<p class="subtitle lead">Version 1.5</p>
 </div>
 
 
@@ -123,6 +139,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 30, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -132,135 +154,162 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../files/lecture_notes/evolution_ebert_v1-3.pdf" class="external" target="_blank">evolution_ebert_v1-3.pdf</a></p>
-<section id="changelog" class="level2">
-<h2 class="anchored" data-anchor-id="changelog">Changelog</h2>
-<section id="v1.3-07.02.2018" class="level3">
-<h3 class="anchored" data-anchor-id="v1.3-07.02.2018">v1.3 (07.02.2018)</h3>
+<section id="pcr" class="level2">
+<h2 class="anchored" data-anchor-id="pcr">PCR</h2>
+<p>Protocol adapted from Penn iGEM 2013, Spencer Glantz, Kathleen Sproufffske, Macarena Toll-Riera, Promega</p>
+<ol type="1">
+<li>Harvest bacterial cells to run PCR on
 <ul>
-<li>6.5: formula under 1) should be …+ q^2 * w(aa) instead of w(AA)</li>
-<li>fixed typos:
-<ul>
-<li>chapter 15.2: Induction infers generalizations base on… -&gt; based</li>
+<li>PCR from liquid culture:
+<ol type="1">
+<li>Transfer 20 uL of bacterial culture into a centrifuge tube containing 80 uL of sterile MilliQ</li>
+<li>Centrifuge at maximum speed for 3 minutes</li>
+<li>Discard supernatant and resuspend pellets in 50 uL sterile MilliQ</li>
+</ol></li>
+<li>PCR from colonies: Barely touch the colony with a pipette tip, place in 50 uL of sterile MilliQ and pipette up and down a few times</li>
 </ul></li>
-</ul>
-</section>
-<section id="v1.2-30.01.2018" class="level3">
-<h3 class="anchored" data-anchor-id="v1.2-30.01.2018">v1.2 (30.01.2018)</h3>
+<li>Incubate at 95°C for 10 minutes in heating block</li>
+<li>Centrifuge at maximum speed for 5 minutes</li>
+<li>Store at 4°C</li>
+<li>Perform PCR using the GoTaq G2 Green Master Mix (it’s very easy and already includes everything needed for PCR and the gel)
+<ol type="1">
+<li>Thaw master mix at room temperature</li>
+<li>For 25 uL reaction volume combine
 <ul>
-<li>added definitions to vocabulary section (5.4)</li>
-<li>7.2.1: small populations are N &lt; ~1000, not &gt;</li>
-<li>rearranged layout a bit to account for changes</li>
-<li>fixed typos:
-<ul>
-<li>chapter 10.5: succes -&gt; success; if often higher -&gt; is; equadorian -&gt; ecuadorian</li>
+<li>12.5 uL GoTaq G2 Green Master Mix</li>
+<li>1.25 uL forward primer (10 uM)</li>
+<li>1.25 uL reverse primer (10 uM)</li>
+<li>1.25 uL DNA</li>
+<li>8.75 uL nuclease-free water</li>
 </ul></li>
-</ul>
+<li>Centrifuge reactions for 5 s</li>
+<li>Start PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)
+<ol type="1">
+<li>Initial Denaturation for 2 min at 95°C</li>
+<li>Denaturation for 30 s at 95°C</li>
+<li>Annealing for 30 s at T<sub>m</sub> - 5°C (when in doubt, use 50 - 55°C; lower temperatures make annealing more conservative in general)</li>
+<li>Elongation for 1 min/kb at 72°C</li>
+<li>Final Elongation for 5 min at 72°C</li>
+<li>Hold at 4°C</li>
+</ol></li>
+</ol></li>
+<li>Run gel as a control that amplification worked
+<ol type="1">
+<li>Prepare 1% agarose gel (in K17)
+<ol type="1">
+<li>Add 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute</li>
+<li>Add 10 uL of SYBR Safe to the gel chamber</li>
+<li>Pour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid</li>
+</ol></li>
+<li>Load 10 uL of a 1 kb ladder and PCR reaction directly into the gel (or 5 uL if using small wells)</li>
+<li>Run gel at 120V for 30 minutes and image it</li>
+<li>If PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample</li>
+</ol></li>
+</ol>
 </section>
-<section id="v1.1-02.01.2018" class="level3">
-<h3 class="anchored" data-anchor-id="v1.1-02.01.2018">v1.1 (02.01.2018)</h3>
+<section id="s-rrna-sequencing" class="level2">
+<h2 class="anchored" data-anchor-id="s-rrna-sequencing">16S rRNA Sequencing</h2>
+<ol type="1">
+<li>Perform PCR according to <a href="#pcr">PCR</a>
 <ul>
-<li>changed chapter 2.3 title to “Darwinian vs.&nbsp;Lamarckian evolution” from “Lamarckian vs.&nbsp;Darwinian evolution” to align it with the table</li>
-<li>adjusted graphic size in chapter 3.1 to allow for better line wrapping in chapter 3.3</li>
-<li>some clarifications in the mutation accumulation lines paragraph</li>
-<li>removed chapters 5.6 &amp; 5.7 due to redundancy with the table in chapter 5.8 (now 5.6)</li>
-<li>changed “More” to “Other” in chapter 5.6 (former 5.8) title to avoid confusion as to whether the mutations are more impactful or the list contains more mutations</li>
-<li>clarified that “N &gt; ~1000” is meant in chapter 7.2.1 (previously “N &gt;~ 1000”)</li>
-<li>unified verb forms for easier reading (guard -&gt; guarding; make -&gt; making) in chapter 10.2</li>
-<li>reworded sentence about Polish men in chapter 10.5 for easier reading</li>
-<li>added lost right bracket in table of chapter 13.3</li>
-<li>fixed typos:
-<ul>
-<li>chapter 5.6: refuse -&gt; refused</li>
-<li>chapter 6.2: Genotyp -&gt; Genotype</li>
-<li>chapter 6.3.1: removed single left bracket; Simples -&gt; Simple</li>
-<li>chapter 6.7.1: fro -&gt; for; of hitchhiking -&gt; or hitchhiking</li>
-<li>chapter 10.5: succes -&gt; success; aswell -&gt; as well</li>
-<li>chapter 15.3 (final cause paragraph): of an action -&gt; or an action</li>
+<li><p>Use one of the following primer pairs. Melting temperatures according to the <a href="https://ch.promega.com/resources/tools/biomath/tm-calculator/">Promega calculator</a></p>
+<table class="table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 37%">
+<col style="width: 4%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Sequence</th>
+<th>T<sub>m</sub></th>
+<th>Specificity</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>16s_fw</td>
+<td>GATCATGGCTCAGATTGAACGC</td>
+<td>66°C</td>
+<td><em>Ph</em>TAC125 &amp; <em>E. coli</em></td>
+<td>Macarena Toll-Riera</td>
+</tr>
+<tr class="even">
+<td>16s_rv</td>
+<td>AGGCACCAAACCATCTCTGG</td>
+<td>66°C</td>
+<td><em>Ph</em>TAC125 &amp; <em>E. coli</em></td>
+<td>Macarena Toll-Riera</td>
+</tr>
+<tr class="odd">
+<td>16s_fw_2</td>
+<td>CCACACTGGGACTGAGACAC</td>
+<td>66°C</td>
+<td><em>Ph</em>TAC125</td>
+<td>Gleb Ebert</td>
+</tr>
+<tr class="even">
+<td>16s_rv_2</td>
+<td>GCACTCTGTATGCGCCATTG</td>
+<td>66°C</td>
+<td><em>Ph</em>TAC125</td>
+<td>Gleb Ebert</td>
+</tr>
+<tr class="odd">
+<td>F27</td>
+<td>AGAGTTTGATCCTGGCTCAG</td>
+<td>63°C</td>
+<td>universal, two bands for <em>Ph</em>TAC125</td>
+<td>Lane et al.&nbsp;1991</td>
+</tr>
+<tr class="even">
+<td>R1525</td>
+<td>AAGGAGGTGATCCAGCCGCA</td>
+<td>70°C</td>
+<td>universal, two bands for <em>Ph</em>TAC125</td>
+<td>Stackebrandt et al.&nbsp;1993</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>Elongation time: ~1.5 kb -&gt; 2 min</p></li>
 </ul></li>
-</ul>
-</section>
-<section id="v1.0-21.12.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v1.0-21.12.2017">v1.0 (21.12.2017)</h3>
+<li>PCR cleanup according to one of the following options:
 <ul>
-<li>first full release</li>
-<li>twelfth lecture added</li>
-<li>moved all of science history as one chapter to the end of the document</li>
-<li>introduced page and column breaks in some places for easier reading</li>
-</ul>
-</section>
-<section id="v0.10-18.12.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.10-18.12.2017">v0.10 (18.12.2017)</h3>
+<li>Use the Promega Wizard SV Gel and PCR Cleanup System or the Qiagen QIAquick PCR Purification Kit according to the respective manufacturer protocols. Elute with 30 uL of nuclease free water. This ensures at least two sequencing runs if necessary</li>
+<li>According to protocol adapted from Sinisa Bratulic, Kathleen Sprouffske Macarena Toll-Riera
+<ol type="1">
+<li>Mix PCR cleanup reaction
 <ul>
-<li>tenth &amp; eleventh lecture added</li>
-</ul>
-</section>
-<section id="v0.9-30.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.9-30.11.2017">v0.9 (30.11.2017)</h3>
+<li>17 uL PCR product</li>
+<li>0.3 uL Exonuclease I</li>
+<li>0.3 uL Antarctic Phosphatase</li>
+<li>2.4 uL sterile MilliQ (to fill up volume)</li>
+<li>Prepare a master mix for multiple reactions (n + 1) and add 3 uL to each tube</li>
+</ul></li>
+<li>Incubate samples in thermocycler or waterbath
+<ol type="1">
+<li>15 minutes at 37°C</li>
+<li>15 minutes at 80-85°C</li>
+<li>Hold at 4°C</li>
+</ol></li>
+</ol></li>
+</ul></li>
+<li>Measure DNA concentration and purity using the GDC’s NanoDrop. 260/280 (protein purity) and 260/230 (salt purity) should both be between 1.8 and 2.0. The latter often tends to be as small as 1.2, even after using a PCR cleanup kit</li>
+<li>Calculate the necessary dilution factor to reach a final DNA concentration of 1.5 ng/uL per 100 bp of PCR product after adding primers. Taking this into account, the target DNA concentration before addition of primers should be: <span class="math display">\[ \text{target concentration} = \frac{\text{product length}}{100}*1.5*\frac{15}{12} \]</span> E.g. for a 1.5 kb product the target concentration should 28.125 ng/uL</li>
+<li>Prepare samples for sequencing by adding to each shipping tube
 <ul>
-<li>ninth lecture added</li>
-</ul>
-</section>
-<section id="v0.8-16.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.8-16.11.2017">v0.8 (16.11.2017)</h3>
-<ul>
-<li>eighth lecture added</li>
-</ul>
-</section>
-<section id="v0.7-13.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.7-13.11.2017">v0.7 (13.11.2017)</h3>
-<ul>
-<li>compressed all graphics reducing the file size of all versions by around 40%</li>
-</ul>
-</section>
-<section id="v0.7-08.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.7-08.11.2017">v0.7 (08.11.2017)</h3>
-<ul>
-<li>seventh lecture added</li>
-</ul>
-</section>
-<section id="v0.6-01.11.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.6-01.11.2017">v0.6 (01.11.2017)</h3>
-<ul>
-<li>sixth lecture added</li>
-</ul>
-</section>
-<section id="v0.5-26.10.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.5-26.10.2017">v0.5 (26.10.2017)</h3>
-<ul>
-<li>fifth lecture added</li>
-<li>some clarifications in the introduction</li>
-</ul>
-</section>
-<section id="v0.4-19.10.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.4-19.10.2017">v0.4 (19.10.2017)</h3>
-<ul>
-<li>fourth lecture added</li>
-</ul>
-</section>
-<section id="v0.3-07.10.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.3-07.10.2017">v0.3 (07.10.2017)</h3>
-<ul>
-<li>third lecture added</li>
-<li>reworked section about speciation and ring species</li>
-</ul>
-</section>
-<section id="v0.2-27.09.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.2-27.09.2017">v0.2 (27.09.2017)</h3>
-<ul>
-<li>second lecture added</li>
-<li>minor formatting changes</li>
-</ul>
-</section>
-<section id="v0.1-25.09.2017" class="level3">
-<h3 class="anchored" data-anchor-id="v0.1-25.09.2017">v0.1 (25.09.2017)</h3>
-<ul>
-<li>initial release</li>
-<li>first lecture added</li>
-</ul>
+<li>12 uL purified PCR reaction at the appropriate DNA concentration</li>
+<li>3 uL 20 uM primer (just one, either forward or reverse)</li>
+</ul></li>
+<li>Add Microsynth label to tube and register samples online. Print out order summary and package it in a clear plastic bag together with the samples.</li>
+<li>Bring samples to Microsynth pickup point at the main entrance of the LFV building</li>
+</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

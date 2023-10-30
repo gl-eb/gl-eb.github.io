@@ -2,11 +2,61 @@
 
 // fonts
 
-@import url(
-    "https://fonts.googleapis.com/css2?" +
-    "family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400" +
-    "&display=swap"
-);
+/* raleway-regular - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+src: url('fonts/raleway-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-italic - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 400;
+src: url('fonts/raleway-v29-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-500 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+src: url('fonts/raleway-v29-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-500italic - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 500;
+src: url('fonts/raleway-v29-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-600 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+src: url('fonts/raleway-v29-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+src: url('fonts/raleway-v29-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
 
 // custom variables
 
@@ -39,9 +89,11 @@ $callout-color-caution: $eth-bronze;
 $callout-color-warning: $eth-red;
 $callout-color-important: $eth-purple;
 
+$link-color: $color-main;
+
 $font-family-sans-serif: $font-main;
 $font-family-serif: $font-main;
-$link-color: $color-main;
+$font-variant-numeric: lining-nums tabular-nums;
 
 
 /* -- scss:mixins --*/
@@ -78,11 +130,16 @@ $link-color: $color-main;
 
 // navbar
 
-.navbar .navbar-brand:hover {
-    text-decoration: none;
-}
+.navbar {
+    .navbar-brand,
+    .nav-link {
+        color: $eth-grey-dark;
+    }
 
-.navbar-dark .navbar-nav {
+    .navbar-brand:hover {
+        text-decoration: none;
+    }
+
     .nav-link:hover,
     .nav-link.active {
         color: $eth-blue-dark;

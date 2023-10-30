@@ -2,8 +2,9 @@ project:
   type: website
   render:
     - "*.qmd"
+    - "*.md"
   resources:
-    - "*.pdf"
+    - files/lecture_notes/
 
 website:
   title: Gleb Ebert
@@ -13,7 +14,10 @@ website:
     You can learn about me and what I do here.
   # favicon: images/favicon.png
   navbar:
+    search: true
     right:
+      - text: Protocols
+        file: protocols-phtac/index.qmd
       - lecture_notes/index.qmd
   page-footer:
     left:
@@ -38,5 +42,5 @@ execute:
   freeze: auto
 
 filters:
-  - quarto-version.lua
-  - copyright-year.lua
+  - filters/quarto-version.lua
+  - filters/copyright-year.lua

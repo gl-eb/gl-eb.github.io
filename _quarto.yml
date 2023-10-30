@@ -38,5 +38,5 @@ execute:
   freeze: auto
 
 filters:
-  - quarto-version.lua
-  - copyright-year.lua
+  - filters/quarto-version.lua
+  - filters/copyright-year.lua

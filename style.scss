@@ -130,11 +130,16 @@ $font-variant-numeric: lining-nums tabular-nums;
 
 // navbar
 
-.navbar .navbar-brand:hover {
-    text-decoration: none;
-}
+.navbar {
+    .navbar-brand,
+    .nav-link {
+        color: $eth-grey-dark;
+    }
 
-.navbar-dark .navbar-nav {
+    .navbar-brand:hover {
+        text-decoration: none;
+    }
+
     .nav-link:hover,
     .nav-link.active {
         color: $eth-blue-dark;

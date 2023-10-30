@@ -1,6 +1,6 @@
 # glebsite
 
-This repository hosts my personal website, which can be found under https://www.gl-eb.me/
+This repository hosts my personal website, which can be found under <https://www.gl-eb.me/>
 
 ## History
 

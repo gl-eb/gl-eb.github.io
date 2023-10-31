@@ -56,64 +56,43 @@ font-weight: 700;
 src: url('fonts/raleway-v29-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
-
-// custom variables
-
 $font-main: Raleway;
-
-$eth-blue: #215CAF;
-$eth-blue-dark: #08407E;
-$eth-petrol: #007894;
-$eth-petrol-dark: #00596D;
-$eth-green: #627313;
-$eth-green-dark: #365213;
-$eth-bronze: #8E6713;
-$eth-bronze-dark: #956013;
-$eth-red: #B7352D;
-$eth-red-dark: #96272D;
-$eth-purple: #A7117A;
-$eth-purple-dark: #8C0A59;
-$eth-grey: #6F6F6F;
-$eth-grey-dark: #575757;
-
-$color-main: $eth-blue-dark;
-
-// theme variables
-
-$primary: $color-main;
-
-$callout-color-note: $eth-blue;
-$callout-color-tip: $eth-green;
-$callout-color-caution: $eth-bronze;
-$callout-color-warning: $eth-red;
-$callout-color-important: $eth-purple;
-
-$link-color: $color-main;
-
 $font-family-sans-serif: $font-main;
 $font-family-serif: $font-main;
 $font-variant-numeric: lining-nums tabular-nums;
 
 
-/* -- scss:mixins --*/
+// custom colors
 
-@mixin links() {
-    a {
-        color: $eth-blue;
-        font-weight: 500;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: $eth-blue-dark;
-        text-decoration: underline;
-    }
-
-    a:active {
-        color: $eth-blue;
-    }
-}
+$eth-blue: #215CAF;
+$eth-blue-dark: #08407E;
+$eth-blue-20: #D3DEEF;
+$eth-blue-80: #4D7DBF;
+$eth-petrol: #007894;
+$eth-petrol-dark: #00596D;
+$eth-petrol-20: #CCE4EA;
+$eth-petrol-80: #3395AB;
+$eth-green: #627313;
+$eth-green-dark: #365213;
+$eth-green-20: #E0E3D0;
+$eth-green-80: #818F42;
+$eth-bronze: #8E6713;
+$eth-bronze-dark: #956013;
+$eth-bronze-20: #E8E1D0;
+$eth-bronze-80: #A58542;
+$eth-red: #B7352D;
+$eth-red-dark: #96272D;
+$eth-red-20: #F1D7D5;
+$eth-red-80: #C55D57;
+$eth-purple: #A7117A;
+$eth-purple-dark: #8C0A59;
+$eth-purple-20: #EFD0E3;
+$eth-purple-80: #B73B92;
+$eth-grey: #6F6F6F;
+$eth-grey-dark: #575757;
+$eth-grey-10: #F1F1F1;
+$eth-grey-20: #E2E2E2;
+$eth-grey-80: #8C8C8C;
 
 
 /*-- scss:rules --*/
@@ -121,28 +100,29 @@ $font-variant-numeric: lining-nums tabular-nums;
 // global styling
 
 :root body {
-    @include links;
+    a {
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 
     h1 {
         font-weight: 700;
+    }
+
+    .content {
+        text-align: justify;
     }
 }
 
 // navbar
 
 .navbar {
-    .navbar-brand,
-    .nav-link {
-        color: $eth-grey-dark;
-    }
-
     .navbar-brand:hover {
         text-decoration: none;
-    }
-
-    .nav-link:hover,
-    .nav-link.active {
-        color: $eth-blue-dark;
     }
 
     .nav-link.active {
@@ -153,7 +133,6 @@ $font-variant-numeric: lining-nums tabular-nums;
 // footer
 
 .footer .nav-footer a {
-    color: theme-contrast($footer-bg, $footer-bg, "AA");
     text-decoration: underline;
 }
 
@@ -170,8 +149,4 @@ div.quarto-about-solana .about-entity .entity-contents {
         font-weight: 600;
         column-gap: 0.5em;
     }
-}
-
-.about-contents {
-    text-align: justify;
 }

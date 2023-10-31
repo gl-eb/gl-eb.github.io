@@ -31,8 +31,8 @@ format:
   html:
     lang: en
     theme:
-      - litera
-      - style.scss
+      light: [styles/style.scss, styles/theme-light.scss]
+      dark: [styles/style.scss, styles/theme-dark.scss]
     toc: false
     link-external-newwindow: true
     link-external-icon: false

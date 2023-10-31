@@ -8,7 +8,7 @@ project:
 
 website:
   title: Gleb Ebert
-  site-url: "https://www.glebsite.ch/"
+  site-url: "https://www.gl-eb.me"
   repo-url: "https://github.com/gl-eb/gl-eb.github.io"
   description: This is Gleb Ebert's personal website.
     You can learn about me and what I do here.
@@ -31,8 +31,8 @@ format:
   html:
     lang: en
     theme:
-      - litera
-      - style.scss
+      light: [styles/style.scss, styles/theme-light.scss]
+      dark: [styles/style.scss, styles/theme-dark.scss]
     toc: false
     link-external-newwindow: true
     link-external-icon: false

@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+
+$theme: "litera" !default;
+
+// custom colors
+
+$eth-blue: #215CAF;
+$eth-blue-dark: #08407E;
+$eth-petrol: #007894;
+$eth-green: #627313;
+$eth-bronze: #8E6713;
+$eth-red: #B7352D;
+$eth-purple: #A7117A;
+$eth-grey-dark: #575757;
+
+// custom light theme variables
+
+$color-main: $eth-blue-dark;
+
+// theme variables
+
+$primary: $color-main;
+
+$callout-color-note: $eth-blue;
+$callout-color-tip: $eth-green;
+$callout-color-caution: $eth-bronze;
+$callout-color-warning: $eth-red;
+$callout-color-important: $eth-purple;
+
+$link-color: $color-main;
+
+
+/*-- scss:rules --*/
+
+:root body {
+    a, a:active {
+        color: $eth-blue;
+    }
+
+    a:hover {
+        color: $color-main;
+    }
+}
+
+
+// navbar
+
+.navbar {
+    .navbar-brand,
+    .nav-link {
+        color: $eth-grey-dark;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        color: $color-main;
+    }
+}
+
+// footer
+
+.footer .nav-footer a {
+    color: theme-contrast($footer-bg, $footer-bg, "AA");
+}

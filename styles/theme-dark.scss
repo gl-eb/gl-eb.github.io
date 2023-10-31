@@ -1,0 +1,94 @@
+/*-- scss:defaults --*/
+
+$theme: "litera" !default;
+
+// custom colors
+
+$eth-blue-40: #A6BEDF;
+$eth-blue-60: #7A9DCF;
+$eth-blue-80: #4D7DBF;
+$eth-petrol-80: #3395AB;
+$eth-green-80: #818F42;
+$eth-bronze-80: #A58542;
+$eth-red-80: #C55D57;
+$eth-purple-80: #B73B92;
+$eth-grey-dark: #575757;
+$eth-grey-20: #E2E2E2;
+$eth-grey-60: #A9A9A9;
+$eth-grey-80: #8C8C8C;
+$blue-grey: #2C3146; //#2c313d;
+
+// custom dark theme variables
+
+$color-main: $eth-blue-40;
+
+// dark theme variables
+
+$body-bg: $blue-grey;
+$body-color: $eth-grey-20;
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+
+$footer-bg: $body-bg;
+$footer-fg: $body-color;
+
+$card-border-color: $eth-grey-80;
+
+$primary: $color-main;
+
+$callout-color-note: $eth-blue-80;
+$callout-color-tip: $eth-green-80;
+$callout-color-caution: $eth-bronze-80;
+$callout-color-warning: $eth-red-80;
+$callout-color-important: $eth-purple-80;
+
+$link-color: $color-main;
+
+/* -- scss:mixins --*/
+
+@mixin links() {
+    a, a:active {
+        color: $eth-blue-60;
+    }
+
+    a:hover {
+        color: $color-main;
+    }
+}
+
+
+/*-- scss:rules --*/
+
+:root body {
+    @include links()
+}
+
+// navbar
+
+.navbar {
+    .navbar-brand,
+    .nav-link {
+        color: $body-color;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        color: $color-main;
+    }
+}
+
+// cards
+
+.card {
+    // .listing-title,
+    // .listing-subtitle {
+        @include links()
+    // }
+}
+
+// footer
+
+.footer .nav-footer a {
+    color: $eth-grey-60;
+}

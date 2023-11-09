@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.458">
+<meta name="generator" content="quarto-1.4.489">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-31">
+<meta name="dcterms.date" content="2023-11-09">
 
 <title>Gleb Ebert - Media preparation</title>
 <style>
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Gleb Ebert - Media preparation">
-<meta property="og:description" content="Version 1.4">
+<meta property="og:description" content="Version 1.5">
 <meta property="og:site_name" content="Gleb Ebert">
 </head>
 
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Media preparation</h1>
-<p class="subtitle lead">Version 1.4</p>
+<p class="subtitle lead">Version 1.5</p>
 </div>
 
 
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 31, 2023</p>
+      <p class="date">November 9, 2023</p>
     </div>
   </div>
   
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="general-notes-on-autoclaving">General notes on autoclaving</h2>
 <ul>
 <li>Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode</li>
-<li>We usually run a short 15/20 minute liquid cycle (number 006), but longer liquid cycles are permissible</li>
+<li>We usually run a short 15/20 minute autoclave cycle for liquids (number 006), but longer liquid cycles are permissible</li>
 </ul>
 </section>
 <section id="minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter" class="level2">
@@ -185,13 +185,13 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Turn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes</li>
 <li>While stirring, lower the electrode into the liquid medium and press the measure button</li>
-<li>Add NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH</li>
-<li>When done, rinse and dry the electrode before putting in back into the storage solution and turninig off the pH meter</li>
+<li>Add NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH (5M)</li>
+<li>When done, rinse and dry the electrode before putting in back into the storage solution and turning off the pH meter</li>
 </ol></li>
 <li>Sterile filtration
 <ol type="1">
 <li>Inside a sterile hood, screw the sterile filter onto the autoclaved empty bottle</li>
-<li>Back in J18, turn on the vacuum pump and stick the hose onto the sterile filter nozzle</li>
+<li>Turn on the vacuum pump and stick the hose onto the sterile filter nozzle</li>
 <li>Add the liquid medium (and any remaining autoclaved water) to the sterile filter</li>
 <li>First take the hose off the nozzle, then turn off the vacuum pump</li>
 <li>Finally, screw off the sterile filter in a hood and close the bottle with its cap</li>
@@ -230,8 +230,8 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li>Sterile filtration
 <ol type="1">
-<li>Inside a sterile, screw the sterile filter onto the autoclaved bottle containing 800 mL agar</li>
-<li>Back in J18, turn on the vacuum pump and stick the hose onto the sterile filter nozzle</li>
+<li>Inside a sterile hood, screw the sterile filter onto the autoclaved bottle containing 800 mL agar</li>
+<li>Turn on the vacuum pump and stick the hose onto the sterile filter nozzle</li>
 <li>Add the liquid medium (and any remaining autoclaved water) to the sterile filter</li>
 <li>First take the hose of the nozzle, then turn off the vacuum pump</li>
 <li>Finally, screw off the sterile filter in a hood and close the bottle with its cap. Mix well by swirling and inverting</li>
@@ -520,6 +520,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.gl-eb\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -829,31 +847,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/www\.gl-eb\.me");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Built using <a href="https://quarto.org/">Quarto</a> v1.4.458 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
+<p>Built using <a href="https://quarto.org/">Quarto</a> v1.4.489 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

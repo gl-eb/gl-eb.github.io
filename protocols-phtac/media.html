@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.489">
+<meta name="generator" content="quarto-1.4.507">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-11-09">
+<meta name="dcterms.date" content="2023-11-21">
 
 <title>Gleb Ebert - Media preparation</title>
 <style>
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 9, 2023</p>
+      <p class="date">November 21, 2023</p>
     </div>
   </div>
   
@@ -612,8 +612,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
         typesetMath(container);
         return container.innerHTML
@@ -853,7 +860,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Built using <a href="https://quarto.org/">Quarto</a> v1.4.489 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
+<p>Built using <a href="https://quarto.org/">Quarto</a> v1.4.507 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

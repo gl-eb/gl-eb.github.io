@@ -13,11 +13,17 @@ $eth-red: #B7352D;
 $eth-purple: #A7117A;
 $eth-grey-dark: #575757;
 
-// custom light theme variables
+// light theme variables
 
 $color-main: $eth-blue-dark;
 
-// theme variables
+$body-bg: #FFFFFF;
+$body-color: #212529;
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+
+$footer-bg: $body-bg;
 
 $primary: $color-main;
 

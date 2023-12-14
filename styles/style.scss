@@ -2,64 +2,13 @@
 
 // fonts
 
-/* raleway-regular - latin */
-@font-face {
-font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-src: url('fonts/raleway-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* raleway-italic - latin */
-@font-face {
-font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-font-family: 'Raleway';
-font-style: italic;
-font-weight: 400;
-src: url('fonts/raleway-v29-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* raleway-500 - latin */
-@font-face {
-font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-src: url('fonts/raleway-v29-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* raleway-500italic - latin */
-@font-face {
-font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-font-family: 'Raleway';
-font-style: italic;
-font-weight: 500;
-src: url('fonts/raleway-v29-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* raleway-600 - latin */
-@font-face {
-font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-src: url('fonts/raleway-v29-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* raleway-700 - latin */
-@font-face {
-font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-src: url('fonts/raleway-v29-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
 $font-main: Raleway;
 $font-family-sans-serif: $font-main;
 $font-family-serif: $font-main;
 $font-variant-numeric: lining-nums tabular-nums;
+
+$navbar-brand-font-size: 1.8rem;
+$nav-link-font-size: 1.3rem;
 
 
 // custom colors
@@ -97,6 +46,62 @@ $eth-grey-80: #8C8C8C;
 
 /*-- scss:rules --*/
 
+// fonts
+
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/raleway-v29-latin-regular.woff2') format('woff2');
+}
+
+/* raleway-italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/raleway-v29-latin-italic.woff2') format('woff2');
+}
+
+/* raleway-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/raleway-v29-latin-500.woff2') format('woff2');
+}
+
+/* raleway-500italic - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 500;
+    src: url('fonts/raleway-v29-latin-500italic.woff2') format('woff2');
+}
+
+/* raleway-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/raleway-v29-latin-600.woff2') format('woff2');
+}
+
+/* raleway-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/raleway-v29-latin-700.woff2') format('woff2');
+}
+
 // global styling
 
 :root body {
@@ -123,6 +128,11 @@ $eth-grey-80: #8C8C8C;
 .navbar {
     .navbar-brand:hover {
         text-decoration: none;
+    }
+
+    .nav-link {
+        // text-transform: lowercase;
+        font-weight: 400;
     }
 
     .nav-link.active {

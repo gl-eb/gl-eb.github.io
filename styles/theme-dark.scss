@@ -45,7 +45,7 @@ $link-color: $color-main;
 
 /* -- scss:mixins --*/
 
-@mixin links() {
+@mixin link-color() {
     a, a:active {
         color: $eth-blue-60;
     }
@@ -59,11 +59,7 @@ $link-color: $color-main;
 /*-- scss:rules --*/
 
 :root body {
-    @include links()
-}
-
-.about-entity h1 {
-    color: $body-color
+    @include link-color;
 }
 
 
@@ -81,17 +77,16 @@ $link-color: $color-main;
     }
 }
 
-// cards
-
-.card {
-    // .listing-title,
-    // .listing-subtitle {
-        @include links()
-    // }
-}
 
 // footer
 
 .footer .nav-footer a {
     color: $eth-grey-60;
+}
+
+
+// about page
+
+.about-entity h1 {
+    color: $body-color;
 }

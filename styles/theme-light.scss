@@ -48,16 +48,12 @@ $link-color: $color-main;
     }
 }
 
-.about-entity h1 {
-    color: $eth-blue-dark
-}
-
 
 // navbar
 
 .navbar {
     .navbar-brand {
-        color: $body-color
+        color: $body-color;
     }
 
     .nav-link {
@@ -74,4 +70,10 @@ $link-color: $color-main;
 
 .footer .nav-footer a {
     color: theme-contrast($footer-bg, $footer-bg, "AA");
+}
+
+// about page
+
+.about-entity h1 {
+    color: $eth-blue-dark;
 }

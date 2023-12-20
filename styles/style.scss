@@ -112,6 +112,7 @@ $eth-grey-80: #8C8C8C;
     src: url('fonts/raleway-v29-latin-700.woff2') format('woff2');
 }
 
+
 // global styling
 
 :root body {
@@ -132,6 +133,7 @@ $eth-grey-80: #8C8C8C;
         text-align: justify;
     }
 }
+
 
 // navbar
 
@@ -162,16 +164,18 @@ $eth-grey-80: #8C8C8C;
     }
 }
 
+
 // footer
 
 .footer .nav-footer a {
     text-decoration: underline;
 }
 
+
 // about page
 
-div.quarto-about-solana .about-entity .entity-contents {
-    h1 {
+.about-entity {
+    .quarto-title h1 {
         font-size: 3rem;
         font-weight: 600;
     }

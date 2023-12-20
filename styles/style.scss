@@ -44,6 +44,16 @@ $eth-grey-20: #E2E2E2;
 $eth-grey-80: #8C8C8C;
 
 
+/*-- scss:mixins--*/
+
+@mixin animation-underline {
+    background: linear-gradient(currentColor 0 0)
+        bottom center/
+        var(--underline-width, 0%) 0.17rem
+        no-repeat;
+    transition: background-size 0.25s;
+}
+
 /*-- scss:rules --*/
 
 // fonts
@@ -126,17 +136,29 @@ $eth-grey-80: #8C8C8C;
 // navbar
 
 .navbar {
-    .navbar-brand:hover {
+    .navbar-brand:hover,
+    .nav-link:hover {
         text-decoration: none;
     }
 
     .nav-link {
-        // text-transform: lowercase;
-        font-weight: 400;
+        font-weight: 500;
+        padding: 0.5em 0 0.2em;
     }
+}
 
-    .nav-link.active {
-        text-decoration: underline;
+// animate navbar items if screen is wide enough
+@media screen and (min-width: 992px) {
+    .navbar {
+        .navbar-brand,
+        .nav-link {
+            @include animation-underline;
+        }
+
+        .navbar-brand:hover,
+        .nav-link:hover {
+            --underline-width: 100%;
+        }
     }
 }
 

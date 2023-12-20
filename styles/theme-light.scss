@@ -77,3 +77,30 @@ $link-color: $color-main;
 .about-entity h1 {
     color: $eth-blue-dark;
 }
+
+// listings
+
+// blog
+.quarto-listing .quarto-post {
+    .listing-title {
+        a, a:hover {
+            color: $eth-blue-dark;
+        }
+    }
+
+    a, a:hover {
+        color: $body-color;
+    }
+
+    .listing-categories .listing-category {
+        color: $body-color;
+    }
+}
+
+// protocols
+.quarto-listing {
+    .card:hover {
+        color: $color-main;
+        text-decoration: none;
+    }
+}

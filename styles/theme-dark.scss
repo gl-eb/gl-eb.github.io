@@ -90,3 +90,29 @@ $link-color: $color-main;
 .about-entity h1 {
     color: $body-color;
 }
+
+
+// listings
+
+// blog
+.quarto-listing .quarto-post {
+    .listing-title {
+        @include link-color;
+    }
+
+    a, a:hover {
+        color: $body-color;
+    }
+
+    .listing-categories .listing-category {
+        color: $body-color;
+    }
+}
+
+// protocols
+.quarto-listing {
+    .card:hover {
+        color: $color-main;
+        text-decoration: none;
+    }
+}

@@ -186,3 +186,20 @@ $eth-grey-80: #8C8C8C;
         column-gap: 0.5em;
     }
 }
+
+
+// blog
+
+.quarto-listing .quarto-post {
+    .listing-title {
+        font-size: 2rem;
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    a, a:hover {
+        text-decoration: none;
+    }
+}

@@ -62,6 +62,11 @@ $link-color: $color-main;
     @include links()
 }
 
+.about-entity h1 {
+    color: $body-color
+}
+
+
 // navbar
 
 .navbar {

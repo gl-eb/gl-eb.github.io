@@ -17,7 +17,7 @@ $eth-grey-dark: #575757;
 
 $color-main: $eth-blue-dark;
 
-$body-bg: #FFFFFF;
+$body-bg: #F0F5FA;
 $body-color: #212529;
 
 $navbar-bg: $body-bg;
@@ -48,11 +48,18 @@ $link-color: $color-main;
     }
 }
 
+.about-entity h1 {
+    color: $eth-blue-dark
+}
+
 
 // navbar
 
 .navbar {
-    .navbar-brand,
+    .navbar-brand {
+        color: $body-color
+    }
+
     .nav-link {
         color: $eth-grey-dark;
     }

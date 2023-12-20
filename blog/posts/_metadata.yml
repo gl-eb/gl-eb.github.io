@@ -1,0 +1,17 @@
+title-block-banner: true
+
+freeze: true
+
+author:
+  - name:
+      given: Gleb G.
+      family: Ebert
+    orcid: 0000-0002-7734-3824
+
+citation: true
+license: CC BY-SA
+
+toc: true
+toc-title: Contents
+
+opengraph: true

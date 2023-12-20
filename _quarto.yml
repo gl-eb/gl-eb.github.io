@@ -17,6 +17,7 @@ website:
   navbar:
     search: true
     right:
+      - blog/index.qmd
       - text: Protocols
         file: protocols-phtac/index.qmd
       - lecture_notes/index.qmd
@@ -41,6 +42,11 @@ format:
     include-in-header:
       text: |
         <meta name="fediverse:creator" content="@gleb@mstdn.science" />
+
+date-format: "D MMMM YYYY"
+
+citeproc: true
+csl: resources/csl/science.csl
 
 execute:
   freeze: auto

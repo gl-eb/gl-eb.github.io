@@ -10,7 +10,7 @@ about:
   template: solana # broadside, trestles
   links:
     - text: "{{< iconify fa6-regular envelope >}} Email"
-      href: "mailto:gleb.ebert@env.ethz.ch"
+      href: "mailto:hello@gl-eb.me"
     - text: "{{< iconify fa6-brands orcid >}} OrcID"
       href: "https://orcid.org/0000-0002-7734-3824"
     - text: "{{< iconify fa6-brands github >}} GitHub"

@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.533">
+<meta name="generator" content="quarto-1.5.29">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-12-24">
+<meta name="dcterms.date" content="2024-04-16">
 
-<title>Gleb Ebert - Molecular Assays</title>
+<title>Gleb Ebert – Molecular Assays</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -102,7 +102,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Gleb Ebert - Molecular Assays">
-<meta property="og:description" content="Version 1.5">
+<meta property="og:description" content="Version 1.7">
 <meta property="og:site_name" content="Gleb Ebert">
 </head>
 
@@ -133,7 +133,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -154,7 +154,7 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -162,7 +162,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Molecular Assays</h1>
-<p class="subtitle lead">Version 1.5</p>
+<p class="subtitle lead">Version 1.7</p>
 </div>
 
 
@@ -173,7 +173,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 24, 2023</p>
+      <p class="date">April 16, 2024</p>
     </div>
   </div>
   
@@ -187,38 +187,41 @@ window.Quarto = {
 
 <section id="pcr" class="level2">
 <h2 class="anchored" data-anchor-id="pcr">PCR</h2>
-<p>Protocol adapted from Penn iGEM 2013, Spencer Glantz, Kathleen Sproufffske, Macarena Toll-Riera, Promega</p>
+<p>Protocol adapted Macarena Toll-Riera and Promega</p>
 <ol type="1">
 <li>Harvest bacterial cells to run PCR on
 <ul>
-<li>PCR from liquid culture:
+<li>Liquid culture:
 <ol type="1">
-<li>Transfer 20 uL of bacterial culture into a centrifuge tube containing 80 uL of sterile MilliQ</li>
+<li>Transfer 20 µL of bacterial culture into a centrifuge tube containing 80 µL of sterile MilliQ</li>
 <li>Centrifuge at maximum speed for 3 minutes</li>
-<li>Discard supernatant and resuspend pellets in 50 uL sterile MilliQ</li>
+<li>Discard supernatant and resuspend pellets in 50 µL sterile MilliQ</li>
 </ol></li>
-<li>PCR from colonies: Barely touch the colony with a pipette tip, place in 50 uL of sterile MilliQ and pipette up and down a few times</li>
+<li>Colonies: Barely touch the colony with a pipette tip, place in 50 µL of sterile MilliQ and pipette up and down a few times</li>
 </ul></li>
 <li>Incubate at 95°C for 10 minutes in heating block</li>
 <li>Centrifuge at maximum speed for 5 minutes</li>
 <li>Store at 4°C</li>
-<li>Perform PCR using the GoTaq G2 Green Master Mix (it’s very easy and already includes everything needed for PCR and the gel)
+<li>Perform PCR using the GoTaq G2 Green Master Mix (includes most reagents needed for PCR and a gel)
 <ol type="1">
-<li>Thaw master mix at room temperature</li>
-<li>For 25 uL reaction volume combine
+<li>Prepare a master mix for n + 1 reactions of 25 µL each
 <ul>
-<li>12.5 uL GoTaq G2 Green Master Mix</li>
-<li>1.25 uL forward primer (10 uM)</li>
-<li>1.25 uL reverse primer (10 uM)</li>
-<li>1.25 uL DNA</li>
-<li>8.75 uL nuclease-free water</li>
+<li>12.5 µL GoTaq G2 Green Master Mix</li>
+<li>1.25 µL forward primer (10 µM)</li>
+<li>1.25 µL reverse primer (10 µM)</li>
+<li>8.75 µL nuclease-free water</li>
 </ul></li>
-<li>Centrifuge reactions for 5 s</li>
+<li>Add 23.75 µL of master mix to PCR tubes and add 1.25 µL DNA template to each</li>
+<li>Gently vortex and then briefly centrifuge reactions</li>
 <li>Start PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)
 <ol type="1">
 <li>Initial Denaturation for 2 min at 95°C</li>
 <li>Denaturation for 30 s at 95°C</li>
-<li>Annealing for 30 s at T<sub>m</sub> - 5°C (when in doubt, use 50 - 55°C; lower temperatures make annealing more conservative in general)</li>
+<li>Annealing for 30 s at T<sub>m</sub> – 5°C
+<ul>
+<li>Use lower T<sub>m</sub> of each primer pair to calculate annealing temperature</li>
+<li>Higher temperatures make annealing more specific</li>
+</ul></li>
 <li>Elongation for 1 min/kb at 72°C</li>
 <li>Final Elongation for 5 min at 72°C</li>
 <li>Hold at 4°C</li>
@@ -226,13 +229,13 @@ window.Quarto = {
 </ol></li>
 <li>Run gel as a control that amplification worked
 <ol type="1">
-<li>Prepare 1% agarose gel (in K17)
+<li>Prepare 1% agarose gel
 <ol type="1">
 <li>Add 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute</li>
-<li>Add 10 uL of SYBR Safe to the gel chamber</li>
+<li>Add 10 µL of SYBR Safe to the gel chamber</li>
 <li>Pour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid</li>
 </ol></li>
-<li>Load 10 uL of a 1 kb ladder and PCR reaction directly into the gel (or 5 uL if using small wells)</li>
+<li>Load 10 µL of a 1 kb ladder and PCR reaction directly into the gel (or 5 µL if using small wells)</li>
 <li>Run gel at 120V for 30 minutes and image it</li>
 <li>If PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample</li>
 </ol></li>
@@ -243,83 +246,128 @@ window.Quarto = {
 <ol type="1">
 <li>Perform PCR according to <a href="#pcr">PCR</a>
 <ul>
-<li><p>Use one of the following primer pairs. Melting temperatures according to the <a href="https://ch.promega.com/resources/tools/biomath/tm-calculator/">Promega calculator</a></p>
+<li><p>Use one of the following primer pairs. Melting temperatures according to the <a href="https://ch.promega.com/resources/tools/biomath/tm-calculator/">Promega calculator</a> specifically for use with GoTaq G2 Green Master Mix and 200 nM primers</p>
 <table class="table">
 <colgroup>
-<col style="width: 8%">
-<col style="width: 37%">
-<col style="width: 4%">
-<col style="width: 24%">
-<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 41%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
-<th>Sequence</th>
-<th>T<sub>m</sub></th>
+<th>Primer Pair</th>
 <th>Specificity</th>
 <th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>16s_fw + 16s_rv</td>
+<td><em>Ph</em>TAC125 &amp; <em>E. coli</em></td>
+<td>Toll-Riera et al.&nbsp;2022</td>
+</tr>
+<tr class="even">
+<td>16s_fw_2 + 16s_rv_2</td>
+<td><em>Ph</em>TAC125</td>
+<td>Gleb Ebert</td>
+</tr>
+<tr class="odd">
+<td>F27 + R1525</td>
+<td>universal, two bands for <em>Ph</em>TAC125</td>
+<td>Lane et al.&nbsp;1991, Stackebrandt et al.&nbsp;1993</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 24%">
+<col style="width: 21%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Primer Pair</th>
+<th style="text-align: right;">Annealing [°C]</th>
+<th style="text-align: right;">Product [bp]</th>
+<th style="text-align: right;">Elongation [s]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>16s_fw + 16s_rv</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">1008</td>
+<td style="text-align: right;">60</td>
+</tr>
+<tr class="even">
+<td>16s_fw_2 + 16s_rv_2</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">946</td>
+<td style="text-align: right;">60</td>
+</tr>
+<tr class="odd">
+<td>F27 + R1525</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">1528</td>
+<td style="text-align: right;">90</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Sequence</th>
+<th style="text-align: right;">T<sub>m</sub> [°C]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
 <td>16s_fw</td>
 <td>GATCATGGCTCAGATTGAACGC</td>
-<td>66°C</td>
-<td><em>Ph</em>TAC125 &amp; <em>E. coli</em></td>
-<td>Macarena Toll-Riera</td>
+<td style="text-align: right;">65</td>
 </tr>
 <tr class="even">
 <td>16s_rv</td>
 <td>AGGCACCAAACCATCTCTGG</td>
-<td>66°C</td>
-<td><em>Ph</em>TAC125 &amp; <em>E. coli</em></td>
-<td>Macarena Toll-Riera</td>
+<td style="text-align: right;">65</td>
 </tr>
 <tr class="odd">
 <td>16s_fw_2</td>
 <td>CCACACTGGGACTGAGACAC</td>
-<td>66°C</td>
-<td><em>Ph</em>TAC125</td>
-<td>Gleb Ebert</td>
+<td style="text-align: right;">65</td>
 </tr>
 <tr class="even">
 <td>16s_rv_2</td>
 <td>GCACTCTGTATGCGCCATTG</td>
-<td>66°C</td>
-<td><em>Ph</em>TAC125</td>
-<td>Gleb Ebert</td>
+<td style="text-align: right;">65</td>
 </tr>
 <tr class="odd">
 <td>F27</td>
 <td>AGAGTTTGATCCTGGCTCAG</td>
-<td>63°C</td>
-<td>universal, two bands for <em>Ph</em>TAC125</td>
-<td>Lane et al.&nbsp;1991</td>
+<td style="text-align: right;">62</td>
 </tr>
 <tr class="even">
 <td>R1525</td>
 <td>AAGGAGGTGATCCAGCCGCA</td>
-<td>70°C</td>
-<td>universal, two bands for <em>Ph</em>TAC125</td>
-<td>Stackebrandt et al.&nbsp;1993</td>
+<td style="text-align: right;">69</td>
 </tr>
 </tbody>
 </table></li>
-<li><p>Elongation time: ~1.5 kb -&gt; 2 min</p></li>
 </ul></li>
 <li>PCR cleanup according to one of the following options:
 <ul>
-<li>Use the Promega Wizard SV Gel and PCR Cleanup System or the Qiagen QIAquick PCR Purification Kit according to the respective manufacturer protocols. Elute with 30 uL of nuclease free water. This ensures at least two sequencing runs if necessary</li>
-<li>According to protocol adapted from Sinisa Bratulic, Kathleen Sprouffske Macarena Toll-Riera
+<li>Use the Promega Wizard SV Gel and PCR Cleanup System or the Qiagen QIAquick PCR Purification Kit according to the respective manufacturer protocols. Elute with 30 µL of nuclease free water</li>
+<li>According to protocol adapted from Macarena Toll-Riera
 <ol type="1">
 <li>Mix PCR cleanup reaction
 <ul>
-<li>17 uL PCR product</li>
-<li>0.3 uL Exonuclease I</li>
-<li>0.3 uL Antarctic Phosphatase</li>
-<li>2.4 uL sterile MilliQ (to fill up volume)</li>
-<li>Prepare a master mix for multiple reactions (n + 1) and add 3 uL to each tube</li>
+<li>17 µL PCR product</li>
+<li>0.3 µL Exonuclease I</li>
+<li>0.3 µL Antarctic Phosphatase</li>
+<li>2.4 µL sterile MilliQ (to fill up volume)</li>
+<li>Prepare a master mix for multiple reactions (n + 1) and add 3 µL to each tube</li>
 </ul></li>
 <li>Incubate samples in thermocycler or waterbath
 <ol type="1">
@@ -330,13 +378,13 @@ window.Quarto = {
 </ol></li>
 </ul></li>
 <li>Measure DNA concentration and purity using the GDC’s NanoDrop. 260/280 (protein purity) and 260/230 (salt purity) should both be between 1.8 and 2.0. The latter often tends to be as small as 1.2, even after using a PCR cleanup kit</li>
-<li>Calculate the necessary dilution factor to reach a final DNA concentration of 1.5 ng/uL per 100 bp of PCR product after adding primers. Taking this into account, the target DNA concentration before addition of primers should be: <span class="math display">\[ \text{target concentration} = \frac{\text{product length}}{100}*1.5*\frac{15}{12} \]</span> E.g. for a 1.5 kb product the target concentration should 28.125 ng/uL</li>
+<li>Calculate the necessary dilution factor to reach a final DNA concentration of 1.5 ng/µL per 100 bp of PCR product after adding primers. Taking this into account, the target DNA concentration before addition of primers should be: <span class="math display">\[ \text{target concentration} = \frac{\text{product length}\ bp}{100\ bp}*1.5 \frac{ng}{\mu L}*\frac{15\ \mu L}{12\ \mu L} \]</span> E.g. for a 1.5 kb product the target concentration should 28.125 ng/µL</li>
 <li>Prepare samples for sequencing by adding to each shipping tube
 <ul>
-<li>12 uL purified PCR reaction at the appropriate DNA concentration</li>
-<li>3 uL 20 uM primer (just one, either forward or reverse)</li>
+<li>12 µL purified PCR reaction at the appropriate DNA concentration</li>
+<li>3 µL 20 µM primer (just one, either forward or reverse)</li>
 </ul></li>
-<li>Add Microsynth label to tube and register samples online. Print out order summary and package it in a clear plastic bag together with the samples.</li>
+<li>Add Microsynth label to tube and register samples online. Print out order summary and package it in a clear plastic bag together with the samples</li>
 <li>Bring samples to Microsynth pickup point at the main entrance of the LFV building</li>
 </ol>
 
@@ -523,18 +571,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -566,7 +603,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/www\.gl-eb\.me");
@@ -574,10 +633,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -619,7 +683,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -667,7 +735,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -892,13 +965,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Built using <a href="https://quarto.org/">Quarto</a> v1.4.533 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
+<p>Built using <a href="https://quarto.org/">Quarto</a> v1.5.29 and hosted on <a href="https://github.com/gl-eb/gl-eb.github.io"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>© 2023 Gleb Ebert</p>
+<p>© 2024 Gleb Ebert</p>
 </div>
   </div>
 </footer>

@@ -1,73 +1,10 @@
 [
   {
-    "objectID": "protocols-phtac/plate_cleaning.html",
-    "href": "protocols-phtac/plate_cleaning.html",
-    "title": "Deep Well Plate Cleaning",
-    "section": "",
-    "text": "This is Roman Gort’s protocol to clean and sterilise reusable deep well plates\n\nAutoclave plates with bacterial cultures using program #7 (liquid waste)\nIf no heat-resistant antibiotics were inside, empty and rinse the plates in the sink using tap water\nPlace the plates inside the cleaning bath for 24h. If no bath is ready to use, fill one of the big plastic tubs with 12 L of tap water, add 120 mL detergent and mix well\nFurther clean the plates using dish washer program #5. For this, place the plates upside down in the metal basket (leaving one or two out in the middle because the water jets don’t reach there) and weigh them with a metal grid. Place the plate lids inside of the metal cage on the top dish washer drawer\nOnce clean, place the plates and lids standing on their side in the drying machine at 70°C for 3 hours\nPut two pieces of autoclaving tape on the plate lids perpendicularly across the plate lid and down the sides to keep the lid on the plate. Stick the very end of the autoclaving tape back on itself the make it easier to take it off later\nCut off pieces of the autoclaving bag in the necessary length for the amount of plates you would like per bag. Make sure to leave enough extra on both ends to seal the bag\nPlace the welding machine on the bench and a bottom side-up metal tray next to it. Make at least three welds on one side of the bag, moving the bag by a few millimeters between each weld. Make sure to press down on the welder to create a proper seal and hold the welder a bit longer for the first of the welds to make sure it warms up properly\nPlace plates inside of the bag and make at least three welds on the other side of the bag to seal it. Finally, stick a piece of autoclave tape to the back of the bag and label it\nPut the metal frame inside of the autoclave, place a bottle rack inside and prop the bags with the plates up in a standing position between the spikes. Use autoclave program #10, which sterilises for 20 instead of 30 minutes but has a longer drying phase afterwards\nPlates are ready to use!"
-  },
-  {
-    "objectID": "protocols-phtac/media.html",
-    "href": "protocols-phtac/media.html",
-    "title": "Media preparation",
-    "section": "",
-    "text": "Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode\nWe usually run a short 15/20 minute autoclave cycle for liquids (number 006), but longer liquid cycles are permissible"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#general-notes-on-autoclaving",
-    "href": "protocols-phtac/media.html#general-notes-on-autoclaving",
-    "title": "Media preparation",
-    "section": "",
-    "text": "Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode\nWe usually run a short 15/20 minute autoclave cycle for liquids (number 006), but longer liquid cycles are permissible"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter",
-    "href": "protocols-phtac/media.html#minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter",
-    "title": "Media preparation",
-    "section": "Minimal Marine Sea Water (MSW) + D-Gluconic Acid 0.1% (1 liter)",
-    "text": "Minimal Marine Sea Water (MSW) + D-Gluconic Acid 0.1% (1 liter)\n\nAutoclave one empty 1 L bottle and 1 L of MilliQ in a separate bottle\nAfter autoclaving, add MilliQ and magnetic stir bar to beaker. Then, add the following chemicals (use high-precision scale in antibiotic station for the last two ingredients):\n\n1.0g D-Gluconic acid sodium salt\n1.0g KH2PO4\n1.0g H4N2O3\n10.0g NaCl\n0.2g MgSO47H2O\n10mg FeSO47H2O\n10mg CaCl22H2O\n\nAdjust pH to 7\n\nTurn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes\nWhile stirring, lower the electrode into the liquid medium and press the measure button\nAdd NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH (5M)\nWhen done, rinse and dry the electrode before putting in back into the storage solution and turning off the pH meter\n\nSterile filtration\n\nInside a sterile hood, screw the sterile filter onto the autoclaved empty bottle\nTurn on the vacuum pump and stick the hose onto the sterile filter nozzle\nAdd the liquid medium (and any remaining autoclaved water) to the sterile filter\nFirst take the hose off the nozzle, then turn off the vacuum pump\nFinally, screw off the sterile filter in a hood and close the bottle with its cap\n\nClean up and storage\n\nWipe bench and scales\nTurn off stirring plate, scales and pH meter (if not off already)\nPut away dry beakers, spatulas and weighing boats before washing your own ones\nLabel liquid medium bottle with “MSW + D-Gluc.”, your name and the date\nStore in the fridge at 4°C"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#minimal-marine-sea-water-agar-1-mswa-d-gluconic-acid-0.1-1-liter",
-    "href": "protocols-phtac/media.html#minimal-marine-sea-water-agar-1-mswa-d-gluconic-acid-0.1-1-liter",
-    "title": "Media preparation",
-    "section": "Minimal Marine Sea Water Agar 1% (MSWA) + D-Gluconic Acid 0.1% (1 liter)",
-    "text": "Minimal Marine Sea Water Agar 1% (MSWA) + D-Gluconic Acid 0.1% (1 liter)\n\nDissolve 15g of BactoAgar in 800 mL of MilliQ, then add to 1 L bottle\nAutoclave agar and 200 mL of MilliQ in a separate (e.g. 250 mL) bottle\nAfter autoclaving, add 200 mL MilliQ and magnetic stir bar to beaker. Then, add the following chemicals (use high-precision scale in antibiotic station for the last two ingredients)\n\n1.0g D-Gluconic acid sodium salt\n1.0g KH2PO4\n1.0g H4N2O3\n10.0g NaCl\n0.2g MgSO47H2O\n10mg FeSO47H2O\n10mg CaCl22H2O\n\nAdjust pH to 7\n\nTurn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes\nWhile stirring, lower the electrode into the liquid medium and press the measure button\nAdd NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH\nWhen done, rinse and dry the electrode before putting in back into the storage solution and turninig off the pH meter\n\nSterile filtration\n\nInside a sterile hood, screw the sterile filter onto the autoclaved bottle containing 800 mL agar\nTurn on the vacuum pump and stick the hose onto the sterile filter nozzle\nAdd the liquid medium (and any remaining autoclaved water) to the sterile filter\nFirst take the hose of the nozzle, then turn off the vacuum pump\nFinally, screw off the sterile filter in a hood and close the bottle with its cap. Mix well by swirling and inverting\n\nClean up and storage\n\nWipe bench and scales\nTurn off stirring plate, scales and pH meter (if not off already)\nPut away dry beakers, spatulas and weighing boats before washing your own ones\nLabel medium bottle with “MSWA + D-Gluc.”, your name and the date. Preferably pour agar plates immediately (otherwise heat-sensitive components might decay). Otherwise store in media incubator at 50°C"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#marine-broth-mb-1-liter",
-    "href": "protocols-phtac/media.html#marine-broth-mb-1-liter",
-    "title": "Media preparation",
-    "section": "Marine broth (MB) (1 liter)",
-    "text": "Marine broth (MB) (1 liter)\n\nFirst, check the Marine broth 2216 (Sigma Aldrich) bottle for instructions. If they exist, follow those instead of this protocol.\nAdd 37.4 g of Marine broth 2216 powder to roughly 900 mL of MilliQ. Once dissolved, fill volume up to 1000 mL, then add to 1L bottle\nAutoclave and store in the fridge at 4°C"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#marine-agar-ma-1-liter",
-    "href": "protocols-phtac/media.html#marine-agar-ma-1-liter",
-    "title": "Media preparation",
-    "section": "Marine agar (MA) (1 liter)",
-    "text": "Marine agar (MA) (1 liter)\n\nFirst, check the Marine broth 2216 (Sigma Aldrich) bottle for instructions. If they exist, follow those instead of this protocol\nAdd 15 g of BactoAgar to roughly 900mL of MilliQ\nAdd 37.4 g of Marine broth 2216 powder the beaker. Once dissolved (excluding the agar), add to 1 L bottle\nAfter autoclaving, store bottle in 50°C incubator to prevent solidifying"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#casitone-tris-ctt-liquid-1-liter",
-    "href": "protocols-phtac/media.html#casitone-tris-ctt-liquid-1-liter",
-    "title": "Media preparation",
-    "section": "Casitone-Tris (CTT) liquid (1 liter)",
-    "text": "Casitone-Tris (CTT) liquid (1 liter)\n\nDissolve the following components in 900 mL MilliQ:\n\n10 mL 1.0 M Trish-HCl (pH 8.0)\n10 mL 0.8 M MgSO4\n10g Bacto Casitone\n\nFill up volume to 1 L with MilliQ and adjust pH to 7.6\nAutoclave using cycle 003 (liquid media, 50 min at 121°C)\nAfter cooling &lt;50°C add 1 mL 1 M KH2PO4-K2HPO4"
-  },
-  {
-    "objectID": "protocols-phtac/media.html#phosphate-buffered-saline-pbs-1-liter-of-10x-solution",
-    "href": "protocols-phtac/media.html#phosphate-buffered-saline-pbs-1-liter-of-10x-solution",
-    "title": "Media preparation",
-    "section": "Phosphate-Buffered Saline (PBS; 1 liter of 10x solution)",
-    "text": "Phosphate-Buffered Saline (PBS; 1 liter of 10x solution)\nInstructions according to Sigma\n\nDissolve the following components in 900 mL MilliQ:\n\n17.8 g of Na2HPO42H2O\n2.4 g of KH2PO4\n80 g of NaCl\n2 g of KCl\n\nAdjust final volume to 1 L with MilliQ\nMeasure pH using the pH meter. The pH of the 10X stock will be approximately 6.8, but when diluted to 1x PBS the pH should change to 7.4\nAutoclave or filter-sterilize into a sterile bottle\nStore in the fridge at 4°C"
-  },
-  {
     "objectID": "protocols-phtac/index.html",
     "href": "protocols-phtac/index.html",
     "title": "Protocols for Working With Pseudoalteromonas haloplanktis TAC125",
     "section": "",
-    "text": "This site contains a collection of protocols for working with the psychrophilic bacterium Pseudoalteromonas haloplanktis TAC125. The protocol were written during my PhD at ETH Zurich in the evolutionary microbiology group and will thus contain instructions specific to that lab. Protocols are provided as is without any guarantees.\nPDF versions of all protocols are available under the table of contents on the left on each protocol’s subpage.\n\n\n\n\n\n\n\n\n\n\n\nFreezer Stocks\n\n\nVersion 1.4\n\n\n\n\n\n\n\n\n\n\nMedia preparation\n\n\nVersion 1.5\n\n\n\n\n\n\n\n\n\n\nMolecular Assays\n\n\nVersion 1.5\n\n\n\n\n\n\n\n\n\n\nDeep Well Plate Cleaning\n\n\nVersion 0.2\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This site contains a collection of protocols for working with the psychrophilic bacterium Pseudoalteromonas haloplanktis TAC125. The protocol were written during my PhD at ETH Zurich in the evolutionary microbiology group and will thus contain instructions specific to that lab. Protocols are provided as is without any guarantees.\nPDF versions of all protocols are available under the table of contents on the left on each protocol’s subpage.\n\n\n\n\n\n\n\n\n\n\n\nFreezer Stocks\n\n\nVersion 1.5\n\n\n\n\n\n\n\n\n\n\nMedia preparation\n\n\nVersion 1.6\n\n\n\n\n\n\n\n\n\n\nMolecular Assays\n\n\nVersion 1.7\n\n\n\n\n\n\n\n\n\n\nDeep Well Plate Cleaning\n\n\nVersion 0.2\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lecture_notes/statistics_1.html",
@@ -168,6 +105,125 @@
     "text": "Education\n2021 - present | PhD in Environmental Sciences, ETH Zurich, Switzerland\n2019 - 2021 | MSc in Biology (Major in Microbiology and Immunology), ETH Zurich, Switzerland\n2016 - 2020 | BSc in Biology, ETH Zurich, Switzerland"
   },
   {
+    "objectID": "protocols-phtac/plate_cleaning.html",
+    "href": "protocols-phtac/plate_cleaning.html",
+    "title": "Deep Well Plate Cleaning",
+    "section": "",
+    "text": "This is Roman Gort’s protocol to clean and sterilise reusable deep well plates\n\nAutoclave plates with bacterial cultures using program #7 (liquid waste)\nIf no heat-resistant antibiotics were inside, empty and rinse the plates in the sink using tap water\nPlace the plates inside the cleaning bath for 24h. If no bath is ready to use, fill one of the big plastic tubs with 12 L of tap water, add 120 mL detergent and mix well\nFurther clean the plates using dish washer program #5. For this, place the plates upside down in the metal basket (leaving one or two out in the middle because the water jets don’t reach there) and weigh them with a metal grid. Place the plate lids inside of the metal cage on the top dish washer drawer\nOnce clean, place the plates and lids standing on their side in the drying machine at 70°C for 3 hours\nPut two pieces of autoclaving tape on the plate lids perpendicularly across the plate lid and down the sides to keep the lid on the plate. Stick the very end of the autoclaving tape back on itself the make it easier to take it off later\nCut off pieces of the autoclaving bag in the necessary length for the amount of plates you would like per bag. Make sure to leave enough extra on both ends to seal the bag\nPlace the welding machine on the bench and a bottom side-up metal tray next to it. Make at least three welds on one side of the bag, moving the bag by a few millimeters between each weld. Make sure to press down on the welder to create a proper seal and hold the welder a bit longer for the first of the welds to make sure it warms up properly\nPlace plates inside of the bag and make at least three welds on the other side of the bag to seal it. Finally, stick a piece of autoclave tape to the back of the bag and label it\nPut the metal frame inside of the autoclave, place a bottle rack inside and prop the bags with the plates up in a standing position between the spikes. Use autoclave program #10, which sterilises for 20 instead of 30 minutes but has a longer drying phase afterwards\nPlates are ready to use!"
+  },
+  {
+    "objectID": "protocols-phtac/media.html",
+    "href": "protocols-phtac/media.html",
+    "title": "Media preparation",
+    "section": "",
+    "text": "Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode\nWe usually run a short 15/20 minute autoclave cycle for liquids (number 006), but longer liquid cycles are permissible"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#general-notes-on-autoclaving",
+    "href": "protocols-phtac/media.html#general-notes-on-autoclaving",
+    "title": "Media preparation",
+    "section": "",
+    "text": "Place lid on bottle, screw until it starts gripping and then turn it back a full rotation. Then tape the lid in this position with a piece of autoclaving tape. This is to ensure that expanding gases can escape the bottle and it doesn’t explode\nWe usually run a short 15/20 minute autoclave cycle for liquids (number 006), but longer liquid cycles are permissible"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter",
+    "href": "protocols-phtac/media.html#minimal-marine-sea-water-msw-d-gluconic-acid-0.1-1-liter",
+    "title": "Media preparation",
+    "section": "Minimal Marine Sea Water (MSW) + D-Gluconic Acid 0.1% (1 liter)",
+    "text": "Minimal Marine Sea Water (MSW) + D-Gluconic Acid 0.1% (1 liter)\n\nAutoclave one empty 1 L bottle and 1 L of MilliQ in a separate bottle\nAfter autoclaving, add MilliQ and magnetic stir bar to beaker. Then, add the following chemicals (use high-precision scale in antibiotic station for the last two ingredients):\n\n1.0g D-Gluconic acid sodium salt\n1.0g KH2PO4\n1.0g H4N2O3\n10.0g NaCl\n0.2g MgSO47H2O\n10mg FeSO47H2O\n10mg CaCl22H2O\n\nAdjust pH to 7\n\nTurn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes\nWhile stirring, lower the electrode into the liquid medium and press the measure button\nAdd NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH (5M)\nWhen done, rinse and dry the electrode before putting in back into the storage solution and turning off the pH meter\n\nSterile filtration\n\nInside a sterile hood, screw the sterile filter onto the autoclaved empty bottle\nTurn on the vacuum pump and stick the hose onto the sterile filter nozzle\nAdd the liquid medium (and any remaining autoclaved water) to the sterile filter\nFirst take the hose off the nozzle, then turn off the vacuum pump\nFinally, screw off the sterile filter in a hood and close the bottle with its cap\n\nClean up and storage\n\nWipe bench and scales\nTurn off stirring plate, scales and pH meter (if not off already)\nPut away dry beakers, spatulas and weighing boats before washing your own ones\nLabel liquid medium bottle with “MSW + D-Gluc.”, your name and the date\nStore in the fridge at 4°C"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#minimal-marine-sea-water-agar-1-mswa-d-gluconic-acid-0.1-1-liter",
+    "href": "protocols-phtac/media.html#minimal-marine-sea-water-agar-1-mswa-d-gluconic-acid-0.1-1-liter",
+    "title": "Media preparation",
+    "section": "Minimal Marine Sea Water Agar 1% (MSWA) + D-Gluconic Acid 0.1% (1 liter)",
+    "text": "Minimal Marine Sea Water Agar 1% (MSWA) + D-Gluconic Acid 0.1% (1 liter)\n\nDissolve 15g of BactoAgar in 800 mL of MilliQ, then add to 1 L bottle\nAutoclave agar and 200 mL of MilliQ in a separate (e.g. 250 mL) bottle\nAfter autoclaving, add 200 mL MilliQ and magnetic stir bar to beaker. Then, add the following chemicals (use high-precision scale in antibiotic station for the last two ingredients)\n\n1.0g D-Gluconic acid sodium salt\n1.0g KH2PO4\n1.0g H4N2O3\n10.0g NaCl\n0.2g MgSO47H2O\n10mg FeSO47H2O\n10mg CaCl22H2O\n\nAdjust pH to 7\n\nTurn on pH meter, take electrode out of storage buffer, rinse with MilliQ water and carefully dry with lab wipes\nWhile stirring, lower the electrode into the liquid medium and press the measure button\nAdd NaOH slowly until the pH reaches 7 (6.95 - 7.05 are permissible). 1000 mL medium require ~ 1000 uL of NaOH\nWhen done, rinse and dry the electrode before putting in back into the storage solution and turninig off the pH meter\n\nSterile filtration\n\nInside a sterile hood, screw the sterile filter onto the autoclaved bottle containing 800 mL agar\nTurn on the vacuum pump and stick the hose onto the sterile filter nozzle\nAdd the liquid medium (and any remaining autoclaved water) to the sterile filter\nFirst take the hose of the nozzle, then turn off the vacuum pump\nFinally, screw off the sterile filter in a hood and close the bottle with its cap. Mix well by swirling and inverting\n\nClean up and storage\n\nWipe bench and scales\nTurn off stirring plate, scales and pH meter (if not off already)\nPut away dry beakers, spatulas and weighing boats before washing your own ones\nLabel medium bottle with “MSWA + D-Gluc.”, your name and the date. Preferably pour agar plates immediately (otherwise heat-sensitive components might decay). Otherwise store in media incubator at 50°C"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#marine-broth-mb-1-liter",
+    "href": "protocols-phtac/media.html#marine-broth-mb-1-liter",
+    "title": "Media preparation",
+    "section": "Marine broth (MB) (1 liter)",
+    "text": "Marine broth (MB) (1 liter)\n\nFirst, check the Marine broth 2216 (Sigma Aldrich) bottle for instructions. If they exist, follow those instead of this protocol.\nAdd 37.4 g of Marine broth 2216 powder to roughly 900 mL of MilliQ. Once dissolved, fill volume up to 1000 mL, then add to 1L bottle\nAutoclave and store in the fridge at 4°C"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#marine-agar-ma-1-liter",
+    "href": "protocols-phtac/media.html#marine-agar-ma-1-liter",
+    "title": "Media preparation",
+    "section": "Marine agar (MA) (1 liter)",
+    "text": "Marine agar (MA) (1 liter)\n\nFirst, check the Marine broth 2216 (Sigma Aldrich) bottle for instructions. If they exist, follow those instead of this protocol\nAdd 15 g of BactoAgar to roughly 900mL of MilliQ\nAdd 37.4 g of Marine broth 2216 powder the beaker. Once dissolved (excluding the agar), add to 1 L bottle\nAfter autoclaving, store bottle in 50°C incubator to prevent solidifying"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#lb-medium-1-liter",
+    "href": "protocols-phtac/media.html#lb-medium-1-liter",
+    "title": "Media preparation",
+    "section": "LB medium (1 liter)",
+    "text": "LB medium (1 liter)\nThis is the Miller formulation of LB. For Lennox use 5 g of NaCl and for Luria use 0.5 g of NaCl\n\nDissolve the following ingredients in 800 mL of MilliQ\n\n10 g tryptone\n5 g yeast extract\n10 g NaCl\n\nAdd MilliQ up to a total volume of 1 L\nMove medium to bottle. If preparing solid medium, add 15 g of agar\nAfter autoclaving, store bottle at room temperature"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#typ-medium-1-liter",
+    "href": "protocols-phtac/media.html#typ-medium-1-liter",
+    "title": "Media preparation",
+    "section": "TYP medium (1 liter)",
+    "text": "TYP medium (1 liter)\n\nDissolve the following ingredients in 800 mL of MilliQ\n\n16 g tryptone\n16 g yeast extract\n10 g NaCl\n\nAdd MilliQ up to a total volume of 1 L\nMove medium to bottle. If preparing solid medium, add 15 g of agar\nAfter autoclaving, store bottle at room temperature"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#casitone-tris-ctt-liquid-1-liter",
+    "href": "protocols-phtac/media.html#casitone-tris-ctt-liquid-1-liter",
+    "title": "Media preparation",
+    "section": "Casitone-Tris (CTT) liquid (1 liter)",
+    "text": "Casitone-Tris (CTT) liquid (1 liter)\n\nDissolve the following components in 900 mL MilliQ:\n\n10 mL 1.0 M Trish-HCl (pH 8.0)\n10 mL 0.8 M MgSO4\n10g Bacto Casitone\n\nFill up volume to 1 L with MilliQ and adjust pH to 7.6\nAutoclave using cycle 003 (liquid media, 50 min at 121°C)\nAfter cooling &lt;50°C add 1 mL 1 M KH2PO4-K2HPO4"
+  },
+  {
+    "objectID": "protocols-phtac/media.html#phosphate-buffered-saline-pbs-1-liter-of-10x-solution",
+    "href": "protocols-phtac/media.html#phosphate-buffered-saline-pbs-1-liter-of-10x-solution",
+    "title": "Media preparation",
+    "section": "Phosphate-Buffered Saline (PBS; 1 liter of 10x solution)",
+    "text": "Phosphate-Buffered Saline (PBS; 1 liter of 10x solution)\nInstructions according to Sigma\n\nDissolve the following components in 900 mL MilliQ:\n\n17.8 g of Na2HPO42H2O\n2.4 g of KH2PO4\n80 g of NaCl\n2 g of KCl\n\nAdjust final volume to 1 L with MilliQ\nMeasure pH using the pH meter. The pH of the 10X stock will be approximately 6.8, but when diluted to 1x PBS the pH should change to 7.4\nAutoclave or filter-sterilize into a sterile bottle\nStore in the fridge at 4°C"
+  },
+  {
+    "objectID": "protocols-phtac/freezer_stocks.html",
+    "href": "protocols-phtac/freezer_stocks.html",
+    "title": "Freezer Stocks",
+    "section": "",
+    "text": "Grow single clone / population in MSW+D-Gluc. for ~2 days\nPrepare two replicate stocks (one working and one backup stock) using one of the following recipes (all result in final glycerol concentrations of about 20%; the choice comes down to personal preferences):\n\nAdd 500 uL glycerol 60% and 1000 uL liquid culture to cryotubes\nAdd 400 uL glycerol 80% using a multipipette with the 10 mL tip (one full tip is enough for 33 cryotubes) and 1000 uL liquid culture to cryotubes\n\nMix stocks well by vortexing and inverting just before freezing at -80°C\nAdd new boxes to spreadsheet on freezer door and keep track which stocks are where"
+  },
+  {
+    "objectID": "protocols-phtac/freezer_stocks.html#glycerol-stocks",
+    "href": "protocols-phtac/freezer_stocks.html#glycerol-stocks",
+    "title": "Freezer Stocks",
+    "section": "",
+    "text": "Grow single clone / population in MSW+D-Gluc. for ~2 days\nPrepare two replicate stocks (one working and one backup stock) using one of the following recipes (all result in final glycerol concentrations of about 20%; the choice comes down to personal preferences):\n\nAdd 500 uL glycerol 60% and 1000 uL liquid culture to cryotubes\nAdd 400 uL glycerol 80% using a multipipette with the 10 mL tip (one full tip is enough for 33 cryotubes) and 1000 uL liquid culture to cryotubes\n\nMix stocks well by vortexing and inverting just before freezing at -80°C\nAdd new boxes to spreadsheet on freezer door and keep track which stocks are where"
+  },
+  {
+    "objectID": "protocols-phtac/freezer_stocks.html#growing-up-strains-from-glycerol-stocks",
+    "href": "protocols-phtac/freezer_stocks.html#growing-up-strains-from-glycerol-stocks",
+    "title": "Freezer Stocks",
+    "section": "Growing up strains from glycerol stocks",
+    "text": "Growing up strains from glycerol stocks\nSometimes strains have a hard time growing after being frozen for too long. When trying to grow up such a “difficult” strain from freezer stocks, consider the following protocol, especially for high temperature adapted strains.\n\nPrepare MB agar and pour 20 mL plates\nStreak out freezer stocks onto MB plates and incubate at 15°C or 28°C (the latter for high temperature adapted strains) for 1-2 days.\nPick three colonies per strain and inoculate 2 mL MSW+D-Gluc. with it. Incubate at a temperature closer to the highest one the strain is adapted to (e.g. 27°C or 28°C when working with a strain adapted to 30°C) for ~2 days.\nUse strains as usual, for example to make copies of the stocks"
+  },
+  {
+    "objectID": "protocols-phtac/molecular_assays.html",
+    "href": "protocols-phtac/molecular_assays.html",
+    "title": "Molecular Assays",
+    "section": "",
+    "text": "Protocol adapted Macarena Toll-Riera and Promega\n\nHarvest bacterial cells to run PCR on\n\nLiquid culture:\n\nTransfer 20 µL of bacterial culture into a centrifuge tube containing 80 µL of sterile MilliQ\nCentrifuge at maximum speed for 3 minutes\nDiscard supernatant and resuspend pellets in 50 µL sterile MilliQ\n\nColonies: Barely touch the colony with a pipette tip, place in 50 µL of sterile MilliQ and pipette up and down a few times\n\nIncubate at 95°C for 10 minutes in heating block\nCentrifuge at maximum speed for 5 minutes\nStore at 4°C\nPerform PCR using the GoTaq G2 Green Master Mix (includes most reagents needed for PCR and a gel)\n\nPrepare a master mix for n + 1 reactions of 25 µL each\n\n12.5 µL GoTaq G2 Green Master Mix\n1.25 µL forward primer (10 µM)\n1.25 µL reverse primer (10 µM)\n8.75 µL nuclease-free water\n\nAdd 23.75 µL of master mix to PCR tubes and add 1.25 µL DNA template to each\nGently vortex and then briefly centrifuge reactions\nStart PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)\n\nInitial Denaturation for 2 min at 95°C\nDenaturation for 30 s at 95°C\nAnnealing for 30 s at Tm – 5°C\n\nUse lower Tm of each primer pair to calculate annealing temperature\nHigher temperatures make annealing more specific\n\nElongation for 1 min/kb at 72°C\nFinal Elongation for 5 min at 72°C\nHold at 4°C\n\n\nRun gel as a control that amplification worked\n\nPrepare 1% agarose gel\n\nAdd 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute\nAdd 10 µL of SYBR Safe to the gel chamber\nPour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid\n\nLoad 10 µL of a 1 kb ladder and PCR reaction directly into the gel (or 5 µL if using small wells)\nRun gel at 120V for 30 minutes and image it\nIf PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample"
+  },
+  {
+    "objectID": "protocols-phtac/molecular_assays.html#pcr",
+    "href": "protocols-phtac/molecular_assays.html#pcr",
+    "title": "Molecular Assays",
+    "section": "",
+    "text": "Protocol adapted Macarena Toll-Riera and Promega\n\nHarvest bacterial cells to run PCR on\n\nLiquid culture:\n\nTransfer 20 µL of bacterial culture into a centrifuge tube containing 80 µL of sterile MilliQ\nCentrifuge at maximum speed for 3 minutes\nDiscard supernatant and resuspend pellets in 50 µL sterile MilliQ\n\nColonies: Barely touch the colony with a pipette tip, place in 50 µL of sterile MilliQ and pipette up and down a few times\n\nIncubate at 95°C for 10 minutes in heating block\nCentrifuge at maximum speed for 5 minutes\nStore at 4°C\nPerform PCR using the GoTaq G2 Green Master Mix (includes most reagents needed for PCR and a gel)\n\nPrepare a master mix for n + 1 reactions of 25 µL each\n\n12.5 µL GoTaq G2 Green Master Mix\n1.25 µL forward primer (10 µM)\n1.25 µL reverse primer (10 µM)\n8.75 µL nuclease-free water\n\nAdd 23.75 µL of master mix to PCR tubes and add 1.25 µL DNA template to each\nGently vortex and then briefly centrifuge reactions\nStart PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)\n\nInitial Denaturation for 2 min at 95°C\nDenaturation for 30 s at 95°C\nAnnealing for 30 s at Tm – 5°C\n\nUse lower Tm of each primer pair to calculate annealing temperature\nHigher temperatures make annealing more specific\n\nElongation for 1 min/kb at 72°C\nFinal Elongation for 5 min at 72°C\nHold at 4°C\n\n\nRun gel as a control that amplification worked\n\nPrepare 1% agarose gel\n\nAdd 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute\nAdd 10 µL of SYBR Safe to the gel chamber\nPour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid\n\nLoad 10 µL of a 1 kb ladder and PCR reaction directly into the gel (or 5 µL if using small wells)\nRun gel at 120V for 30 minutes and image it\nIf PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample"
+  },
+  {
+    "objectID": "protocols-phtac/molecular_assays.html#s-rrna-sequencing",
+    "href": "protocols-phtac/molecular_assays.html#s-rrna-sequencing",
+    "title": "Molecular Assays",
+    "section": "16S rRNA Sequencing",
+    "text": "16S rRNA Sequencing\n\nPerform PCR according to PCR\n\nUse one of the following primer pairs. Melting temperatures according to the Promega calculator specifically for use with GoTaq G2 Green Master Mix and 200 nM primers\n\n\n\n\n\n\n\n\nPrimer Pair\nSpecificity\nSource\n\n\n\n\n16s_fw + 16s_rv\nPhTAC125 & E. coli\nToll-Riera et al. 2022\n\n\n16s_fw_2 + 16s_rv_2\nPhTAC125\nGleb Ebert\n\n\nF27 + R1525\nuniversal, two bands for PhTAC125\nLane et al. 1991, Stackebrandt et al. 1993\n\n\n\n\n\n\n\n\n\n\n\n\nPrimer Pair\nAnnealing [°C]\nProduct [bp]\nElongation [s]\n\n\n\n\n16s_fw + 16s_rv\n60\n1008\n60\n\n\n16s_fw_2 + 16s_rv_2\n60\n946\n60\n\n\nF27 + R1525\n57\n1528\n90\n\n\n\n\n\n\nName\nSequence\nTm [°C]\n\n\n\n\n16s_fw\nGATCATGGCTCAGATTGAACGC\n65\n\n\n16s_rv\nAGGCACCAAACCATCTCTGG\n65\n\n\n16s_fw_2\nCCACACTGGGACTGAGACAC\n65\n\n\n16s_rv_2\nGCACTCTGTATGCGCCATTG\n65\n\n\nF27\nAGAGTTTGATCCTGGCTCAG\n62\n\n\nR1525\nAAGGAGGTGATCCAGCCGCA\n69\n\n\n\n\nPCR cleanup according to one of the following options:\n\nUse the Promega Wizard SV Gel and PCR Cleanup System or the Qiagen QIAquick PCR Purification Kit according to the respective manufacturer protocols. Elute with 30 µL of nuclease free water\nAccording to protocol adapted from Macarena Toll-Riera\n\nMix PCR cleanup reaction\n\n17 µL PCR product\n0.3 µL Exonuclease I\n0.3 µL Antarctic Phosphatase\n2.4 µL sterile MilliQ (to fill up volume)\nPrepare a master mix for multiple reactions (n + 1) and add 3 µL to each tube\n\nIncubate samples in thermocycler or waterbath\n\n15 minutes at 37°C\n15 minutes at 80-85°C\nHold at 4°C\n\n\n\nMeasure DNA concentration and purity using the GDC’s NanoDrop. 260/280 (protein purity) and 260/230 (salt purity) should both be between 1.8 and 2.0. The latter often tends to be as small as 1.2, even after using a PCR cleanup kit\nCalculate the necessary dilution factor to reach a final DNA concentration of 1.5 ng/µL per 100 bp of PCR product after adding primers. Taking this into account, the target DNA concentration before addition of primers should be: \\[ \\text{target concentration} = \\frac{\\text{product length}\\ bp}{100\\ bp}*1.5 \\frac{ng}{\\mu L}*\\frac{15\\ \\mu L}{12\\ \\mu L} \\] E.g. for a 1.5 kb product the target concentration should 28.125 ng/µL\nPrepare samples for sequencing by adding to each shipping tube\n\n12 µL purified PCR reaction at the appropriate DNA concentration\n3 µL 20 µM primer (just one, either forward or reverse)\n\nAdd Microsynth label to tube and register samples online. Print out order summary and package it in a clear plastic bag together with the samples\nBring samples to Microsynth pickup point at the main entrance of the LFV building"
+  },
+  {
     "objectID": "lecture_notes/ecol_gen.html",
     "href": "lecture_notes/ecol_gen.html",
     "title": "Ecological Genetics (HS18)",
@@ -250,47 +306,5 @@
     "title": "Systembiologie (FS18)",
     "section": "changelog",
     "text": "changelog\n\nv1.3 (10.08.2018)\n\nviele kleine rechtschreibe- und formatierungsfehler verbessert\nkapitel 1\n\nweitere annahmen des massenwirkungsgesetzes\nannahme der gesättigten enzyme bei michaelis-menten war falsch und wurde entfernt\nfolgen auf den kurvenverlauf bei veränderung der parameter\n\nkapitel 2\n\n*[A] auf pfeil in reaktion für dimerisierung entfernt\n\nkapitel 3\n\ngrafik aus 3.2.2 entfernt, da sie nicht viel aussagt\n\nkapitel 5\n\nanmerkung zu ein- und ausfluss von systemen bei zweitem lernziel\n5.2.5 a): in lösung v_2 zu v_3 korrigiert\n5.2.5 b): in aufgabenstellung v_S zu v_6 und v_4 zu v_1 korrigiert\n5.2.5 b): lösung korrigiert und erklärt\n\nkapitel 7\n\n7.2.1 b): lösung korrigiert\n\nkapitel 8\n\neinsichten aus data mining überarbeitet\nstatistisches rauschen unter typischen problemen ergänzt\nmultiples testen: pi0 ist jetzt tatsächlich pi_0\nfdr: pi_0 ist etwa 1, nicht kleiner 1\n\n\n\n\nv1.2 (04.08.2018)\n\naufgabe 1.2.2: lösung korrigiert\nkapitel 4: keratin durch kreatin ersetzt\naufgabe 4.2.2: annhame des konstanten zellvolumens hinzugefügt\nkapitel 5: punkt über omics-daten besser erklärt\naufgabe 5.2.2\n\nin der fragestellung ist e zu E gewachsen\nlösung zu b) korrigiert\n\naufgabe 5.2.3\n\na): stchiometrische -&gt; stöchiometrische\nlösungen zu a) und b) korrigiert\n\naufgabe 5.2.5: lösung zu b) korrigiert\nkapitel 7.2.1: variablen zur besseren verständlichkeit umbenannt\n\n\n\nv1.1 (29.07.2018)\n\nverlorene umlautpunkte gefunden und sonstige tippfehler behoben\naufgabe 5.2.4 a): speichern der resultate in eigene anweisung umgewandelt\nkapitel 7: anleitung zur graphischen darstellung von kombinationen mehrerer ultrasensitiver schritte hinzugefügt\n\n\n\nv1 (26.07.2018)\n\nerste veröffentlichte version"
-  },
-  {
-    "objectID": "protocols-phtac/freezer_stocks.html",
-    "href": "protocols-phtac/freezer_stocks.html",
-    "title": "Freezer Stocks",
-    "section": "",
-    "text": "Grow single clone / population in MSW+D-Gluc. for ~2 days\nPrepare two replicate stocks (one working and one backup stock) using one of the following recipes (all result in final glycerol concentrations of about 20%; the choice comes down to personal preferences):\n\nAdd 500 uL glycerol 60% and 1000 uL liquid culture to cryotubes\nAdd 300 uL glycerol 80% using a multipipette with the 10 mL tip (one full tip is enough for 33 cryotubes) and 1000 uL liquid culture to cryotubes\n\nMix stocks well by vortexing and inverting just before freezing at -80°C\nAdd new boxes to spreadsheet on freezer door and keep track which stocks are where"
-  },
-  {
-    "objectID": "protocols-phtac/freezer_stocks.html#glycerol-stocks",
-    "href": "protocols-phtac/freezer_stocks.html#glycerol-stocks",
-    "title": "Freezer Stocks",
-    "section": "",
-    "text": "Grow single clone / population in MSW+D-Gluc. for ~2 days\nPrepare two replicate stocks (one working and one backup stock) using one of the following recipes (all result in final glycerol concentrations of about 20%; the choice comes down to personal preferences):\n\nAdd 500 uL glycerol 60% and 1000 uL liquid culture to cryotubes\nAdd 300 uL glycerol 80% using a multipipette with the 10 mL tip (one full tip is enough for 33 cryotubes) and 1000 uL liquid culture to cryotubes\n\nMix stocks well by vortexing and inverting just before freezing at -80°C\nAdd new boxes to spreadsheet on freezer door and keep track which stocks are where"
-  },
-  {
-    "objectID": "protocols-phtac/freezer_stocks.html#growing-up-strains-from-glycerol-stocks",
-    "href": "protocols-phtac/freezer_stocks.html#growing-up-strains-from-glycerol-stocks",
-    "title": "Freezer Stocks",
-    "section": "Growing up strains from glycerol stocks",
-    "text": "Growing up strains from glycerol stocks\nSometimes strains have a hard time growing after being frozen for too long. When trying to grow up such a “difficult” strain from freezer stocks, consider the following protocol, especially for high temperature adapted strains.\n\nPrepare MB agar and pour 20 mL plates\nStreak out freezer stocks onto MB plates and incubate at 15°C or 28°C (the latter for high temperature adapted strains) for 1-2 days.\nPick three colonies per strain and inoculate 2 mL MSW+D-Gluc. with it. Incubate at a temperature closer to the highest one the strain is adapted to (e.g. 27°C or 28°C when working with a strain adapted to 30°C) for ~2 days.\nUse strains as usual, for example to make copies of the stocks"
-  },
-  {
-    "objectID": "protocols-phtac/molecular_assays.html",
-    "href": "protocols-phtac/molecular_assays.html",
-    "title": "Molecular Assays",
-    "section": "",
-    "text": "Protocol adapted from Penn iGEM 2013, Spencer Glantz, Kathleen Sproufffske, Macarena Toll-Riera, Promega\n\nHarvest bacterial cells to run PCR on\n\nPCR from liquid culture:\n\nTransfer 20 uL of bacterial culture into a centrifuge tube containing 80 uL of sterile MilliQ\nCentrifuge at maximum speed for 3 minutes\nDiscard supernatant and resuspend pellets in 50 uL sterile MilliQ\n\nPCR from colonies: Barely touch the colony with a pipette tip, place in 50 uL of sterile MilliQ and pipette up and down a few times\n\nIncubate at 95°C for 10 minutes in heating block\nCentrifuge at maximum speed for 5 minutes\nStore at 4°C\nPerform PCR using the GoTaq G2 Green Master Mix (it’s very easy and already includes everything needed for PCR and the gel)\n\nThaw master mix at room temperature\nFor 25 uL reaction volume combine\n\n12.5 uL GoTaq G2 Green Master Mix\n1.25 uL forward primer (10 uM)\n1.25 uL reverse primer (10 uM)\n1.25 uL DNA\n8.75 uL nuclease-free water\n\nCentrifuge reactions for 5 s\nStart PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)\n\nInitial Denaturation for 2 min at 95°C\nDenaturation for 30 s at 95°C\nAnnealing for 30 s at Tm - 5°C (when in doubt, use 50 - 55°C; lower temperatures make annealing more conservative in general)\nElongation for 1 min/kb at 72°C\nFinal Elongation for 5 min at 72°C\nHold at 4°C\n\n\nRun gel as a control that amplification worked\n\nPrepare 1% agarose gel (in K17)\n\nAdd 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute\nAdd 10 uL of SYBR Safe to the gel chamber\nPour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid\n\nLoad 10 uL of a 1 kb ladder and PCR reaction directly into the gel (or 5 uL if using small wells)\nRun gel at 120V for 30 minutes and image it\nIf PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample"
-  },
-  {
-    "objectID": "protocols-phtac/molecular_assays.html#pcr",
-    "href": "protocols-phtac/molecular_assays.html#pcr",
-    "title": "Molecular Assays",
-    "section": "",
-    "text": "Protocol adapted from Penn iGEM 2013, Spencer Glantz, Kathleen Sproufffske, Macarena Toll-Riera, Promega\n\nHarvest bacterial cells to run PCR on\n\nPCR from liquid culture:\n\nTransfer 20 uL of bacterial culture into a centrifuge tube containing 80 uL of sterile MilliQ\nCentrifuge at maximum speed for 3 minutes\nDiscard supernatant and resuspend pellets in 50 uL sterile MilliQ\n\nPCR from colonies: Barely touch the colony with a pipette tip, place in 50 uL of sterile MilliQ and pipette up and down a few times\n\nIncubate at 95°C for 10 minutes in heating block\nCentrifuge at maximum speed for 5 minutes\nStore at 4°C\nPerform PCR using the GoTaq G2 Green Master Mix (it’s very easy and already includes everything needed for PCR and the gel)\n\nThaw master mix at room temperature\nFor 25 uL reaction volume combine\n\n12.5 uL GoTaq G2 Green Master Mix\n1.25 uL forward primer (10 uM)\n1.25 uL reverse primer (10 uM)\n1.25 uL DNA\n8.75 uL nuclease-free water\n\nCentrifuge reactions for 5 s\nStart PCR program (cycle through steps 2-4 30 times; this will take just under 2 hours)\n\nInitial Denaturation for 2 min at 95°C\nDenaturation for 30 s at 95°C\nAnnealing for 30 s at Tm - 5°C (when in doubt, use 50 - 55°C; lower temperatures make annealing more conservative in general)\nElongation for 1 min/kb at 72°C\nFinal Elongation for 5 min at 72°C\nHold at 4°C\n\n\nRun gel as a control that amplification worked\n\nPrepare 1% agarose gel (in K17)\n\nAdd 1g of agarose to 100 mL 1x TAE buffer inside erlenmeyer flask and microwave at standard settings for 1 minute\nAdd 10 uL of SYBR Safe to the gel chamber\nPour gel in small gel chamber with the comb appropriate for the number of samples. Use the comb to ensure SYBR Safe is properly mixed with the liquid\n\nLoad 10 uL of a 1 kb ladder and PCR reaction directly into the gel (or 5 uL if using small wells)\nRun gel at 120V for 30 minutes and image it\nIf PCR did not work, the DNA might have been too concentrated. Retry after dilluting the sample"
-  },
-  {
-    "objectID": "protocols-phtac/molecular_assays.html#s-rrna-sequencing",
-    "href": "protocols-phtac/molecular_assays.html#s-rrna-sequencing",
-    "title": "Molecular Assays",
-    "section": "16S rRNA Sequencing",
-    "text": "16S rRNA Sequencing\n\nPerform PCR according to PCR\n\nUse one of the following primer pairs. Melting temperatures according to the Promega calculator\n\n\n\n\n\n\n\n\n\n\nName\nSequence\nTm\nSpecificity\nSource\n\n\n\n\n16s_fw\nGATCATGGCTCAGATTGAACGC\n66°C\nPhTAC125 & E. coli\nMacarena Toll-Riera\n\n\n16s_rv\nAGGCACCAAACCATCTCTGG\n66°C\nPhTAC125 & E. coli\nMacarena Toll-Riera\n\n\n16s_fw_2\nCCACACTGGGACTGAGACAC\n66°C\nPhTAC125\nGleb Ebert\n\n\n16s_rv_2\nGCACTCTGTATGCGCCATTG\n66°C\nPhTAC125\nGleb Ebert\n\n\nF27\nAGAGTTTGATCCTGGCTCAG\n63°C\nuniversal, two bands for PhTAC125\nLane et al. 1991\n\n\nR1525\nAAGGAGGTGATCCAGCCGCA\n70°C\nuniversal, two bands for PhTAC125\nStackebrandt et al. 1993\n\n\n\nElongation time: ~1.5 kb -&gt; 2 min\n\nPCR cleanup according to one of the following options:\n\nUse the Promega Wizard SV Gel and PCR Cleanup System or the Qiagen QIAquick PCR Purification Kit according to the respective manufacturer protocols. Elute with 30 uL of nuclease free water. This ensures at least two sequencing runs if necessary\nAccording to protocol adapted from Sinisa Bratulic, Kathleen Sprouffske Macarena Toll-Riera\n\nMix PCR cleanup reaction\n\n17 uL PCR product\n0.3 uL Exonuclease I\n0.3 uL Antarctic Phosphatase\n2.4 uL sterile MilliQ (to fill up volume)\nPrepare a master mix for multiple reactions (n + 1) and add 3 uL to each tube\n\nIncubate samples in thermocycler or waterbath\n\n15 minutes at 37°C\n15 minutes at 80-85°C\nHold at 4°C\n\n\n\nMeasure DNA concentration and purity using the GDC’s NanoDrop. 260/280 (protein purity) and 260/230 (salt purity) should both be between 1.8 and 2.0. The latter often tends to be as small as 1.2, even after using a PCR cleanup kit\nCalculate the necessary dilution factor to reach a final DNA concentration of 1.5 ng/uL per 100 bp of PCR product after adding primers. Taking this into account, the target DNA concentration before addition of primers should be: \\[ \\text{target concentration} = \\frac{\\text{product length}}{100}*1.5*\\frac{15}{12} \\] E.g. for a 1.5 kb product the target concentration should 28.125 ng/uL\nPrepare samples for sequencing by adding to each shipping tube\n\n12 uL purified PCR reaction at the appropriate DNA concentration\n3 uL 20 uM primer (just one, either forward or reverse)\n\nAdd Microsynth label to tube and register samples online. Print out order summary and package it in a clear plastic bag together with the samples.\nBring samples to Microsynth pickup point at the main entrance of the LFV building"
   }
 ]

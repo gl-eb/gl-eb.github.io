@@ -116,6 +116,8 @@ $eth-grey-80: #8C8C8C;
 // global styling
 
 :root body {
+    hyphens: auto;
+
     a {
         font-weight: 500;
         text-decoration: none;

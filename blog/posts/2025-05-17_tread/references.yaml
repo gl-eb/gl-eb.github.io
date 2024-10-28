@@ -1,0 +1,63 @@
+---
+references:
+- id: wickhamBryanRPackages2e2023
+  accessed:
+    - year: 2025
+      month: 5
+      day: 17
+  author:
+    - family: Wickham
+      given: Hadley
+    - family: Bryan
+      given: Jennifer
+  citation-key: wickhamBryanRPackages2e2023
+  edition: 2nd ed
+  event-place: Sebastopol
+  ISBN: 978-1-0981-3494-5 978-1-0981-3490-7
+  issued:
+    - year: 2023
+  language: English
+  publisher: O'Reilly Media, Incorporated
+  publisher-place: Sebastopol
+  title: R Packages (2e)
+  type: book
+  URL: https://r-pkgs.org/
+
+- id: wickhamTidyData2014
+  abstract: >-
+    A huge amount of effort is spent cleaning data to get it ready for analysis,
+    but there has been little research on how to make data cleaning as easy and
+    effective as possible. This paper tackles a small, but important, component
+    of data cleaning: data tidying. Tidy datasets are easy to manipulate, model
+    and visualize, and have a specific structure: each variable is a column,
+    each observation is a row, and each type of observational unit is a table.
+    This framework makes it easy to tidy messy datasets because only a small set
+    of tools are needed to deal with a wide range of un-tidy datasets. This
+    structure also makes it easier to develop tidy tools for data analysis,
+    tools that both input and output tidy datasets. The advantages of a
+    consistent data structure and matching tools are demonstrated with a case
+    study free from mundane data manipulation chores.
+  accessed:
+    - year: 2025
+      month: 5
+      day: 17
+  author:
+    - family: Wickham
+      given: Hadley
+  citation-key: wickhamTidyData2014
+  container-title: Journal of Statistical Software
+  DOI: 10.18637/jss.v059.i10
+  ISSN: 1548-7660
+  issued:
+    - year: 2014
+      month: 9
+      day: 12
+  language: en
+  license: Copyright (c) 2013 Hadley  Wickham
+  page: 1-23
+  source: www.jstatsoft.org
+  title: Tidy Data
+  type: article-journal
+  URL: https://doi.org/10.18637/jss.v059.i10
+  volume: '59'
+...

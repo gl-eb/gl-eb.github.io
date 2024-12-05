@@ -116,6 +116,8 @@ $eth-grey-80: #8C8C8C;
 // global styling
 
 :root body {
+    hyphens: auto;
+
     a {
         font-weight: 500;
         text-decoration: none;
@@ -184,5 +186,22 @@ $eth-grey-80: #8C8C8C;
         font-size: 1.2rem;
         font-weight: 600;
         column-gap: 0.5em;
+    }
+}
+
+
+// blog
+
+.quarto-listing .quarto-post {
+    .listing-title {
+        font-size: 2rem;
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    a, a:hover {
+        text-decoration: none;
     }
 }

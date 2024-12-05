@@ -5,6 +5,7 @@ project:
     - "*.md"
   resources:
     - files/lecture_notes/
+    - robots.txt
 
 website:
   title: Gleb Ebert
@@ -37,6 +38,9 @@ format:
     link-external-newwindow: true
     link-external-icon: false
     email-obfuscation: references
+    include-in-header:
+      text: |
+        <meta name="fediverse:creator" content="@gleb@mstdn.science" />
 
 execute:
   freeze: auto

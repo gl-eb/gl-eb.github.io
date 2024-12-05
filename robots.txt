@@ -1,1 +1,3 @@
-Sitemap: https://www.gl-eb.me/sitemap.xml
+User-Agent: *
+Disallow: /
+Allow: /index.html

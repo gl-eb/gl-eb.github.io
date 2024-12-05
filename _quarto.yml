@@ -5,6 +5,7 @@ project:
     - "*.md"
   resources:
     - files/lecture_notes/
+    - robots.txt
 
 website:
   title: Gleb Ebert

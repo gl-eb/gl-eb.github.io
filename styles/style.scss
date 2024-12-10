@@ -2,7 +2,7 @@
 
 // fonts
 
-$font-main: Raleway;
+$font-main: "Fira Sans", Helvetica, Arial, "Sans Serif";
 $font-family-sans-serif: $font-main;
 $font-family-serif: $font-main;
 $font-variant-numeric: lining-nums tabular-nums;
@@ -58,68 +58,57 @@ $eth-grey-80: #8C8C8C;
 
 // fonts
 
-/* raleway-regular - latin */
 @font-face {
     font-display: swap;
-    font-family: 'Raleway';
+    font-family: "Fira Sans";
     font-style: normal;
-    font-weight: 400;
-    src: url('fonts/raleway-v29-latin-regular.woff2') format('woff2');
+    font-weight: normal;
+    // src: url('fonts/FiraSans-Light.woff2') format('woff2');
+    src: url('fonts/FiraSans-Regular.woff2') format('woff2');
 }
 
-/* raleway-italic - latin */
 @font-face {
     font-display: swap;
-    font-family: 'Raleway';
+    font-family: "Fira Sans";
     font-style: italic;
-    font-weight: 400;
-    src: url('fonts/raleway-v29-latin-italic.woff2') format('woff2');
+    font-weight: normal;
+    // src: url('fonts/FiraSans-LightItalic.woff2') format('woff2');
+    src: url('fonts/FiraSans-Italic.woff2') format('woff2');
 }
 
-/* raleway-500 - latin */
 @font-face {
     font-display: swap;
-    font-family: 'Raleway';
+    font-family: "Fira Sans";
     font-style: normal;
-    font-weight: 500;
-    src: url('fonts/raleway-v29-latin-500.woff2') format('woff2');
+    font-weight: bold;
+    src: url('fonts/FiraSans-Medium.woff2') format('woff2');
 }
 
-/* raleway-500italic - latin */
 @font-face {
     font-display: swap;
-    font-family: 'Raleway';
+    font-family: "Fira Sans";
     font-style: italic;
-    font-weight: 500;
-    src: url('fonts/raleway-v29-latin-500italic.woff2') format('woff2');
+    font-weight: bold;
+    src: url('fonts/FiraSans-MediumItalic.woff2') format('woff2');
 }
 
-/* raleway-600 - latin */
 @font-face {
     font-display: swap;
-    font-family: 'Raleway';
+    font-family: "IBM Plex Serif";
     font-style: normal;
-    font-weight: 600;
-    src: url('fonts/raleway-v29-latin-600.woff2') format('woff2');
-}
-
-/* raleway-700 - latin */
-@font-face {
-    font-display: swap;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: url('fonts/raleway-v29-latin-700.woff2') format('woff2');
+    font-weight: bold;
+    src: url('fonts/IBMPlexSerif-Medium.woff2') format('woff2');
 }
 
 
 // global styling
 
 :root body {
+    font-size: 18px;
     hyphens: auto;
 
     a {
-        font-weight: 500;
+        font-weight: bold;
         text-decoration: none;
     }
 
@@ -128,7 +117,7 @@ $eth-grey-80: #8C8C8C;
     }
 
     h1 {
-        font-weight: 700;
+        font-weight: bold;
     }
 
     .content {
@@ -146,7 +135,7 @@ $eth-grey-80: #8C8C8C;
     }
 
     .nav-link {
-        font-weight: 500;
+        font-weight: bold;
         padding: 0.5em 0 0.2em;
     }
 }
@@ -179,12 +168,13 @@ $eth-grey-80: #8C8C8C;
 .about-entity {
     .quarto-title h1 {
         font-size: 3rem;
-        font-weight: 600;
+        font-weight: bold;
+        font-family: "IBM Plex Serif", "Charter", "Serif";
     }
 
     .about-links {
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: bold;
         column-gap: 0.5em;
     }
 }

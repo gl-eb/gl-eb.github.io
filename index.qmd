@@ -22,16 +22,15 @@ about:
       href: "https://www.flickr.com/photos/glebebert/"
 ---
 
-I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich. I am interested in fundamental aspects of microbial evolution, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics. In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, a cold-adapted strain of a globally distributed marine bacterium sampled from the Antarctic.
+I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich.
+I am interested in fundamental aspects of microbial evolution, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics.
+In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, a cold-adapted strain of a globally distributed marine bacterium sampled from the Antarctic.
 
-I enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time. <!-- Check out my [projects](projects.qmd) page to see some examples that have made it onto GitHub. -->
+I enjoy coding and do so primarily in R, though I also tinker with Python and bash from time to time.
+Some of my projects can be found on my [GitHub profile](https://github.com/gl-eb).
 
-I also take pleasure in photography and birding. I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why). Unsurprisingly, my interest in photography started out because of birds. While I have had landscape and sports photography phases, I always return to birds. You can <!-- learn more on my [nature](nature.qmd) page or --> take a look at my work on [Flickr](https://www.flickr.com/photos/glebebert/).
-
-## Education
-
-2021 - present | PhD in Environmental Sciences, ETH Zurich, Switzerland
-
-2019 - 2021 | MSc in Biology (Major in Microbiology and Immunology), ETH Zurich, Switzerland
-
-2016 - 2020 | BSc in Biology, ETH Zurich, Switzerland
+In my free time I like to watch and photograph birds.
+I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020 (guess why).
+Unsurprisingly, my interest in photography started out because of birds.
+While I have had landscape and sports photography phases, I always return to birds.
+You can take a look at my work on [Flickr](https://www.flickr.com/photos/glebebert/).

@@ -94,10 +94,10 @@ $eth-grey-80: #8C8C8C;
 
 @font-face {
     font-display: swap;
-    font-family: "IBM Plex Serif";
+    font-family: "Litera";
     font-style: normal;
     font-weight: bold;
-    src: url('fonts/IBMPlexSerif-Medium.woff2') format('woff2');
+    src: url('fonts/Literata-Medium.woff2') format('woff2');
 }
 
 
@@ -169,7 +169,7 @@ $eth-grey-80: #8C8C8C;
     .quarto-title h1 {
         font-size: 3rem;
         font-weight: bold;
-        font-family: "IBM Plex Serif", "Charter", "Serif";
+        font-family: "Litera", "Charter", "Serif";
     }
 
     .about-links {

@@ -22,7 +22,7 @@ website:
       - lecture_notes/index.qmd
   page-footer:
     left:
-      'Built using [Quarto](https://quarto.org/) v<?quarto.version?> and hosted
+      'Built using [Quarto](https://quarto.org/) {{< version >}} and hosted
       on [{{< iconify simple-icons github >}}](https://github.com/gl-eb/gl-eb.github.io)'
     right:
       '© <?current.year?> Gleb Ebert'
@@ -46,5 +46,4 @@ execute:
   freeze: auto
 
 filters:
-  - filters/quarto-version.lua
   - filters/copyright-year.lua

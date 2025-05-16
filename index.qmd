@@ -1,6 +1,6 @@
 ---
 title: "Gleb Ebert"
-image: /images/gleb_square.jpg
+image: /images/2025_gleb_side.jpg
 image-alt: |
   A close-up photo of Gleb Ebert, a white man in his mid-twenties.
   He has short brown hair, a short beard, and is smiling.

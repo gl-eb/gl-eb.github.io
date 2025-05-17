@@ -63,8 +63,8 @@ $eth-grey-80: #8C8C8C;
     font-family: "Fira Sans";
     font-style: normal;
     font-weight: normal;
-    // src: url('fonts/FiraSans-Light.woff2') format('woff2');
-    src: url('fonts/FiraSans-Regular.woff2') format('woff2');
+    // src: url('resources/fonts/FiraSans-Light.woff2') format('woff2');
+    src: url('resources/fonts/FiraSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -72,8 +72,8 @@ $eth-grey-80: #8C8C8C;
     font-family: "Fira Sans";
     font-style: italic;
     font-weight: normal;
-    // src: url('fonts/FiraSans-LightItalic.woff2') format('woff2');
-    src: url('fonts/FiraSans-Italic.woff2') format('woff2');
+    // src: url('resources/fonts/FiraSans-LightItalic.woff2') format('woff2');
+    src: url('resources/fonts/FiraSans-Italic.woff2') format('woff2');
 }
 
 @font-face {
@@ -81,7 +81,7 @@ $eth-grey-80: #8C8C8C;
     font-family: "Fira Sans";
     font-style: normal;
     font-weight: bold;
-    src: url('fonts/FiraSans-Medium.woff2') format('woff2');
+    src: url('resources/fonts/FiraSans-Medium.woff2') format('woff2');
 }
 
 @font-face {
@@ -89,7 +89,7 @@ $eth-grey-80: #8C8C8C;
     font-family: "Fira Sans";
     font-style: italic;
     font-weight: bold;
-    src: url('fonts/FiraSans-MediumItalic.woff2') format('woff2');
+    src: url('resources/fonts/FiraSans-MediumItalic.woff2') format('woff2');
 }
 
 @font-face {
@@ -97,7 +97,7 @@ $eth-grey-80: #8C8C8C;
     font-family: "Litera";
     font-style: normal;
     font-weight: bold;
-    src: url('fonts/Literata-Medium.woff2') format('woff2');
+    src: url('resources/fonts/Literata-Medium.woff2') format('woff2');
 }
 
 

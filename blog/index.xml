@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Gleb Ebert</title>
+<link>https://www.gl-eb.me/blog/</link>
+<atom:link href="https://www.gl-eb.me/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>This is Gleb Ebert&#39;s personal website. You can learn about me and what I do here.</description>
+<generator>quarto-1.8.7</generator>
+<lastBuildDate>Sat, 17 May 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Introducing tread</title>
+  <dc:creator>Gleb G. Ebert</dc:creator>
+  <link>https://www.gl-eb.me/blog/posts/2025-05-17_tread/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>This post is marks two special occasions. This is the first post I’m publishing on my personal website and the topic of the post is my first R package — <a href="https://github.com/gl-eb/tread">tread</a>. While tread has been out in the wild for a while now, this post sat around as an unfinished draft for far too long. The main goal of it is to document the motivation behind tread, how it progressed from a function within a script to a fully fledged R package, and how I use it in my research.</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>I am currently doing my PhD in the <a href="https://evomicrobio.ethz.ch/">evolutionary microbiology group</a> at ETH Zurich. As an evolutionary biologist I am often interested in how my bacteria are doing under a particular set of conditions, i.e.&nbsp;what their fitness is. One easy way to assay fitness of bacteria is to measure the optical density (OD) of a culture and using it as a proxy for growth. For example, one might grow bacteria at two different temperatures under otherwise equal conditions for a certain duration and then measure their density. This can be done in a high throughput manner by using a plate reader, which allows measuring multiple samples in a microwell plate.</p>
+<p>The particular model of plate reader we use in our group is the Infinite Pro 200, made by the Swiss company Tecan. The device is connected to a Windows machine and is controlled using the i-control software. The generated data is written into an Excel spreadsheet. While Excel spreadsheets are a great way to store data in a human-readable manner, they can pose challenges when one wants to analyse the data in a different environment (e.g.&nbsp;in R or Python).</p>
+<p>I needed to regularly measure the fitness of a number of bacterial populations that were part of an evolution experiment. Since I did not want to manually transfer the OD data from Excel into R (e.g.&nbsp;through an intermediary csv file), I wrote a function that would first read the contents of the sheet and then extract the data.</p>
+<p>Over time I needed this function in multiple R projects, so I spun it out into a package and so <code>tread</code> was born.</p>
+</section>
+<section id="parsing-tecan-output" class="level2">
+<h2 class="anchored" data-anchor-id="parsing-tecan-output">Parsing Tecan Output</h2>
+<div id="fig-tecan-header" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tecan-header-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.gl-eb.me/blog/posts/2025-05-17_tread/tecan_excel_header.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tecan-header-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The header in Tecan’s Excel spreadsheets is rather extensive. While I am in favour of metadata, the header also complicates data extraction
+</figcaption>
+</figure>
+</div>
+<p>At its core the main function, <a href="https://www.gl-eb.me/tread/reference/tparse.html"><code>tread::tparse()</code></a>, is fairly simple:</p>
+<ol type="1">
+<li><a href="https://readxl.tidyverse.org/reference/read_excel.html"><code>readxl::read_excel()</code></a> is used to load the user-specified sheet from an <code>.xlsx</code> file</li>
+<li>The contents of the sheet are then parsed to detect the type of data. This is necessary because each sheet begins with a metadata block (Figure&nbsp;1) and the data is shaped differently depending on whether you measure a single or multiple timepoints and how many measurements per well you take</li>
+<li>The data is then wrangled into <a href="https://vita.had.co.nz/papers/tidy-data.html">tidy format</a> and returned to the user <span class="citation" data-cites="wickhamTidyData2014">(<em>1</em>)</span></li>
+</ol>
+<p>My main use case for <code>tparse()</code> is comes from an evolution experiment I am currently running. The bacterial populations inhabit wells of multiple 48-deep well plates (Figure&nbsp;2). The populations are also separated by buffer wells containing only growth medium.</p>
+<div id="fig-plate" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-plate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://www.gl-eb.me/blog/posts/2025-05-17_tread/well_plate.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-plate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: The schematic of a 48-well plate as used in my evolution experiment. Blue wells that contain bacterial populations are arranged in a checkerboard pattern with yellow buffer wells containing only growth medium.
+</figcaption>
+</figure>
+</div>
+<p>At the end of every cycle I transfer a small volume from all wells of all 48-well plates into a single 96-well plate and measure the OD at a wavelength of 600 nm. I then run my analysis script which imports optical density data of all experimental cycles and performs a number of operations on the resulting data set:</p>
+<ul>
+<li>The OD values of the buffer wells are checked for outliers. These might indicate an contamination. While most of the time they are easy to spot by eye, I have missed some in the past that the outlier detection flagged</li>
+<li>The OD of the evolving populations is put on a scatter plot. I look at it to see any suspiciously high or low values</li>
+<li>The time series of OD values for each population is plotted so any longer-term trends can be seen</li>
+</ul>
+</section>
+<section id="segmented-growth-curves" class="level2">
+<h2 class="anchored" data-anchor-id="segmented-growth-curves">Segmented Growth Curves</h2>
+<p>Another use case came up a few cycles into the evolution experiment. I use growth curves to periodically assess the growth dynamics of the evolving populations. Since our bacterium grows slower than e.g.&nbsp;<em>E. coli</em>, and the evolution experiment is performed in nutrient-limited growth medium, growth curves have to be run for at least 48 hours. While a growth curve is run, other lab members cannot use the plate reader. The only solution is to stop and restart the growth curve. However, this will result in the data being saved into multiple sheets of the same <code>.xlsx</code> file.</p>
+<p>When stitching together multiple segments of a growth curve, one has to calculate the time offset between them. This as well as copy-pasting values around Excel are error-prone processes. Thus I set out to develop a function that could automatically merge segments into a single data set. The result of this is <a href="https://www.gl-eb.me/tread/reference/tunite.html"><code>tread::tunite()</code></a>:</p>
+<ol type="1">
+<li>Each sheet found in a user-supplied <code>.xlsx</code> file is read using <code>tparse()</code></li>
+<li>Then the time-offsets between segments are calculted using their starting times and durations</li>
+<li>The time for all segments except for the first is adjusted by the total duration and offset of all preceding segments</li>
+<li>A single data set in tidy format is returned</li>
+</ol>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>I will never know if I have saved the time I have invested into developing tread by not having to manually extract data from Excel sheets (n.b.&nbsp;as of writing I have 579 Tecan-generated <code>.xlsx</code> files to show after 3.5 years of PhD). Nevertheless, the process has been a valuable learning experience and I can only recommend spinning out frequently used functions into packages. In fact, last year I set up <a href="https://github.com/gl-eb/glebrt">another package</a> containing a number of functions I commonly use across projects. I found the second edition of Hadley Wickham and Jennifer Bryan’s book <a href="https://r-pkgs.org/">R Packages</a> to be a fantastic resource in this regard <span class="citation" data-cites="wickhamBryanRPackages2e2023">(<em>2</em>)</span>. Creating your first R package might be a bit overwhelming at first, but I took it slow and let it grew organically as my needs evolved.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body">
+<div id="ref-wickhamTidyData2014" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">H. Wickham, <a href="https://doi.org/10.18637/jss.v059.i10">Tidy Data</a>. <em>Journal of Statistical Software</em> <strong>59</strong>, 1–23 (2014).</div>
+</div>
+<div id="ref-wickhamBryanRPackages2e2023" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">H. Wickham, J. Bryan, <em>R Packages (2e)</em> (O’Reilly Media, Incorporated, Sebastopol, 2nd ed., 2023; <a href="https://r-pkgs.org/">https://r-pkgs.org/</a>).</div>
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ebert2025,
+  author = {Ebert, Gleb G.},
+  title = {Introducing Tread},
+  date = {2025-05-17},
+  url = {https://www.gl-eb.me/blog/posts/2025-05-17_tread/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ebert2025" class="csl-entry quarto-appendix-citeas">
+<div class="">G.
+G. Ebert, Introducing tread (2025). <a href="https://www.gl-eb.me/blog/posts/2025-05-17_tread/">https://www.gl-eb.me/blog/posts/2025-05-17_tread/</a>.</div>
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>package development</category>
+  <category>science</category>
+  <category>PhD</category>
+  <guid>https://www.gl-eb.me/blog/posts/2025-05-17_tread/</guid>
+  <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.gl-eb.me/blog/posts/2025-05-17_tread/sticker_tread.png" medium="image" type="image/png" height="166" width="144"/>
+</item>
+</channel>
+</rss>

@@ -7,5 +7,11 @@
       "/protocols-phtac/molecular_assays.html",
       "/protocols-phtac/plate_cleaning.html"
     ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/2025-05-17_tread/index.html"
+    ]
   }
 ]

@@ -17,6 +17,7 @@ website:
   navbar:
     search: true
     right:
+      - blog/index.qmd
       - text: Protocols
         file: protocols-phtac/index.qmd
       - lecture_notes/index.qmd
@@ -32,8 +33,8 @@ format:
   html:
     lang: en
     theme:
-      light: [styles/style.scss, styles/theme-light.scss]
-      dark: [styles/style.scss, styles/theme-dark.scss]
+      light: [resources/styles/style.scss, resources/styles/theme-light.scss]
+      dark: [resources/styles/style.scss, resources/styles/theme-dark.scss]
     toc: false
     link-external-newwindow: true
     link-external-icon: false
@@ -42,8 +43,13 @@ format:
       text: |
         <meta name="fediverse:creator" content="@gleb@mstdn.science" />
 
+date-format: "D MMMM YYYY"
+
+citeproc: true
+csl: resources/csl/science.csl
+
 execute:
   freeze: auto
 
 filters:
-  - filters/copyright-year.lua
+  - resources/filters/copyright-year.lua

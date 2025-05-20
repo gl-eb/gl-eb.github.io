@@ -1,11 +1,26 @@
 [
   {
-    "listing": "/protocols-phtac/index.html",
+    "listing": "/science/protocols-phtac/index.html",
     "items": [
-      "/protocols-phtac/freezer_stocks.html",
-      "/protocols-phtac/media.html",
-      "/protocols-phtac/molecular_assays.html",
-      "/protocols-phtac/plate_cleaning.html"
+      "/science/protocols-phtac/freezer_stocks.html",
+      "/science/protocols-phtac/media.html",
+      "/science/protocols-phtac/molecular_assays.html",
+      "/science/protocols-phtac/plate_cleaning.html"
+    ]
+  },
+  {
+    "listing": "/science/lecture_notes/index.html",
+    "items": [
+      "/science/lecture_notes/statistics_1.html",
+      "/science/lecture_notes/evolution.html",
+      "/science/lecture_notes/mycology.html",
+      "/science/lecture_notes/ggb.html",
+      "/science/lecture_notes/phys_chem_2.html",
+      "/science/lecture_notes/plant_sys.html",
+      "/science/lecture_notes/systems_bio.html",
+      "/science/lecture_notes/lmmb.html",
+      "/science/lecture_notes/ecol_gen.html",
+      "/science/lecture_notes/pop_gen.html"
     ]
   },
   {

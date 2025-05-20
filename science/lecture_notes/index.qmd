@@ -1,0 +1,42 @@
+---
+title: "Lecture Notes"
+
+# aliases:
+#   - "/lecture_notes/index.html"
+
+toc: true
+toc-location: right
+toc-expand: true
+
+# title-block-banner: images/phtac_rdbl.png
+# title-block-banner-color: white
+listing:
+    type: grid
+    grid-columns: 2
+    sort: false
+    fields: [title, subtitle]
+    contents:
+      - statistics_1.qmd
+      - evolution.qmd
+      - mycology.qmd
+      - ggb.qmd
+      - phys_chem_2.qmd
+      - plant_sys.qmd
+      - systems_bio.qmd
+      - lmmb.qmd
+      - ecol_gen.qmd
+      - pop_gen.qmd
+format-links: false
+---
+
+Throughout my bachelor studies in biology at ETH Zurich, I compiled notes for many of the lectures.
+They are in the language the course was taught in and are provided as is (i.e. no guarantee of completeness or correctness).
+
+:::{.callout-note}
+Only the newest version of each set of notes is available.
+:::
+
+:::{.callout-warning}
+The lecture notes provided here were compiled as part of the 2013 study programme of the Bachelor in Biology at ETH Zurich.
+In 2020, a new study program was introduced which came with changes to lectures.
+:::

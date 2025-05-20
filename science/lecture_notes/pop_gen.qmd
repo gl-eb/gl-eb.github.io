@@ -1,8 +1,9 @@
 ---
-title: "Population and Quantitative Genetics (HS18)"
+title: "Population and Quantitative Genetics"
+subtitle: "HS18"
 ---
 
-[lmmb_mettier-ebert_v1-1.pdf](/files/lecture_notes/lmmb_mettier-ebert_v1-1.pdf){.external target="_blank"}
+[lmmb_mettier-ebert_v1-1.pdf](/science/lecture_notes/files/lmmb_mettier-ebert_v1-1.pdf){.external target="_blank"}
 
 ## changelog
 

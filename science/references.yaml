@@ -1,0 +1,49 @@
+---
+references:
+- id: toll-rieraLimitEvolutionaryRescue2022
+  abstract: >-
+    Climate change is gradual, but it can also cause brief extreme heat waves
+    that can exceed the upper thermal limit of any one organism. To study the
+    evolutionary potential of upper thermal tolerance, we evolved the
+    cold-adapted Antarctic bacterium Pseudoalteromonas haloplanktis to survive
+    at 30°C, beyond its ancestral thermal limit. This high-temperature
+    adaptation occurred rapidly and in multiple populations. It involved genomic
+    changes that occurred in a highly parallel fashion and mitigated the effects
+    of protein misfolding. However, it also confronted a physiological limit,
+    because populations failed to grow beyond 30°C. Our experiments aimed to
+    facilitate evolutionary rescue by using a small organism with large
+    populations living at temperatures several degrees below their upper thermal
+    limit. Larger organisms with smaller populations and living at temperatures
+    closer to their upper thermal tolerances are even more likely to go extinct
+    during extreme heat waves.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 18
+  author:
+    - family: Toll-Riera
+      given: Macarena
+    - family: Olombrada
+      given: Miriam
+    - family: Castro-Giner
+      given: Francesc
+    - family: Wagner
+      given: Andreas
+  citation-key: toll-rieraLimitEvolutionaryRescue2022
+  container-title: Science Advances
+  DOI: 10.1126/sciadv.abk3511
+  issue: '28'
+  issued:
+    - year: 2022
+      month: 7
+      day: 15
+  page: eabk3511
+  publisher: American Association for the Advancement of Science
+  source: science.org (Atypon)
+  title: >-
+    A limit on the evolutionary rescue of an Antarctic bacterium from rising
+    temperatures
+  type: article-journal
+  URL: https://www.science.org/doi/10.1126/sciadv.abk3511
+  volume: '8'
+...

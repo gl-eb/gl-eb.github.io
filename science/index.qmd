@@ -1,0 +1,51 @@
+---
+title: "Scientific Interests"
+
+title-block-banner: images/phtac_rdbl.png
+title-block-banner-color: white
+toc: true
+
+bibliography: references.yaml
+---
+
+## Evolvability to Environmental Change
+
+I am currenlty working on my PhD with Macarena Toll-Riera in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich in Switzerland (though most of the group has recently moved to the [Institute of Evolutionary Biology](https://www.ibe.upf-csic.es/evolutionary-microbiology-group) in Barcelona, Spain).
+My main scientific interest lies in the evolvability of bacteria.
+To his end I work with *Pseudoalteromonas haloplanktis* TAC125 (*Ph*TAC125), an Antarctic and thus cold-adapted strain of a globally distributed marine bacterium.
+Macarena Toll-Riera performed an evolution experiment in which *Ph*TAC125 was adapted to slowly increasing temperatures [@toll-rieraLimitEvolutionaryRescue2022].
+While the upper thermal limit of the ancestral strain only increased from 29°C to 30°C, genome sequencing uncovered widespread parallel evolution.
+The most remarkable example being that over 90% of the sequenced clones carried a mutant allele of the *lon* gene, which encodes the Lon protease, and most of the mutant alleles turned out be the the exact same one.
+All of my doctoral research is a direct continuation of this experiment.
+
+For example, I investigated the transcriptomes of both *Ph*TAC125 as well as a panel of high-temperature-adapted clones from the aforementioned evolution experiment across a range of temperatures.
+In particular, we were interested in the transcriptional response of *P. haloplanktis* to heat stress and how adaptation to high temperatures might have changed it.
+Interestingly, we found that the heat shock response is similarly active in both ancestral and evolved clones at their respective upper limits.
+Furthermore, we did not see the high levels of parallel genome evolution translating to parallel transcriptome evolution.
+
+At the same time we also wanted to find ways around the previously determined upper thermal limit at 30°C.
+To do so we performed further evolution experiments.
+In a first we directly continued the original experiment by choosing evolved clones with increased mutation rates, so called hypermutators, and adjusting the experimental design to introduce fluctuating levels of selection.
+By doing so, we successfully pushed the upper thermal limit further up to 32°C.
+Interestingly, hypermutator populations consistently grew to higher optical densities throughout the experiment.
+
+In a second evolution experiment I used both the natural isolate *Ph*TAC125 as well as a *lon* knock-out strain to investigate the role that the Lon protease plays in adaptation to high temperatures.
+The hypothesis that the frequently selected for mutation resulted in an evolutionary bottleneck which prevented adaptation to temperatures beyond 30°C could not be confirmed.
+While we did see *∆lon* populations grew to higher densities at temperatures below 29°C, the difference disappeared as we reached 30°C without surpassing the previously established upper limit further.
+
+## Bachelor and Master in Biology
+
+During my bachelor's studies biology at ETH Zurich, Switzerland, I developed a broad interested in microbiology and evolution.
+Microbial pathogens in particular peaked my curiosity with their ability to outwit a complex multicellular organism's immune defenses.
+My fascination was strengthened by laboratory courses, leading me to major in microbiology and immunology during my master's studies.
+
+For a first three month rotation project I worked with Bidong Nguyen in [Wolf-Dietrich Hardt's group](https://micro.biol.ethz.ch/research/hardt.html) on the molecular mechanisms of *Salmonella* Typhimurium pathogenesis.
+Through knock-outs and *in vivo* experiments we investigated the importance of a number of genes on the ability of *Salmonella* Typhimurium to colonise the mouse gut.
+
+Later I joined [Bruce McDonalds group](https://path.ethz.ch/) for a second three month rotation project to work on *Zymoseptoria tritici*, a fungal pathogen of wheat.
+Under the supervision of Cécile Lorrain I phenotyped a large collection of natural isolates in regards to their ability to cope with a panel of abiotic stressors using automated image analysis.
+Then, I performed a GWAS to find genetic variants underlying the phenotypic diversity.
+
+For my Master thesis, again working with Cécile Lorrain, I ran an evolution experiment adapting *Z. tritici* to increasing fungicide concentrations.
+In particular we aimed to find the limits of adaptation to two fungicides from different classes and investigate how the genomes of the six ancestral strains evolved over time.
+We also performed *in planta* phenotyping of virulence of ancestral and evolved strains.

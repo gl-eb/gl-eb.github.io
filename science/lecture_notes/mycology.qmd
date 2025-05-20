@@ -1,8 +1,9 @@
 ---
-title: "Mykologie (HS17)"
+title: "Mykologie"
+subtitle: "HS17"
 ---
 
-[mykologie_GlebEbert_v1-2.pdf](/files/lecture_notes/mycology_ebert_v1-1.pdf){.external target="_blank"}
+[mykologie_GlebEbert_v1-2.pdf](/science/lecture_notes/files/mycology_ebert_v1-1.pdf){.external target="_blank"}
 
 ## changelog
 

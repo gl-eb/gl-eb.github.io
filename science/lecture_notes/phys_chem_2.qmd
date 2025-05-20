@@ -1,8 +1,9 @@
 ---
-title: "Physikalische Chemie 2 (FS18)"
+title: "Physikalische Chemie 2"
+subtitle: "FS18"
 ---
 
-[phys_chem_2_ebert_v1.pdf](/files/lecture_notes/phys_chem_2_ebert_v1.pdf){.external target="_blank"}
+[phys_chem_2_ebert_v1.pdf](/science/lecture_notes/files/phys_chem_2_ebert_v1.pdf){.external target="_blank"}
 
 ## changelog
 

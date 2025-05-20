@@ -1,8 +1,9 @@
 ---
-title: "Systembiologie (FS18)"
+title: "Systembiologie"
+subtitle: "FS18"
 ---
 
-[systems_bio_mettier-ebert_v1-3.pdf](/files/lecture_notes/systems_bio_mettier-ebert_v1-3.pdf){.external target="_blank"}
+[systems_bio_mettier-ebert_v1-3.pdf](/science/lecture_notes/files/systems_bio_mettier-ebert_v1-3.pdf){.external target="_blank"}
 
 ## changelog
 

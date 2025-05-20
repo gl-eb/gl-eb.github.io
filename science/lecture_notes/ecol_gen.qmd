@@ -1,8 +1,9 @@
 ---
-title: "Ecological Genetics (HS18)"
+title: "Ecological Genetics"
+subtitle: "HS18"
 ---
 
-[ecol_gen_ebert_v1-1.pdf](/files/lecture_notes/ecol_gen_ebert_v1-1.pdf){.external target="_blank"}
+[ecol_gen_ebert_v1-1.pdf](/science/lecture_notes/files/ecol_gen_ebert_v1-1.pdf){.external target="_blank"}
 
 ## Changelog
 

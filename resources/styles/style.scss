@@ -156,6 +156,26 @@ $eth-grey-80: #8C8C8C;
 }
 
 
+// sidebar
+
+.sidebar-navigation .sidebar-item {
+    font-size: 1.0rem;
+
+    .sidebar-item {
+        margin-top: 0.8em;
+        font-size: 0.925rem
+    }
+
+    &:not(.sidebar-item *) {
+        margin-bottom: 1em;
+    }
+
+    &:has(.sidebar-item-text.sidebar-link.active) {
+        list-style-type: "> ";
+    }
+}
+
+
 // footer
 
 .footer .nav-footer a {

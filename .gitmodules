@@ -1,3 +1,6 @@
 [submodule "protocols-phtac"]
 	path = protocols-phtac
 	url = https://github.com/gl-eb/protocols-phtac/
+[submodule "science/protocols-phtac"]
+	path = science/protocols-phtac
+	url = https://github.com/gl-eb/protocols-phtac/

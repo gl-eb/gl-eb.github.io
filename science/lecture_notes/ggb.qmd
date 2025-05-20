@@ -1,8 +1,9 @@
 ---
-title: "Genetik, Genomik, Bioinformatik (FS18)"
+title: "Genetik, Genomik, Bioinformatik"
+subtitle: "FS18"
 ---
 
-[ggb_ebert_v1-1.pdf](/files/lecture_notes/ggb_ebert_v1-1.pdf){.external target="_blank"}
+[ggb_ebert_v1-1.pdf](/science/lecture_notes/files/ggb_ebert_v1-1.pdf){.external target="_blank"}
 
 ## changelog
 

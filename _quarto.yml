@@ -17,10 +17,31 @@ website:
   navbar:
     search: true
     right:
+      - text: Science
+        href: science/index.qmd
       - blog/index.qmd
-      - text: Protocols
-        file: protocols-phtac/index.qmd
-      - lecture_notes/index.qmd
+  sidebar:
+    - id: science
+      collapse-level: 1
+      contents:
+        - science/index.qmd
+        - section: "PhTAC125 Protocols"
+          href: science/protocols-phtac/index.qmd
+          contents: "science/protocols-phtac/*"
+        - section: "Lecture Notes"
+          href: science/lecture_notes/index.qmd
+          contents:
+            - science/lecture_notes/statistics_1.qmd
+            - science/lecture_notes/evolution.qmd
+            - science/lecture_notes/mycology.qmd
+            - science/lecture_notes/ggb.qmd
+            - science/lecture_notes/phys_chem_2.qmd
+            - science/lecture_notes/plant_sys.qmd
+            - science/lecture_notes/systems_bio.qmd
+            - science/lecture_notes/lmmb.qmd
+            - science/lecture_notes/ecol_gen.qmd
+            - science/lecture_notes/pop_gen.qmd
+  bread-crumbs: false
   page-footer:
     left:
       'Built using [Quarto](https://quarto.org/) {{< version >}} and hosted

@@ -1,8 +1,9 @@
 ---
-title: "Statistik I (FS17)"
+title: "Statistik I"
+subtitle: "FS17"
 ---
 
-[statistics_1_ebert_v7.pdf](/files/lecture_notes/statistics_1_ebert_v7.pdf){.external target="_blank"}
+[statistics_1_ebert_v7.pdf](/science/lecture_notes/files/statistics_1_ebert_v7.pdf){.external target="_blank"}
 
 ### changelog
 
@@ -44,7 +45,7 @@ title: "Statistik I (FS17)"
 - einige rechtschreibefehler entfernt
 - normalapproximation des vi und des verwerfungsbereiches getrennt, da diese
     nichts miteinander zutun haben.
-- 3.2.2 teil über fehler leicht umgeschrieben (neu mit 100% mehr 
+- 3.2.2 teil über fehler leicht umgeschrieben (neu mit 100% mehr
     wahrscheinlichkeiten).
 - 4.5.3 fallunterscheidung zwischen ein- und zweiseitigem vertraünsintervall
 - vergleich ungepaarter und gepaarter t-test

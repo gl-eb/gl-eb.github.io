@@ -1,8 +1,9 @@
 ---
-title: "Systematische Biologie: Pflanzen (FS18)"
+title: "Systematische Biologie: Pflanzen"
+subtitle: "FS18"
 ---
 
-[plant_sys_ebert_v1.pdf](/files/lecture_notes/plant_sys_ebert_v1.pdf){.external target="_blank"}
+[plant_sys_ebert_v1.pdf](/science/lecture_notes/files/plant_sys_ebert_v1.pdf){.external target="_blank"}
 
 ## changelog
 

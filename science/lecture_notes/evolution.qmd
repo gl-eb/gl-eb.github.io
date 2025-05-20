@@ -1,8 +1,9 @@
 ---
-title: "Introduction to Evolutionary Biology (HS17)"
+title: "Introduction to Evolutionary Biology"
+subtitle: "HS17"
 ---
 
-[evolution_ebert_v1-3.pdf](/files/lecture_notes/evolution_ebert_v1-3.pdf){.external target="_blank"}
+[evolution_ebert_v1-3.pdf](/science/lecture_notes/files/evolution_ebert_v1-3.pdf){.external target="_blank"}
 
 ## Changelog
 

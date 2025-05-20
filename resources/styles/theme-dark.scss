@@ -78,6 +78,13 @@ $link-color: $color-main;
 }
 
 
+// sidebar
+
+.sidebar-navigation .sidebar-item::marker {
+    color: $color-main;
+}
+
+
 // footer
 
 .footer .nav-footer a {

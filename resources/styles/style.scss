@@ -126,6 +126,13 @@ $eth-grey-80: #8C8C8C;
 }
 
 
+// code
+
+a > code:not(.sourceCode) {
+    font-weight: bold;
+}
+
+
 // navbar
 
 .navbar {

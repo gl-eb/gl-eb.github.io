@@ -7,7 +7,9 @@ $theme: "litera" !default;
 $eth-blue-40: #A6BEDF;
 $eth-blue-60: #7A9DCF;
 $eth-blue-80: #4D7DBF;
+$eth-petrol-20: #CCE4EA;
 $eth-petrol-80: #3395AB;
+$eth-petrol-dark: #00596D;
 $eth-green-80: #818F42;
 $eth-bronze-80: #A58542;
 $eth-red-80: #C55D57;
@@ -24,6 +26,9 @@ $color-main: $eth-blue-40;
 
 $body-bg: $blue-grey;
 $body-color: $eth-grey-20;
+
+$code-color: $eth-petrol-dark;
+$code-bg: $eth-petrol-20;
 
 $navbar-bg: $body-bg;
 $navbar-fg: $body-color;
@@ -60,6 +65,14 @@ $link-color: $color-main;
 
 :root body {
     @include link-color;
+}
+
+
+// code
+
+a > code:not(.sourceCode) {
+    color: $eth-blue-dark;
+    background-color: $eth-blue-20;
 }
 
 

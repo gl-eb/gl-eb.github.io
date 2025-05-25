@@ -9,8 +9,71 @@
 <link>https://www.gl-eb.me/blog/</link>
 <atom:link href="https://www.gl-eb.me/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>This is Gleb Ebert&#39;s personal website. You can learn about me and what I do here.</description>
-<generator>quarto-1.8.10</generator>
-<lastBuildDate>Sat, 17 May 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.11</generator>
+<lastBuildDate>Sun, 25 May 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Generating Printable Labels</title>
+  <dc:creator>Gleb G. Ebert</dc:creator>
+  <link>https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>I love microbiology. Bacteria in particular have fascinated me for a long time. If you can imagine some sort of biological function or behaviour, there is a bacterium somewhere that does it.<sup>[<em>citation needed</em>]</sup> There are parts of microbiology that I do not particularly enjoy though. (Micro)biological lab work can be time and resource intensive, particularly when both biological and technical replication are necessary. For example, during my master’s studies in Biology at ETH Zurich, I worked with Cécile Lorrain of Bruce McDonald’s group for a three month rotation project. We screened a large collection of natural isolates of <em>Zymoseptoria tritici</em>, a fungus causing massive crop losses in wheat, for their resistance to a range of abiotic stressors.<sup>1</sup> We had a panel of 117 strains that we tested in multiple replicates against four stressors (and a control treatment), resulting in over 1,200 agar plates. Imagine that after preparing the growth medium and pouring all of these plates, you also need to manually label each one with some identifying information like strain, experimental treatment or the date. At the very least you will want a unique identifier that can be looked up in a table containing meta data. There was an alternative: We had <a href="https://www.avery-zweckform.com/produkt/stark-haftende-papier-etiketten-l7871-20">Avery-Zweckform adhesive labels</a> in stock. A corresponding Word template allowed manually entering label content electronically and the printing it onto the sticker sheets using a standard office printer. Not even wanting to bother with the slightly clunky Word template, I set out to write a script that would output a printable PDF layout when supplied with a list of sample names.</p>
+<section id="in-the-beginning-there-was-bash" class="level2">
+<h2 class="anchored" data-anchor-id="in-the-beginning-there-was-bash">In the beginning there was Bash</h2>
+<p>The first version of the <code>generate-stickers</code> script was conceptually based on a script another lab member had written to generate printable layouts for a different kind of experiment.<sup>2</sup> When executed, it would interactively ask the user for the path to an input <code>txt</code> file containing one sample name per line, perform a few basic checks on the input and then iteratively generate LaTeX code<sup>3</sup> which would generate the printable PDF using <code>pdflatex</code>. I “released” version 1.0 of the script in November 2020 by sharing it with other lab members. Version 1.1 followed the next day, fixing a critical bug. Being my first foray into Bash scripting, it wasn’t anything to write home about, but it did what I needed it to do.</p>
+</section>
+<section id="python-does-it-better" class="level2">
+<h2 class="anchored" data-anchor-id="python-does-it-better">Python does it better</h2>
+<p>After a two month break following my rotation project, I came back to do my Master’s thesis with Cécile. This time we were going to run an evolution experiment<sup>4</sup> to investigate the evolvability of fungicide resistance in the same fungal plant pathogen, <em>Zymoseptoria tritici</em>. Being good scientists, we wanted to get generalisable results and thus chose to start the experiment with eight diverse ancestral strains, expose them to five different treatments (low and high doses of two fungicide with different mechanisms of action as well as a control), and replicate every combination three times. This resulted in us culturing 120 populations for 14 cycles, each five days long. In order to be able to recapitulate evolution through sequencing later on, we froze samples from all populations at every second cycle.<sup>5</sup> Over the duration of the experiment (70 days in total), I would need to prepare 840 freezer stocks, which included labelling tubes. Thus I again turned to the <code>generate-stickers</code> script.</p>
+<p>Being lazy, I did not even want to type out the 840 sample names. Due to their modular nature ([ancestral strain]-[experimental cycle]-[experimental treatment]-[replicate population], e.g.&nbsp;IPO323-C14-CTRL-1), I set out to assemble them programmatically. Unfortunately, I quickly reached the limits of what (my) Bash (skills) could accomplish and I decided to rewrite the script in Python. In addition to the basic functionality of the Bash script, I added the ability to sequentially assemble sample names as well as print the current month and year<sup>6</sup>. The script would also automatically adjust the font size of a given label if the sample name was too long. Version 2.0 was again “released” in February 2021. While using the script to never have to label anything by hand, I made further improvements and bug fixes over the next months.</p>
+<p>I graduated in September 2021 and joined Macarena Toll-Riera’s group, at that time still at ETH Zurich, to do a PhD. With evolution experiments being a central to my research, the script got a lot of use (I have printed thousands of labels over the last 3.5 years). I further expanded it’s abilities, switched to <code>xelatex</code> for UTF-8 support and published it on GitHub starting with version 2.5.0. For example, I added the option to skip a certain amount of stickers on the sheet and allowed the user to control the script’s behaviour through command line arguments. Nevertheless, <code>generate-stickers</code> was always just a script, meaning I’d have to place code and input files in the same folder or pass longer file system paths using command-line arguments.<sup>7</sup></p>
+</section>
+<section id="packaging" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="packaging">Packaging</h2>
+<p>Over the years, I had thought about converting the script to a python package. Since I had never developed a Python package before, I never ended up committing the time since it would be a decent amount of work. Then, earlier this year, the layout generated by the script got messed up. I could never figure out what exactly caused the issue, though I suspect it might have been an update to a TeX package. Having my labelling needs unmet finally provided the push I needed to go back and invest time into taking <code>generate-stickers</code> to the next level. I improved the typesetting of the PDF in LaTeX and how file system paths are handled. On the development side, I used the opportunity of converting the script to a package to learn <a href="https://docs.astral.sh/uv/"><code>uv</code></a> and add some basic unit testing combined with continuous integration on GitHub. I also decided to choose a new name for the package: <code>generate-labels</code> 3.0.0 is now available to install from <a href="https://pypi.org/project/generate-labels/">PyPi</a> and <a href="https://github.com/gl-eb/generate-stickers-AveryL7871">GitHub</a>. Finally, in preparation for this blog post, I created a hex sticker for the package, putting a metaphorical neat little bow around it.</p>
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/sticker_generate-labels.png" class="img-fluid" alt="A hex sticker with a yellow border as well as white background with light grey, rectangular outlines of labels. The package name generate-labels is written across the sticker."></p>
+</div></div></section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Think low and high temperatures, salt stress, etc.↩︎</p></li>
+<li id="fn2"><p>You would spray wheat plants with a pathogen, let the infection proceed, then collect leafs, stick them onto these sheets of paper in predefined locations, scan them and then run them through an automated image analysis pipeline.↩︎</p></li>
+<li id="fn3"><p>Is that what it’s called? Code?↩︎</p></li>
+<li id="fn4"><p>To learn more about these, I highly recommend perusing the long-term evolution experiment’s <a href="https://the-ltee.org/">website</a>↩︎</p></li>
+<li id="fn5"><p>Do you see where this is going?↩︎</p></li>
+<li id="fn6"><p>Why not the entire date? Who knows↩︎</p></li>
+<li id="fn7"><p>I got around this with an alias in my <code>.zshrc</code> file↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ebert2025,
+  author = {Ebert, Gleb G.},
+  title = {Generating {Printable} {Labels}},
+  date = {2025-05-25},
+  url = {https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ebert2025" class="csl-entry quarto-appendix-citeas">
+<div class="">G.
+G. Ebert, Generating Printable Labels (2025). <a href="https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/">https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/</a>.</div>
+</div></div></section></div> ]]></description>
+  <category>Python</category>
+  <category>package development</category>
+  <category>science</category>
+  <category>PhD</category>
+  <guid>https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/</guid>
+  <pubDate>Sun, 25 May 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.gl-eb.me/blog/posts/2025-05-25_generate-labels/sticker_generate-labels.png" medium="image" type="image/png" height="165" width="144"/>
+</item>
 <item>
   <title>Introducing tread</title>
   <dc:creator>Gleb G. Ebert</dc:creator>

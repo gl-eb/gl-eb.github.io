@@ -10,7 +10,7 @@ bibliography: references.yaml
 
 ## Evolvability to Environmental Change
 
-I am currenlty working on my PhD with Macarena Toll-Riera in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich in Switzerland (though most of the group has recently moved to the [Institute of Evolutionary Biology](https://www.ibe.upf-csic.es/evolutionary-microbiology-group) in Barcelona, Spain).
+I am currently working on my PhD with Macarena Toll-Riera in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich in Switzerland (though most of the group has recently moved to the [Institute of Evolutionary Biology](https://www.ibe.upf-csic.es/evolutionary-microbiology-group) in Barcelona, Spain).
 My main scientific interest lies in the evolvability of bacteria.
 To his end I work with *Pseudoalteromonas haloplanktis* TAC125 (*Ph*TAC125), an Antarctic and thus cold-adapted strain of a globally distributed marine bacterium.
 Macarena Toll-Riera performed an evolution experiment in which *Ph*TAC125 was adapted to slowly increasing temperatures [@toll-rieraLimitEvolutionaryRescue2022].

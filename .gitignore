@@ -2,3 +2,7 @@
 /.quarto/
 /_site/
 /.luarc.json
+
+# R files
+/_freeze/
+/renv/

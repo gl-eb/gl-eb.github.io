@@ -67,6 +67,18 @@ $link-color: $color-main;
     @include link-color;
 }
 
+// links
+
+#quarto-content p > {
+    a {
+        background-image: linear-gradient($eth-blue-80);
+    }
+
+    a:hover {
+        background-image: linear-gradient($eth-blue-40);
+    }
+}
+
 
 // code
 
@@ -124,15 +136,28 @@ a > code:not(.sourceCode) {
         color: $body-color;
     }
 
-    .listing-categories .listing-category {
-        color: $body-color;
+    .listing-categories {
+        > .listing-category {
+            color: $body-color;
+            border-color: $eth-grey-dark;
+        }
+
+        > .listing-category:hover {
+            border-color: $link-color;
+            color: $link-color;
+        }
     }
+}
+
+.quarto-listing-category > .category:hover,
+.quarto-title > .quarto-categories > .quarto-category:hover {
+    border-color: $link-color;
+    color: $link-color;
 }
 
 // protocols
 .quarto-listing {
     .card:hover {
         color: $color-main;
-        text-decoration: none;
     }
 }

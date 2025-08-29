@@ -6,6 +6,7 @@ $theme: "litera" !default;
 
 $eth-blue: #215CAF;
 $eth-blue-dark: #08407E;
+$eth-blue-60: #7A9DCF;
 $eth-petrol: #007894;
 $eth-green: #627313;
 $eth-bronze: #8E6713;
@@ -50,6 +51,17 @@ $link-color: $color-main;
     }
 }
 
+// links
+
+#quarto-content p > {
+    a {
+        background-image: linear-gradient($eth-blue-60);
+    }
+
+    a:hover {
+        background-image: linear-gradient($eth-blue);
+    }
+}
 
 // navbar
 
@@ -101,15 +113,27 @@ $link-color: $color-main;
         color: $body-color;
     }
 
-    .listing-categories .listing-category {
-        color: $body-color;
+    .listing-categories {
+        > .listing-category {
+            color: $body-color;
+        }
+
+        > .listing-category:hover {
+            border-color: $link-color;
+            color: $link-color;
+        }
     }
+}
+
+.quarto-listing-category > .category:hover,
+.quarto-title > .quarto-categories > .quarto-category:hover {
+    border-color: $link-color;
+    color: $link-color;
 }
 
 // protocols
 .quarto-listing {
     .card:hover {
         color: $color-main;
-        text-decoration: none;
     }
 }

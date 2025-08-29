@@ -16,6 +16,8 @@ $nav-link-font-size: 1.3rem;
 $eth-blue: #215CAF;
 $eth-blue-dark: #08407E;
 $eth-blue-20: #D3DEEF;
+$eth-blue-40: #A6BEDF;
+$eth-blue-60: #7A9DCF;
 $eth-blue-80: #4D7DBF;
 $eth-petrol: #007894;
 $eth-petrol-dark: #00596D;
@@ -113,7 +115,8 @@ $eth-grey-80: #8C8C8C;
     }
 
     a:hover {
-        text-decoration: underline;
+        text-decoration-line: underline;
+        text-decoration-thickness: 15%;
     }
 
     h1 {
@@ -122,6 +125,19 @@ $eth-grey-80: #8C8C8C;
 
     .content {
         text-align: justify;
+    }
+}
+
+// links
+
+#quarto-content p > {
+    a {
+        font-weight: normal;
+        color: unset;
+        text-decoration: none;
+        background-size: 100% 18%;
+        background-position: 0% 100%;
+        background-repeat: repeat-x;
     }
 }
 
@@ -214,11 +230,23 @@ a > code:not(.sourceCode) {
         font-size: 2rem;
 
         a:hover {
-            text-decoration: underline;
+            text-decoration-line: underline;
+            text-decoration-thickness: 10%;
         }
     }
 
     a, a:hover {
         text-decoration: none;
     }
+}
+
+.quarto-title > .quarto-categories > .quarto-category:hover {
+    opacity: 1.0;
+}
+
+
+.quarto-listing-category > .category:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 10%;
 }

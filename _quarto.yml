@@ -67,7 +67,7 @@ format:
 date-format: "D MMMM YYYY"
 
 citeproc: true
-csl: resources/csl/science.csl
+csl: resources/csl/numeric.csl
 
 execute:
   freeze: auto

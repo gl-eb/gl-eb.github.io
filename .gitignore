@@ -5,5 +5,4 @@
 **/*.quarto_ipynb
 
 # R files
-/_freeze/
 /renv/

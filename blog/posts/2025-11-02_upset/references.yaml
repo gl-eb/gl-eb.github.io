@@ -1,0 +1,38 @@
+---
+references:
+- id: lexUpSetVisualizationIntersecting2014
+  accessed:
+    - year: 2024
+      month: 6
+      day: 7
+  author:
+    - family: Lex
+      given: Alexander
+    - family: Gehlenborg
+      given: Nils
+    - family: Strobelt
+      given: Hendrik
+    - family: Vuillemot
+      given: Romain
+    - family: Pfister
+      given: Hanspeter
+  citation-key: lexUpSetVisualizationIntersecting2014
+  container-title: IEEE Transactions on Visualization and Computer Graphics
+  container-title-short: IEEE Trans. Visual. Comput. Graphics
+  DOI: 10.1109/TVCG.2014.2346248
+  ISSN: 1077-2626
+  issue: '12'
+  issued:
+    - year: 2014
+      month: 12
+      day: 31
+  license: >-
+    https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/OAPA.html
+  page: 1983-1992
+  source: DOI.org (Crossref)
+  title: 'UpSet: Visualization of Intersecting Sets'
+  title-short: UpSet
+  type: article-journal
+  URL: http://ieeexplore.ieee.org/document/6876017/
+  volume: '20'
+...

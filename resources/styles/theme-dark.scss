@@ -16,9 +16,11 @@ $eth-red-80: #C55D57;
 $eth-purple-80: #B73B92;
 $eth-grey-dark: #575757;
 $eth-grey-20: #E2E2E2;
+$eth-grey-40: #C5C5C5;
 $eth-grey-60: #A9A9A9;
 $eth-grey-80: #8C8C8C;
 $blue-grey: #2C3146;
+$blue-grey-light: #3a425dff;
 
 // dark theme variables
 
@@ -82,9 +84,16 @@ $link-color: $color-main;
 
 // code
 
+div.sourceCode {
+    border: none;
+    background-color: $blue-grey-light;
+}
 a > code:not(.sourceCode) {
     color: $eth-blue-dark;
     background-color: $eth-blue-20;
+}
+pre > code {
+    color : $eth-grey-40
 }
 
 

@@ -23,11 +23,11 @@ about:
 ---
 
 I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich.
-I am interested in fundamental aspects of microbial evolution, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics.
-In particular, my PhD research concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, an Antarctic and thus cold-adapted strain of a globally distributed marine bacterium.
+I am interested in fundamental aspects of microbial evolution such as evolvability, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics.
+In particular, my [PhD research](science/index.qmd#evolvability-of-bacteria-in-changing-environments) concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, an Antarctic and thus cold-adapted strain of a globally distributed marine bacterium.
 
-I enjoy coding and do so primarily in R, though I also use Python.
-Some of my projects can be found on my [GitHub profile](https://github.com/gl-eb).
+I enjoy coding and data visualisation, doing so primarily in R and from time to time Python.
+I have written about some of my projects on my [blog](blog/index.qmd) and the source code can be found on [GitHub](https://github.com/gl-eb).
 
 In my free time I like to observe and photograph birds.
 I was first exposed to birding while growing up and dabbled in it on and off over the years, but only started birding more seriously in 2020.

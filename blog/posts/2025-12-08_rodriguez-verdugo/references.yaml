@@ -1,0 +1,91 @@
+---
+references:
+- id: rodriguez-verdugoFirstStepMutationsAdaptation2016
+  abstract: >-
+    The temporal change of phenotypes during the adaptive process remains
+    largely unexplored, as do the genetic changes that affect these phenotypic
+    changes. Here we focused on three mutations that rose to high frequency in
+    the early stages of adaptation within 12 Escherichia coli populations
+    subjected to thermal stress (42 °C). All the mutations were in the rpoB
+    gene, which encodes the RNA polymerase beta subunit. For each mutation, we
+    measured the growth curves and gene expression (mRNAseq) of clones at 42 °C.
+    We also compared growth and gene expression with their ancestor under
+    unstressed (37 °C) and stressed conditions (42 °C). Each of the three
+    mutations changed the expression of hundreds of genes and conferred large
+    fitness advantages, apparently through the restoration of global gene
+    expression from the stressed toward the prestressed state. These three
+    mutations had a similar effect on gene expression as another single mutation
+    in a distinct domain of the rpoB protein. Finally, we compared the
+    phenotypic characteristics of one mutant, I572L, with two high-temperature
+    adapted clones that have this mutation plus additional background mutations.
+    The background mutations increased fitness, but they did not substantially
+    change gene expression. We conclude that early mutations in a global
+    transcriptional regulator cause extensive changes in gene expression, many
+    of which are likely under positive selection for their effect in restoring
+    the prestress physiology.
+  accessed:
+    - year: 2022
+      month: 9
+      day: 21
+  author:
+    - family: Rodríguez-Verdugo
+      given: Alejandra
+    - family: Tenaillon
+      given: Olivier
+    - family: Gaut
+      given: Brandon S.
+  citation-key: rodriguez-verdugoFirstStepMutationsAdaptation2016
+  container-title: Molecular Biology and Evolution
+  container-title-short: Molecular Biology and Evolution
+  DOI: 10.1093/molbev/msv228
+  ISSN: 0737-4038
+  issue: '1'
+  issued:
+    - year: 2016
+      month: 1
+      day: 1
+  page: 25-39
+  PMCID: PMC4693981
+  PMID: '26500250'
+  source: Silverchair
+  title: >-
+    First-Step Mutations during Adaptation Restore the Expression of Hundreds of
+    Genes
+  type: article-journal
+  volume: '33'
+
+- id: tenaillonMolecularDiversityConvergence2012
+  accessed:
+    - year: 2021
+      month: 10
+      day: 19
+  author:
+    - family: Tenaillon
+      given: Olivier
+    - family: Rodríguez-Verdugo
+      given: Alejandra
+    - family: Gaut
+      given: Rebecca L.
+    - family: McDonald
+      given: Pamela
+    - family: Bennett
+      given: Albert F.
+    - family: Long
+      given: Anthony D.
+    - family: Gaut
+      given: Brandon S.
+  citation-key: tenaillonMolecularDiversityConvergence2012
+  container-title: Science
+  DOI: 10.1126/science.1212986
+  issue: '6067'
+  issued:
+    - year: 2012
+      month: 1
+      day: 27
+  page: 457-461
+  publisher: American Association for the Advancement of Science
+  source: science.org (Atypon)
+  title: The Molecular Diversity of Adaptive Convergence
+  type: article-journal
+  volume: '335'
+...

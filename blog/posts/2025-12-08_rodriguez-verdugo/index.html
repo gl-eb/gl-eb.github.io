@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Gleb G. Ebert">
 <meta name="dcterms.date" content="2025-12-08">
+<meta name="description" content="A short highlight article of Rodríguez-Verdugo et al. 2016 MBE">
 
-<title>Deep Well Plate Cleaning – Gleb Ebert</title>
+<title>Leap, Then Refine—a Two-Step Model of Adaptation – Gleb Ebert</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,32 +23,51 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a555615fda6662b620e1ae2330e503bf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d0fa8ba893d9d5240ed47a5f27aa240d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-f60c2031684a4e5bc783d42b06f1e4bf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-d0fa8ba893d9d5240ed47a5f27aa240d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a555615fda6662b620e1ae2330e503bf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-cdaacfc258cb6f151192107f105ac881.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-d0fa8ba893d9d5240ed47a5f27aa240d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-f60c2031684a4e5bc783d42b06f1e4bf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-d0fa8ba893d9d5240ed47a5f27aa240d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,12 +98,17 @@ ul.task-list li input[type="checkbox"] {
 <meta name="fediverse:creator" content="@gleb@mstdn.science">
 
 
-<meta property="og:title" content="Deep Well Plate Cleaning – Gleb Ebert">
-<meta property="og:description" content="Version 0.2">
+<meta property="og:title" content="Leap, Then Refine—a Two-Step Model of Adaptation – Gleb Ebert">
+<meta property="og:description" content="A short highlight article of Rodríguez-Verdugo et al. 2016 MBE">
+<meta property="og:image" content="https://www.gl-eb.me/blog/posts/2025-12-08_rodriguez-verdugo/figures/rodriguez-verdugo-2016_fig-4-c.png">
 <meta property="og:site_name" content="Gleb Ebert">
+<meta property="og:image:height" content="716">
+<meta property="og:image:width" content="1019">
+<meta property="og:image:alt" content="A scatter plot from Rodriguez-Verdugo et al. 2016 showing that a single point mutation can reduce heat-induced transcriptome stress in comparison to the wild-type.
+">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -247,11 +273,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Gleb Ebert</span>
     </a>
   </div>
@@ -262,11 +288,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../science/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../science/index.html"> 
 <span class="menu-text">Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -276,191 +302,138 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Deep Well Plate Cleaning</h1>
-        </a>     
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Scientific Interests</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../science/protocols-phtac/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">PhTAC125 Protocols</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Leap, Then Refine—a Two-Step Model of Adaptation</h1>
+                  <div>
+        <div class="description">
+          <p>A short highlight article of Rodríguez-Verdugo <em>et al.</em> 2016 <em>MBE</em></p>
+        </div>
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/protocols-phtac/freezer_stocks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Freezer Stocks</span></a>
+                          <div class="quarto-categories">
+                <div class="quarto-category">science</div>
+                <div class="quarto-category">paper</div>
+                <div class="quarto-category">evolution</div>
+                <div class="quarto-category">microbiology</div>
+                <div class="quarto-category">transcriptomics</div>
+              </div>
+                  </div>
   </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/protocols-phtac/media.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Media preparation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/protocols-phtac/molecular_assays.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Molecular Assays</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/protocols-phtac/plate_cleaning.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Deep Well Plate Cleaning</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../science/lecture_notes/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/statistics_1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Statistik I</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/evolution.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to Evolutionary Biology</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/mycology.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mykologie</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/ggb.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Genetik, Genomik, Bioinformatik</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/phys_chem_2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Physikalische Chemie 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/plant_sys.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Systematische Biologie: Pflanzen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/systems_bio.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Systembiologie</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/lmmb.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blockkurs Experimentelle Lebensmittelmikrobiologie</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/ecol_gen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ecological Genetics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../science/lecture_notes/pop_gen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Population and Quantitative Genetics</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Gleb G. Ebert <a href="https://orcid.org/0000-0002-7734-3824" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
     </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">8 December 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="plate_cleaning.pdf"><i class="bi bi-file-pdf"></i>Typst (minimal-doc)</a></li></ul></div></div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block">Deep Well Plate Cleaning</h1>
-<p class="subtitle lead">Version 0.2</p>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">8 December 2025</p>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#some-context" id="toc-some-context" class="nav-link active" data-scroll-target="#some-context">Some Context</a></li>
+  <li><a href="#the-highlight" id="toc-the-highlight" class="nav-link" data-scroll-target="#the-highlight">The Highlight</a></li>
+  </ul>
+</nav>
     </div>
-  </div>
-  
-    
-  </div>
-  
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</header>
 
 
-<p>This is Roman Gort’s protocol to clean and sterilise reusable deep well plates</p>
-<ol type="1">
-<li>Autoclave plates with bacterial cultures using program #7 (liquid waste)</li>
-<li>If no heat-resistant antibiotics were inside, empty and rinse the plates in the sink using tap water</li>
-<li>Place the plates inside the cleaning bath for 24h. If no bath is ready to use, fill one of the big plastic tubs with 12 L of tap water, add 120 mL detergent and mix well</li>
-<li>Further clean the plates using dish washer program #5. For this, place the plates upside down in the metal basket (leaving one or two out in the middle because the water jets don’t reach there) and weigh them with a metal grid. Place the plate lids inside of the metal cage on the top dish washer drawer</li>
-<li>Once clean, place the plates and lids standing on their side in the drying machine at 70°C for 3 hours</li>
-<li>Put two pieces of autoclaving tape on the plate lids perpendicularly across the plate lid and down the sides to keep the lid on the plate. Stick the very end of the autoclaving tape back on itself the make it easier to take it off later</li>
-<li>Cut off pieces of the autoclaving bag in the necessary length for the amount of plates you would like per bag. Make sure to leave enough extra on both ends to seal the bag</li>
-<li>Place the welding machine on the bench and a bottom side-up metal tray next to it. Make at least three welds on one side of the bag, moving the bag by a few millimeters between each weld. Make sure to press down on the welder to create a proper seal and hold the welder a bit longer for the first of the welds to make sure it warms up properly</li>
-<li>Place plates inside of the bag and make at least three welds on the other side of the bag to seal it. Finally, stick a piece of autoclave tape to the back of the bag and label it</li>
-<li>Put the metal frame inside of the autoclave, place a bottle rack inside and prop the bags with the plates up in a standing position between the spikes. Use autoclave program #10, which sterilises for 20 instead of 30 minutes but has a longer drying phase afterwards</li>
-<li>Plates are ready to use!</li>
+
+
+<section id="some-context" class="level2">
+<h2 class="anchored" data-anchor-id="some-context">Some Context</h2>
+<p>A few months ago I applied to the <a href="https://www.smbe.org/smbe-fellows-program/">Fellows Program</a> of the Society of Molecular Biology and Evolution. As part of the application, I had to write a short article highlighting a paper, similar to the society journal’s <a href="https://academic.oup.com/mbe/search-results?f_TocHeadingTitleList=Highlights"><em>Molecular Biology and Evolution</em></a> and <a href="https://academic.oup.com/gbe/search-results?f_TocHeadingTitleList=Highlights"><em>Genome Biology and Evolution</em> Highlights</a>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> While I was not selected to be one of the three 2025 fellows—those that did look very deserving—I nevertheless wanted to share what I wrote. I chose to highlight Rodríguez-Verdugo <em>et al.</em> 2016 <em>MBE</em> <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span>, one of the most important references for my <a href="../../../science/index.html#evolvability-of-bacteria-in-changing-environments">doctoral research</a>.</p>
+</section>
+<section id="the-highlight" class="level2">
+<h2 class="anchored" data-anchor-id="the-highlight">The Highlight</h2>
+<p>Temperature is a complex stressor which affects many cellular processes, enzymatic reactions or molecular conformations for example, at the same time. Adaptation to some external stresses can occur through genetic changes that impart novel functions. Temperature on the other hand has been shown to at least in some cases lead to the selection of mutations that restore homeostasis—in other words, restore cellular processes towards an unstressed state. However, at the time of publication of Rodríguez-Verdugo <em>et al.</em> (2016) in <em>Molecular Biology and Evolution</em> <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span>, it was unclear how often adaptation took the novelty or restoration routes. Furthermore, we lacked understanding of the mechanisms and in particular the timing of genetic changes and the corresponding phenotypic changes over the course of adaptation to an external stress. To address these knowledge gaps, Rodríguez-Verdugo and colleagues investigated high-temperature adaptation in <em>Escherichia coli</em> <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span>. In an earlier evolution experiment, the authors had allowed 115 <em>E. coli</em> populations to adapt to growth at 42.2°C, a highly stressful temperature close to the bacterium’s upper thermal limit, over the course of 2000 generations <span class="citation" data-cites="tenaillonMolecularDiversityConvergence2012">(<a href="#ref-tenaillonMolecularDiversityConvergence2012" role="doc-biblioref"><em>2</em></a>)</span>. Genome sequencing revealed a high degree of parallel genome evolution, meaning that mutations in the same genes, operons, and functional complexes were selected for repeatedly across independent populations. The gene encoding the β subunit of the RNA polymerase (RNAP), <em>rpoB</em>, was the most frequent target of selected mutations with 76% of sequenced clones carrying a mutant <em>rpoB</em> allele. Three <em>rpoB</em> mutations were particularly interesting because they occurred early in the evolution experiment and conferred large fitness effects. These non-synonymous substitutions were located in the active site of the RNAP, <em>rpoB</em> codon 572 specifically, and were thus likely to influence transcription at a global scale, potentially kick-starting high-temperature adaptation.</p>
+<div id="fig-timeline" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-timeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/rodriguez-verdugo-2016_fig-1.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-timeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Timeline of thermal adaptation. The ancestor was characterised under prestressed (WT) conditions at 37°C and after acclimatisation (AC) at 42°C. First-step mutations (1ST) as well as adapted clones (EVO) were also characterised at 42°C. Adapted from <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span> CC BY-NC 4.0
+</figcaption>
+</figure>
+</div>
+<p>First, Rodríguez-Verdugo and colleagues characterised the ancestral strain’s growth and gene expression at 37°C (prestressed) and at highly stressful 42°C (<a href="#fig-timeline" class="quarto-xref">Figure&nbsp;1</a>). Not only did the ancestor grow substantially slower and to lower densities at 42°C, it also differentially expressed 41% of its 4204 genes, indicating severe heat stress. While many stress-related genes were upregulated, genes involved in growth-related processes were downregulated. Next, the authors reconstructed the three potential first-step mutations in the ancestral strain: <em>rpoB I572F, I572L,</em> and <em>I572N</em>. Indeed, the mutant strains showed faster growth and higher maximum densities compared to the ancestor at 42°C. RNA-Seq revealed that the mutant strains differentially expressed hundreds to over thousand (598–1360) genes compared to the ancestor at 42°C, indicating that non-synonymous substitutions in the RNAP active site lead to massive pleiotropic shifts in gene expression (<a href="#fig-gene-expression" class="quarto-xref">Figure&nbsp;2</a>). Plotting log₂-fold changes (LFCs) of the mutants compared to the ancestor at 42°C against the of LFCs the ancestor at 42°C compared to 37°C, revealed significant negative correlations (<a href="#fig-gene-expression" class="quarto-xref">Figure&nbsp;2</a>). This indicates that the first-step mutations restored gene expression towards the prestressed state (ancestor at 37°C). Expressed genes were then further categorised as restored (LFCs reversed after adaptation), reinforced (LFCs with same sign), unrestored (unchanged by adaptation), or novel (evolved differential expression). Out of the genes that were differentially expressed either by acclimatisation or adaptation, 63–68% were restored, ≤ 3% showed novel differential expression, and &lt; 1% (0–3 genes) experienced a reinforced LFC after adaptation (<a href="#fig-gene-expression" class="quarto-xref">Figure&nbsp;2</a>). Surprisingly, similar growth and gene expression phenotypes to those of the codon 572 mutations were induced by the <em>rpoB I966S</em> mutation, located outside of the RNAP active site.</p>
+<div id="fig-gene-expression" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gene-expression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/rodriguez-verdugo-2016_fig-4-c.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gene-expression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Changes in gene expression after acclimatisation and adaptation to 42°C. The x-axis shows gene expression changes in the ancestral clone at 42°C compared to 37°C. The y-axis represents gene expression changes in the <em>rpoB I572N</em> mutant compared to the ancestor at 42°C. Gene expression was either restored (blue), reinforced (red), novel (yellow), or unrestored (grey) after mutation of <em>rpoB</em>. Adapted from <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span> CC BY-NC 4.0
+</figcaption>
+</figure>
+</div>
+<p>Finally, <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span> studied two clones from the evolution experiment which both carried the <em>rpoB I572L</em> mutation as well as non-overlapping sets of ~10 mutations. These additional mutations allowed the high-temperature adapted clones to grow faster and one of the clones to reach higher densities, though neither had regained the fitness of the ancestor at 37°C (<a href="#fig-growth" class="quarto-xref">Figure&nbsp;3</a>). Interestingly, very few genes showed differences in gene expression compared to the transcriptome of the <em>rpoB I572L</em> strain, indicating that the <em>rpoB</em> mutations were still responsible for most of the differential gene expression.</p>
+<div id="fig-growth" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-growth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/rodriguez-verdugo-2016_fig-6-a.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-growth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Growth curves of the ancestor, mutants and evolved clones. The ancestral strain incurred a large fitness cost when grown at 42°C compared to 37°C. After 2000 generations of experimental evolution at 42.2°C, evolved clones (clone 27 in this case) partially recovered the unstressed growth phenotype. The <em>rpoB</em> mutations, <em>I572L</em> in this case, explain a sizeable part of this phenotypic restoration. Adapted from <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span> CC BY-NC 4.0
+</figcaption>
+</figure>
+</div>
+<p>Temperature being a complex stressor, it might seem surprising that a single mutation could confer a large fitness benefit under heat stress. But because of their ability to directly or indirectly influence the expression of hundreds to thousands of genes, transcriptional regulators such as <em>rpoB</em> are in a prime position to do so. While these large scale expression changes provide a net benefit and bring the transcriptome closer to an unstressed state, many of the individual gene expression changes are still deleterious. Thus, over time further mutations that ameliorate the negative impacts of the first-step mutations are selected for. <span class="citation" data-cites="rodriguez-verdugoFirstStepMutationsAdaptation2016">(<a href="#ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" role="doc-biblioref"><em>1</em></a>)</span> showed that this two-step process occurs frequently in <em>E. coli</em> populations adapting to heat stress. Together with other work, this study provides evidence that functional novelty is not the only evolutionary path available in a changing environment. However, it is still unclear whether restoration of homeostasis alone has the same evolutionary potential as evolutionary innovation in the long term.</p>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-rodriguez-verdugoFirstStepMutationsAdaptation2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">A. Rodríguez-Verdugo, O. Tenaillon, B. S. Gaut, First-Step Mutations during Adaptation Restore the Expression of Hundreds of Genes. <em>Molecular Biology and Evolution</em> <strong>33</strong>, 25–39 (2016). doi: <a href="https://doi.org/10.1093/molbev/msv228">10.1093/molbev/msv228</a>.</div>
+</div>
+<div id="ref-tenaillonMolecularDiversityConvergence2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">O. Tenaillon, A. Rodríguez-Verdugo, R. L. Gaut, P. McDonald, A. F. Bennett, A. D. Long, B. S. Gaut, The Molecular Diversity of Adaptive Convergence. <em>Science</em> <strong>335</strong>, 457–461 (2012). doi: <a href="https://doi.org/10.1126/science.1212986">10.1126/science.1212986</a>.</div>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The target audience of these highlight articles are readers of <em>MBE</em> and <em>GBE</em> who might not be experts in the specific field of the paper<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-
-
-
-</main> <!-- /main -->
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ebert2025,
+  author = {Ebert, Gleb G.},
+  title = {Leap, {Then} {Refine—a} {Two-Step} {Model} of {Adaptation}},
+  date = {2025-12-08},
+  url = {https://www.gl-eb.me/blog/posts/2025-12-08_rodriguez-verdugo/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ebert2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+<div class="">G.
+G. Ebert, Leap, Then Refine—a Two-Step Model of Adaptation (2025). <a href="https://www.gl-eb.me/blog/posts/2025-12-08_rodriguez-verdugo/">https://www.gl-eb.me/blog/posts/2025-12-08_rodriguez-verdugo/</a>.</div>
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

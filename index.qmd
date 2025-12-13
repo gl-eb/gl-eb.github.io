@@ -2,9 +2,8 @@
 title: "Gleb Ebert"
 image: /images/2025_gleb_side.jpg
 image-alt: |
-  A close-up photo of Gleb Ebert, a white man in his mid-twenties.
+  A close-up photo of Gleb Ebert, a white man in his late twenties, in a light blue shirt.
   He has short brown hair, a short beard, and is smiling.
-  The background shows an arcade in a modern building.
 
 about:
   template: solana # broadside, trestles

@@ -21,9 +21,9 @@ about:
       href: "https://www.flickr.com/photos/glebebert/"
 ---
 
-I am a doctoral student in the [evolutionary microbiology group](https://evomicrobio.ethz.ch/) at ETH Zurich.
-I am interested in fundamental aspects of microbial evolution such as evolvability, which I investigate using both wet and dry lab approaches including experimental evolution, genomics and transcriptomics.
-In particular, my [PhD research](science/index.qmd#evolvability-of-bacteria-in-changing-environments) concerns with the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, an Antarctic and thus cold-adapted strain of a globally distributed marine bacterium.
+I am a microbiologist interested in evolvability—the ability of bacteria to adapt to changing environments and hosts.
+I recently completed my PhD in the [evolutionary microbiology group](https://www.ibe.upf-csic.es/evolutionary-microbiology-group) at ETH Zurich.
+In particular, I [explored](science/index.qmd#evolvability-of-bacteria-in-changing-environments) the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, an Antarctic marine bacterium, using experimental evolution, genomics and transcriptomics.
 
 I enjoy coding and data visualisation, doing so primarily in R and from time to time Python.
 I have written about some of my projects on my [blog](blog/index.qmd) and the source code can be found on [GitHub](https://github.com/gl-eb).

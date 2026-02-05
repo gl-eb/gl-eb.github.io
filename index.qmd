@@ -22,7 +22,8 @@ about:
 ---
 
 I am a microbiologist interested in evolvability—the ability of bacteria to adapt to changing environments and hosts.
-I recently completed my PhD in the [evolutionary microbiology group](https://www.ibe.upf-csic.es/evolutionary-microbiology-group) at ETH Zurich.
+Currently, I am a postdoc with [Astrid von Mentzer](https://www.gu.se/en/research/astrid-von-mentzer) at the University of Gothenburg in Sweden working on the evolution of the chaperone-usher pathway of gram-negative bacteria.
+I completed my PhD in the [evolutionary microbiology group](https://www.ibe.upf-csic.es/evolutionary-microbiology-group) at ETH Zurich, Switzerland, in 2025.
 In particular, I [explored](science/index.qmd#evolvability-of-bacteria-in-changing-environments) the upper limits of thermal adaptation of *Pseudoalteromonas haloplanktis* TAC125, an Antarctic marine bacterium, using experimental evolution, genomics and transcriptomics.
 
 I enjoy coding and data visualisation, doing so primarily in R and from time to time Python.
